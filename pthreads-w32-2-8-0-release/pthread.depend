@@ -1,0 +1,856 @@
+# depslib dependency file v1.0
+1116476375 source:c:\dev\libs\pthreads-w32-2-8-0-release\version.rc
+	<winver.h>
+	"pthread.h"
+
+1138114797 c:\dev\libs\pthreads-w32-2-8-0-release\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1114395480 c:\dev\libs\pthreads-w32-2-8-0-release\config.h
+
+966224589 c:\dev\libs\pthreads-w32-2-8-0-release\need_errno.h
+	<winsock.h>
+
+1112316921 c:\dev\libs\pthreads-w32-2-8-0-release\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1104593777 source:c:\dev\libs\pthreads-w32-2-8-0-release\pthread.c
+	"pthread.h"
+	"implement.h"
+	"private.c"
+	"attr.c"
+	"barrier.c"
+	"cancel.c"
+	"cleanup.c"
+	"condvar.c"
+	"create.c"
+	"dll.c"
+	"errno.c"
+	"exit.c"
+	"fork.c"
+	"global.c"
+	"misc.c"
+	"mutex.c"
+	"nonportable.c"
+	"rwlock.c"
+	"sched.c"
+	"semaphore.c"
+	"signal.c"
+	"spin.c"
+	"sync.c"
+	"tsd.c"
+
+1117787787 c:\dev\libs\pthreads-w32-2-8-0-release\implement.h
+	<windows.h>
+	<winsock.h>
+	<malloc.h>
+	<limits.h>
+	"semaphore.h"
+	"sched.h"
+	<stdint.h>
+	<process.h>
+
+1112316921 c:\dev\libs\pthreads-w32-2-8-0-release\semaphore.h
+	"need_errno.h"
+	<errno.h>
+
+1117787788 c:\dev\libs\pthreads-w32-2-8-0-release\private.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_InterlockedCompareExchange.c"
+	"ptw32_MCS_lock.c"
+	"ptw32_is_attr.c"
+	"ptw32_processInitialize.c"
+	"ptw32_processTerminate.c"
+	"ptw32_threadStart.c"
+	"ptw32_threadDestroy.c"
+	"ptw32_tkAssocCreate.c"
+	"ptw32_tkAssocDestroy.c"
+	"ptw32_callUserDestroyRoutines.c"
+	"ptw32_semwait.c"
+	"ptw32_timespec.c"
+	"ptw32_relmillisecs.c"
+	"ptw32_throw.c"
+	"ptw32_getprocessors.c"
+
+1114483271 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_interlockedcompareexchange.c
+	"pthread.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_mcs_lock.c
+	"implement.h"
+	"pthread.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_is_attr.c
+	"pthread.h"
+	"implement.h"
+
+1114663287 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_processinitialize.c
+	"pthread.h"
+	"implement.h"
+
+1114663287 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_processterminate.c
+	"pthread.h"
+	"implement.h"
+
+1116170907 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_threadstart.c
+	"pthread.h"
+	"implement.h"
+	<eh.h>
+	<eh.h>
+	<exceptio.h>
+	<new.h>
+	<new>
+
+1116426859 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_threaddestroy.c
+	"pthread.h"
+	"implement.h"
+
+1115571171 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_tkassoccreate.c
+	"pthread.h"
+	"implement.h"
+
+1115571172 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_tkassocdestroy.c
+	"pthread.h"
+	"implement.h"
+
+1115627491 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_calluserdestroyroutines.c
+	"pthread.h"
+	"implement.h"
+
+1114440163 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_semwait.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_timespec.c
+	"pthread.h"
+	"implement.h"
+
+1117787788 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_relmillisecs.c
+	"pthread.h"
+	"implement.h"
+	<sys/timeb.h>
+
+1116170907 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_throw.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_getprocessors.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\attr.c
+	"pthread.h"
+	"implement.h"
+	"pthread_attr_init.c"
+	"pthread_attr_destroy.c"
+	"pthread_attr_getdetachstate.c"
+	"pthread_attr_setdetachstate.c"
+	"pthread_attr_getstackaddr.c"
+	"pthread_attr_setstackaddr.c"
+	"pthread_attr_getstacksize.c"
+	"pthread_attr_setstacksize.c"
+	"pthread_attr_getscope.c"
+	"pthread_attr_setscope.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getdetachstate.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setdetachstate.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getstackaddr.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setstackaddr.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getstacksize.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setstacksize.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getscope.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setscope.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\barrier.c
+	"pthread.h"
+	"implement.h"
+	"pthread_barrier_init.c"
+	"pthread_barrier_destroy.c"
+	"pthread_barrier_wait.c"
+	"pthread_barrierattr_init.c"
+	"pthread_barrierattr_destroy.c"
+	"pthread_barrierattr_getpshared.c"
+	"pthread_barrierattr_setpshared.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrier_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrier_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrier_wait.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrierattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrierattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrierattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_barrierattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\cancel.c
+	"pthread.h"
+	"implement.h"
+	"pthread_setcancelstate.c"
+	"pthread_setcanceltype.c"
+	"pthread_testcancel.c"
+	"pthread_cancel.c"
+
+1110950242 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_setcancelstate.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_setcanceltype.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_testcancel.c
+	"pthread.h"
+	"implement.h"
+
+1138114797 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_cancel.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\cleanup.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\condvar.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_cond_check_need_init.c"
+	"pthread_condattr_init.c"
+	"pthread_condattr_destroy.c"
+	"pthread_condattr_getpshared.c"
+	"pthread_condattr_setpshared.c"
+	"pthread_cond_init.c"
+	"pthread_cond_destroy.c"
+	"pthread_cond_wait.c"
+	"pthread_cond_signal.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_cond_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_condattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_condattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_condattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_condattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_cond_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_cond_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1113798959 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_cond_wait.c
+	"pthread.h"
+	"implement.h"
+
+1114390145 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_cond_signal.c
+	"pthread.h"
+	"implement.h"
+
+1115364691 c:\dev\libs\pthreads-w32-2-8-0-release\create.c
+	"pthread.h"
+	"implement.h"
+	<process.h>
+
+1112316921 c:\dev\libs\pthreads-w32-2-8-0-release\dll.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\errno.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\exit.c
+	"pthread.h"
+	"implement.h"
+	<process.h>
+	"pthread_exit.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_exit.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\fork.c
+	"pthread.h"
+	"implement.h"
+
+1114663286 c:\dev\libs\pthreads-w32-2-8-0-release\global.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\misc.c
+	"pthread.h"
+	"implement.h"
+	"pthread_kill.c"
+	"pthread_once.c"
+	"pthread_self.c"
+	"pthread_equal.c"
+	"pthread_setconcurrency.c"
+	"pthread_getconcurrency.c"
+	"ptw32_new.c"
+	"ptw32_calloc.c"
+	"ptw32_reuse.c"
+	"w32_CancelableWait.c"
+
+1117787788 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_kill.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1117810066 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_once.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_self.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_equal.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_setconcurrency.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_getconcurrency.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_new.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_calloc.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_reuse.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\w32_cancelablewait.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\mutex.c
+	<process.h>
+	<sys/timeb.h>
+	"pthread.h"
+	"implement.h"
+	"ptw32_mutex_check_need_init.c"
+	"pthread_mutex_init.c"
+	"pthread_mutex_destroy.c"
+	"pthread_mutexattr_init.c"
+	"pthread_mutexattr_destroy.c"
+	"pthread_mutexattr_getpshared.c"
+	"pthread_mutexattr_setpshared.c"
+	"pthread_mutexattr_settype.c"
+	"pthread_mutexattr_gettype.c"
+	"pthread_mutex_lock.c"
+	"pthread_mutex_timedlock.c"
+	"pthread_mutex_unlock.c"
+	"pthread_mutex_trylock.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_mutex_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_getpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_setpshared.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_settype.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_gettype.c
+	"pthread.h"
+	"implement.h"
+
+1115571171 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_lock.c
+	"pthread.h"
+	"implement.h"
+
+1114440162 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_timedlock.c
+	"pthread.h"
+	"implement.h"
+
+1106643501 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_unlock.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutex_trylock.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\nonportable.c
+	"pthread.h"
+	"implement.h"
+	"pthread_mutexattr_setkind_np.c"
+	"pthread_mutexattr_getkind_np.c"
+	"pthread_getw32threadhandle_np.c"
+	"pthread_delay_np.c"
+	"pthread_num_processors_np.c"
+	"pthread_win32_attach_detach_np.c"
+	"pthread_timechange_handler_np.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_setkind_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_mutexattr_getkind_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_getw32threadhandle_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_delay_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_num_processors_np.c
+	"pthread.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_win32_attach_detach_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_timechange_handler_np.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\rwlock.c
+	"ptw32_rwlock_check_need_init.c"
+	"ptw32_rwlock_cancelwrwait.c"
+	"pthread_rwlock_init.c"
+	"pthread_rwlock_destroy.c"
+	"pthread_rwlockattr_init.c"
+	"pthread_rwlockattr_destroy.c"
+	"pthread_rwlockattr_getpshared.c"
+	"pthread_rwlockattr_setpshared.c"
+	"pthread_rwlock_rdlock.c"
+	"pthread_rwlock_timedrdlock.c"
+	"pthread_rwlock_wrlock.c"
+	"pthread_rwlock_timedwrlock.c"
+	"pthread_rwlock_unlock.c"
+	"pthread_rwlock_tryrdlock.c"
+	"pthread_rwlock_trywrlock.c"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_rwlock_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_rwlock_cancelwrwait.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_init.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_destroy.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlockattr_init.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlockattr_destroy.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlockattr_getpshared.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlockattr_setpshared.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_rdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_timedrdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_wrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_timedwrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_unlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_tryrdlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_rwlock_trywrlock.c
+	<errno.h>
+	<limits.h>
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+	"pthread_attr_setschedpolicy.c"
+	"pthread_attr_getschedpolicy.c"
+	"pthread_attr_setschedparam.c"
+	"pthread_attr_getschedparam.c"
+	"pthread_attr_setinheritsched.c"
+	"pthread_attr_getinheritsched.c"
+	"pthread_setschedparam.c"
+	"pthread_getschedparam.c"
+	"sched_get_priority_max.c"
+	"sched_get_priority_min.c"
+	"sched_setscheduler.c"
+	"sched_getscheduler.c"
+	"sched_yield.c"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setschedpolicy.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getschedpolicy.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_setinheritsched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_attr_getinheritsched.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_setschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_getschedparam.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched_get_priority_max.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched_get_priority_min.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched_setscheduler.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched_getscheduler.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sched_yield.c
+	"pthread.h"
+	"implement.h"
+	"sched.h"
+
+1114440163 c:\dev\libs\pthreads-w32-2-8-0-release\semaphore.c
+	<sys/timeb.h>
+	<limits.h>
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+	"sem_init.c"
+	"sem_destroy.c"
+	"sem_trywait.c"
+	"sem_wait.c"
+	"sem_timedwait.c"
+	"sem_post.c"
+	"sem_post_multiple.c"
+	"sem_getvalue.c"
+	"sem_open.c"
+	"sem_close.c"
+	"sem_unlink.c"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_init.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_destroy.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_trywait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_wait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_timedwait.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_post.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_post_multiple.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1166758600 c:\dev\libs\pthreads-w32-2-8-0-release\sem_getvalue.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sem_open.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sem_close.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sem_unlink.c
+	"pthread.h"
+	"semaphore.h"
+	"implement.h"
+
+1115364692 c:\dev\libs\pthreads-w32-2-8-0-release\signal.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\spin.c
+	"pthread.h"
+	"implement.h"
+	"ptw32_spinlock_check_need_init.c"
+	"pthread_spin_init.c"
+	"pthread_spin_destroy.c"
+	"pthread_spin_lock.c"
+	"pthread_spin_unlock.c"
+	"pthread_spin_trylock.c"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\ptw32_spinlock_check_need_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_spin_init.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_spin_destroy.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_spin_lock.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_spin_unlock.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_spin_trylock.c
+	"pthread.h"
+	"implement.h"
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\sync.c
+	"pthread.h"
+	"implement.h"
+	"pthread_detach.c"
+	"pthread_join.c"
+
+1116211008 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_detach.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1116170907 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_join.c
+	"pthread.h"
+	"implement.h"
+	<signal.h>
+
+1104593778 c:\dev\libs\pthreads-w32-2-8-0-release\tsd.c
+	"pthread.h"
+	"implement.h"
+	"pthread_key_create.c"
+	"pthread_key_delete.c"
+	"pthread_setspecific.c"
+	"pthread_getspecific.c"
+
+1115364692 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_key_create.c
+	"pthread.h"
+	"implement.h"
+
+1115571171 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_key_delete.c
+	"pthread.h"
+	"implement.h"
+
+1115571171 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_setspecific.c
+	"pthread.h"
+	"implement.h"
+
+1104593777 c:\dev\libs\pthreads-w32-2-8-0-release\pthread_getspecific.c
+	"pthread.h"
+	"implement.h"
+

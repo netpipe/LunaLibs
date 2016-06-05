@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libvorbis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBIS_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="..\libogg-1.1.4\include" />
+					<Add directory="lib" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add directory="..\libogg-1.1.4\" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="$(SolutionDir)Win32\Debug x64\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBIS_EXPORTS" />
+					<Add option="-Wall" />
+					<Add option="-O0" />
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add directory="..\libogg\win32\VS2005\Win32\Debug x64" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Dev\Libs\libvorbis-1.2.3\win32\VS2005\libvorbis\.objs" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBIS_EXPORTS" />
+					<Add option="-Wall" />
+					<Add option="-O3" />
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add directory="..\libogg\win32\VS2005\Win32\Release Win32" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="$(SolutionDir)Win32\Release x64\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBIS_EXPORTS" />
+					<Add option="-Wall" />
+					<Add option="-O3" />
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add directory="..\libogg\win32\VS2005\Win32\Release x64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include\vorbis\codec.h" />
+		<Unit filename="include\vorbis\vorbisenc.h" />
+		<Unit filename="include\vorbis\vorbisfile.h" />
+		<Unit filename="lib\analysis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\backends.h" />
+		<Unit filename="lib\bitrate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\bitrate.h" />
+		<Unit filename="lib\block.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\books\coupled\res_books_stereo.h" />
+		<Unit filename="lib\books\floor\floor_books.h" />
+		<Unit filename="lib\books\uncoupled\res_books_uncoupled.h" />
+		<Unit filename="lib\codebook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\codebook.h" />
+		<Unit filename="lib\codec_internal.h" />
+		<Unit filename="lib\envelope.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\envelope.h" />
+		<Unit filename="lib\floor0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\floor1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\highlevel.h" />
+		<Unit filename="lib\info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\lookup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\lookup.h" />
+		<Unit filename="lib\lookup_data.h" />
+		<Unit filename="lib\lpc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\lpc.h" />
+		<Unit filename="lib\lsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\lsp.h" />
+		<Unit filename="lib\mapping0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\masking.h" />
+		<Unit filename="lib\mdct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\mdct.h" />
+		<Unit filename="lib\misc.h" />
+		<Unit filename="lib\modes\floor_all.h" />
+		<Unit filename="lib\modes\psych_11.h" />
+		<Unit filename="lib\modes\psych_16.h" />
+		<Unit filename="lib\modes\psych_44.h" />
+		<Unit filename="lib\modes\psych_8.h" />
+		<Unit filename="lib\modes\residue_16.h" />
+		<Unit filename="lib\modes\residue_44.h" />
+		<Unit filename="lib\modes\residue_44u.h" />
+		<Unit filename="lib\modes\residue_8.h" />
+		<Unit filename="lib\modes\setup_11.h" />
+		<Unit filename="lib\modes\setup_16.h" />
+		<Unit filename="lib\modes\setup_22.h" />
+		<Unit filename="lib\modes\setup_32.h" />
+		<Unit filename="lib\modes\setup_44.h" />
+		<Unit filename="lib\modes\setup_44u.h" />
+		<Unit filename="lib\modes\setup_8.h" />
+		<Unit filename="lib\modes\setup_X.h" />
+		<Unit filename="lib\os.h" />
+		<Unit filename="lib\psy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\psy.h" />
+		<Unit filename="lib\registry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\registry.h" />
+		<Unit filename="lib\res0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\scales.h" />
+		<Unit filename="lib\sharedbook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\smallft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\smallft.h" />
+		<Unit filename="lib\synthesis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\vorbisenc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\window.h" />
+		<Unit filename="..\..\vorbis.def" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

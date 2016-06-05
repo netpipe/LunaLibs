@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="libvorbis-1.2.3/libvorbis_dynamic.cbp" />
+		<Project filename="libvorbis-1.2.3/libvorbisfile_dynamic.cbp" />
+		<Project filename="libtheora-1.1.1/libtheora.cbp" />
+		<Project filename="libogg-1.1.4/libogg_static.cbp" />
+		<Project filename="freetype-2.3.9/freetype.cbp" />
+		<Project filename="net/enet-1.2.1/enet.cbp" />
+		<Project filename="net/irrNetLite21/irrNetLite.cbp" />
+		<Project filename="zlib-1.2.3/zlib.cbp" />
+		<Project filename="net/syncsys/SyncSys.cbp" />
+		<Project filename="angelscript/angelscript.cbp" />
+		<Project filename="irrlicht-1.6/source/Irrlicht/Irrlicht-gcc.cbp" />
+		<Project filename="SparkEngine/src/SPARK.cbp" />
+		<Project filename="SparkEngine/src/SPARK-IRR.cbp" />
+		<Project filename="cAudio2/cAudio.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

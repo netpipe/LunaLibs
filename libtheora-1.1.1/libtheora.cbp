@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libtheora_static" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="libtheora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBTHEORA_EXPORTS" />
+					<Add option="-DDEBUG" />
+					<Add option="-DOC_X86_ASM" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="libtheora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Debug x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBTHEORA_EXPORTS" />
+					<Add option="-DDEBUG" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="libtheora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Release Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBTHEORA_EXPORTS" />
+					<Add option="-DOC_X86_ASM" />
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output="libtheora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Release x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBTHEORA_EXPORTS" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Linux">
+				<Option output="libtheora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Linux" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="./include/theora/codec.h" />
+		<Unit filename="./include/theora/theora.h" />
+		<Unit filename="./include/theora/theoradec.h" />
+		<Unit filename="./lib/analyze.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/apiwrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/apiwrapper.h" />
+		<Unit filename="./lib/bitpack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/bitpack.h" />
+		<Unit filename="./lib/cpu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/cpu.h" />
+		<Unit filename="./lib/dct.h" />
+		<Unit filename="./lib/decapiwrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/decinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/decint.h" />
+		<Unit filename="./lib/decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/dequant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/dequant.h" />
+		<Unit filename="./lib/encapiwrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/encfrag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/encinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/encint.h" />
+		<Unit filename="./lib/encode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/encoder_disabled.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="./lib/enquant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/enquant.h" />
+		<Unit filename="./lib/fdct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/fragment.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/huffdec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/huffdec.h" />
+		<Unit filename="./lib/huffenc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/huffenc.h" />
+		<Unit filename="./lib/huffman.h" />
+		<Unit filename="./lib/idct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/idct.h" />
+		<Unit filename="./lib/info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/internal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/internal.h" />
+		<Unit filename="./lib/mathops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/mathops.h" />
+		<Unit filename="./lib/mcenc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/modedec.h" />
+		<Unit filename="./lib/ocintrin.h" />
+		<Unit filename="./lib/quant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/quant.h" />
+		<Unit filename="./lib/rate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/tokenize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/mmxencfrag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/mmxfdct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/mmxfrag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/mmxidct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/mmxstate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/x86enc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="./lib/x86_vc/x86state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

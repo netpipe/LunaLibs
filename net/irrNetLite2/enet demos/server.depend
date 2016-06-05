@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1228818031 source:c:\dev\libs\irrnetlite2\enet demos\server.cpp
+	<stdlib.h>
+	<stdio.h>
+	<enet/enet.h>
+	<string.h>
+

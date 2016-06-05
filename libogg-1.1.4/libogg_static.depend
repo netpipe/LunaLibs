@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1244101212 source:c:\dev\agnostic\libs\libogg-1.1.4\src\framing.c
+	<stdlib.h>
+	<string.h>
+	<ogg/ogg.h>
+	<stdio.h>
+
+1244101212 c:\dev\agnostic\libs\libogg-1.1.4\include\ogg\ogg.h
+	<stddef.h>
+	<ogg/os_types.h>
+
+1242871034 c:\dev\agnostic\libs\libogg-1.1.4\include\ogg\os_types.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<inttypes.h>
+	<sys/types.h>
+	<ogg/config_types.h>
+
+1244101212 source:c:\dev\agnostic\libs\libogg-1.1.4\src\bitwise.c
+	<string.h>
+	<stdlib.h>
+	<ogg/ogg.h>
+	<stdio.h>
+

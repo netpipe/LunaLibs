@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libvorbisfile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="$(SolutionDir)Win32\Debug Win32\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Debug Win32" />
+					<Add directory="..\Win32\Debug Win32" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="$(SolutionDir)Win32\Debug x64\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Debug x64" />
+					<Add directory="..\Win32\Debug x64" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="$(SolutionDir)Win32\Release Win32\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release Win32" />
+					<Add directory="..\Win32\Release Win32" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output="$(SolutionDir)Win32\Release x64\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release x64" />
+					<Add directory="..\Win32\Release x64" />
+				</Linker>
+			</Target>
+			<Target title="Release_SSE Win32">
+				<Option output="$(SolutionDir)Win32\Release_SSE Win32\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release_SSE Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release_SSE Win32" />
+					<Add directory="..\Win32\Release_SSE Win32" />
+				</Linker>
+			</Target>
+			<Target title="Release_SSE x64">
+				<Option output="$(SolutionDir)Win32\Release_SSE x64\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release_SSE x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release_SSE x64" />
+					<Add directory="..\Win32\Release_SSE x64" />
+				</Linker>
+			</Target>
+			<Target title="Release_SSE2 Win32">
+				<Option output="$(SolutionDir)Win32\Release_SSE2 Win32\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release_SSE2 Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release_SSE2 Win32" />
+					<Add directory="..\Win32\Release_SSE2 Win32" />
+				</Linker>
+			</Target>
+			<Target title="Release_SSE2 x64">
+				<Option output="$(SolutionDir)Win32\Release_SSE2 x64\libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release_SSE2 x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\include" />
+					<Add directory="..\..\..\..\libogg\include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="..\..\..\..\libogg\win32\VS2008\Win32\Release_SSE2 x64" />
+					<Add directory="..\Win32\Release_SSE2 x64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="..\..\..\lib\vorbisfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\..\include\vorbis\vorbisfile.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

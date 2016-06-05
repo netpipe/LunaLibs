@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IrrNetLite2" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win">
+				<Option output="libirrnet.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="WinRelease">
+				<Option output="libirrnet" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add directory="C:\Dev\Libs\zlib-1.2.3" />
+					<Add directory="C:\Dev\Libs\net\enet-1.2\include" />
+				</Compiler>
+				<Linker>
+					<Add directory="..\..\irrlicht-1.6\lib\Win32-gcc" />
+				</Linker>
+			</Target>
+			<Target title="Linux">
+				<Option output="libirrnet.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add directory="\home\Dev\libs\Irrlicht\include" />
+					<Add directory="\home\Dev\libs\net\enet\include" />
+				</Compiler>
+				<Linker>
+					<Add option="--no-export-all-symbols --add-stdcall-alias" />
+					<Add library="GL" />
+					<Add library="Irrlicht" />
+					<Add library="Xxf86vm" />
+					<Add library="\home\Dev\libs\net\enet\libenet.a" />
+					<Add directory="\home\Dev\libs\Irrlicht\lib\Linux" />
+					<Add directory="\home\Dev\libs\net\enet\" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Win;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-DGLEW_STATIC" />
+			<Add option="-DHAVE_MALLOC_H" />
+			<Add directory="..\..\..\libs\Irrlicht-1.6\include" />
+			<Add directory="..\..\..\libs\Irrlicht-1.6\source\Irrlicht" />
+			<Add directory="..\..\..\Libs\zlib-1.2.3" />
+			<Add directory="..\enet-1.2.1\include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="ogg" />
+			<Add library="vorbis" />
+			<Add library="BulletDynamics" />
+			<Add library="BulletCollision" />
+			<Add library="LinearMath" />
+			<Add library="vorbisfile" />
+			<Add library="enet" />
+			<Add library="freetype" />
+			<Add library="pthreads" />
+			<Add directory="..\enet-1.2.1\Release" />
+		</Linker>
+		<Unit filename="CEncryption.h" />
+		<Unit filename="CNetManager.cpp" />
+		<Unit filename="CNetManager.h" />
+		<Unit filename="INetManager.h" />
+		<Unit filename="SPacket.cpp" />
+		<Unit filename="SPacket.h" />
+		<Unit filename="irrNet.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

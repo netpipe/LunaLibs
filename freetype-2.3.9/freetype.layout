@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug Win32" />
+	<EditorTabsLayout layout="064f7b0055200964003790d700000002=*0;IrrNetLite21:irrNet.h,1;IrrNetLite21:SPacket.cpp,2;IrrNetLite21:INetManager.h,3;IrrNetLite21:CNetManager.h,4;IrrNetLite21:CNetManager.cpp,5;IrrNetLite21:SPacket.h,6;Irrlicht16:CLWOMeshFileLoader.cpp,7;SPARK Engine CORE LIB/DLL:SPK_All.cpp,8;cAudio:Source/cMemoryManager.cpp,9;cAudio:Headers/cMemoryManager.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=974;besth=733;minw=974;minh=733;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=064f7b0055200964003790d700000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

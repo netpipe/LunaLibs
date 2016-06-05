@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\analysis.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"scales.h"
+	"os.h"
+	"misc.h"
+
+1244101212 c:\dev\libs\libogg-1.1.4\include\ogg\ogg.h
+	<stddef.h>
+	<ogg/os_types.h>
+
+1242871034 c:\dev\libs\libogg-1.1.4\include\ogg\os_types.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<inttypes.h>
+	<sys/types.h>
+	<ogg/config_types.h>
+
+1244102766 c:\dev\libs\libvorbis-1.2.3\include\vorbis\codec.h
+	<ogg/ogg.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\codec_internal.h
+	"envelope.h"
+	"codebook.h"
+	"psy.h"
+	"bitrate.h"
+	"highlevel.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\envelope.h
+	"mdct.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\mdct.h
+	"vorbis/codec.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\codebook.h
+	<ogg/ogg.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\psy.h
+	"smallft.h"
+	"backends.h"
+	"envelope.h"
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\smallft.h
+	"vorbis/codec.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\backends.h
+	"codec_internal.h"
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\bitrate.h
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\os.h
+	"config.h"
+	<math.h>
+	<ogg/os_types.h>
+	"misc.h"
+	<malloc.h>
+	<alloca.h>
+	<memory.h>
+	<emmintrin.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\misc.h
+	"vorbis/codec.h"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\highlevel.h
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\registry.h
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\scales.h
+	<math.h>
+	"os.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\bitrate.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+	"misc.h"
+	"bitrate.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\block.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"window.h"
+	"mdct.h"
+	"lpc.h"
+	"registry.h"
+	"misc.h"
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\window.h
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\lpc.h
+	"vorbis/codec.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\codebook.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codebook.h"
+	"scales.h"
+	"misc.h"
+	"os.h"
+	<stdio.h>
+	"vorbis/book/lsp20_0.vqh"
+	"vorbis/book/res0a_13.vqh"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\envelope.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"os.h"
+	"scales.h"
+	"envelope.h"
+	"mdct.h"
+	"misc.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\floor0.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"lpc.h"
+	"lsp.h"
+	"codebook.h"
+	"scales.h"
+	"misc.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\lsp.h
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\floor1.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"codebook.h"
+	"misc.h"
+	"scales.h"
+	<stdio.h>
+
+1247204374 source:c:\dev\libs\libvorbis-1.2.3\lib\info.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"codebook.h"
+	"registry.h"
+	"window.h"
+	"psy.h"
+	"misc.h"
+	"os.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\lookup.c
+	<math.h>
+	"lookup.h"
+	"lookup_data.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\lookup.h
+
+1247042414 c:\dev\libs\libvorbis-1.2.3\lib\lookup_data.h
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\lpc.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"os.h"
+	"smallft.h"
+	"lpc.h"
+	"scales.h"
+	"misc.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\lsp.c
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	"lsp.h"
+	"os.h"
+	"misc.h"
+	"lookup.h"
+	"scales.h"
+	"lookup.c"
+	"lookup.c"
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\lookup.c
+	<math.h>
+	"lookup.h"
+	"lookup_data.h"
+	"os.h"
+	"misc.h"
+	<stdio.h>
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\mapping0.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"codebook.h"
+	"window.h"
+	"registry.h"
+	"psy.h"
+	"misc.h"
+	"os.h"
+	"lpc.h"
+	"lsp.h"
+	"envelope.h"
+	"mdct.h"
+	"psy.h"
+	"scales.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\mdct.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"vorbis/codec.h"
+	"mdct.h"
+	"os.h"
+	"misc.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\psy.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"masking.h"
+	"psy.h"
+	"os.h"
+	"lpc.h"
+	"smallft.h"
+	"scales.h"
+	"misc.h"
+	<stdio.h>
+
+1247141528 c:\dev\libs\libvorbis-1.2.3\lib\masking.h
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\registry.c
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"misc.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\res0.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"codebook.h"
+	"misc.h"
+	"os.h"
+	<stdio.h>
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\sharedbook.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<ogg/ogg.h>
+	"os.h"
+	"misc.h"
+	"vorbis/codec.h"
+	"codebook.h"
+	"scales.h"
+	<stdio.h>
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\smallft.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"smallft.h"
+	"os.h"
+	"misc.h"
+
+1247141528 source:c:\dev\libs\libvorbis-1.2.3\lib\synthesis.c
+	<stdio.h>
+	<ogg/ogg.h>
+	"vorbis/codec.h"
+	"codec_internal.h"
+	"registry.h"
+	"misc.h"
+	"os.h"
+

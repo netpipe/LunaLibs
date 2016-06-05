@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IrrNetLite21" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="libirrnet.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Linker>
+					<Add library="Xxf86vm" />
+				</Linker>
+			</Target>
+			<Target title="W32-Release">
+				<Option output="libirrnet.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-DCOMPILE_WITH_IRRLICHT" />
+			<Add directory="../enet-1.2.1/include" />
+			<Add directory="C:/Dev/agnostic/libs/zlib-1.2.3/" />
+			<Add directory="../../../../libs/game/Irrlicht-SVN/include" />
+		</Compiler>
+		<Linker>
+			<Add option="--no-export-all-symbols --add-stdcall-alias" />
+			<Add library="../enet-1.2.1/libenet.a" />
+		</Linker>
+		<Unit filename="CEncryption.h" />
+		<Unit filename="CNetManager.cpp" />
+		<Unit filename="CNetManager.h" />
+		<Unit filename="INetManager.h" />
+		<Unit filename="SPacket.cpp" />
+		<Unit filename="SPacket.h" />
+		<Unit filename="irrNet.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

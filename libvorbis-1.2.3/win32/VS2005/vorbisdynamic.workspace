@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="vorbis_dynamic workspace">
+		<Project filename="libvorbisfile\libvorbisfile_dynamic.cbp" active="1" />
+		<Project filename="libvorbis\libvorbis_dynamic.cbp" />
+		<Project filename="vorbisdec\vorbisdec_dynamic.cbp" />
+		<Project filename="vorbisenc\vorbisenc_dynamic.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

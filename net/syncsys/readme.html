@@ -1,0 +1,27 @@
+<p>Goal of this project is to develop a c++ library for synchronizing objects of one server with n-clients over network which provides following features:
+
+<ul>
+	<li>able to handle <b>massive</b> count of clients and objects				</li>
+	<li>linear <b>scalability</b> with the count of cpus/cores 				</li>
+	<li><b>threadsafe</b> interface to provide multithreading support for the apps	</li>
+	<li>keeping overhead and complexity small to provide good <b>performance</b>		</li> 
+</ul>
+<br>
+=> SyncSys is designed to be a network solution (c++ - under zlib license - Win/Linux/Unix) which is really MMO ready!
+<br>
+<br>
+This results in some design decisions which may be a bit unusual. I.e. the library does not automatically iterate over all registrated  elements to update them. The developer has to take care of updating all objects on the server by an implicit or explicit  NetEntity::PerformNeededUpdates call. Another example is, that objects are not created by a callback at clientside. They should be created  by their parent/superior element. <br>
+<br>
+The library is composed of three parts:
+<ul>
+	<li>objectlayer - concern with the unique-ids + updating + de/serialisation + versioning + visibility	</li>
+	<li>abstract transportlayer - collects data, packs and and sends them	</li>
+	<li>networklayer - a tcp class-set which can be replaced easily by another lib of your choice</li>
+</ul>
+<br><br>
+If you have questions or an idea for improvements just contact me Nox@7bitfaster.de or post in the <a href="http://sourceforge.net/forum/? group_id=271500">forum</a>.		<br>
+You want a comparison to other solutions like i.e. RakNet or enet? Take a look at <a href="http://networklibsbenc.sourceforge.net/">this</a>.	<br>
+Looking for the newest code? <a  href="http://syncsys.svn.sourceforge.net/svnroot/syncsys/">http://syncsys.svn.sourceforge.net/svnroot/syncsys/</a>	<br>
+Or do you need an example? <a href="http://syncsys.svn.sourceforge.net/svnroot/syncsys/test/example1.cpp">usage example 1</a>, <a href="http://syncsys.svn.sourceforge.net/svnroot/syncsys/test/example2.cpp">usage example 2</a><br>
+This library is licensed under zlib.
+</p>

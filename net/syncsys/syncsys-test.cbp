@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="syncsys-test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug32">
+				<Option platforms="Unix;" />
+				<Option output="syncsys-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Linux32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="zlib123" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="zlib123" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="./libSyncSys32_d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release32">
+				<Option platforms="Unix;" />
+				<Option output="syncsys-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Linux32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+					<Add directory="zlib123" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="zlib123" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="./libSyncSys32.a" />
+				</Linker>
+			</Target>
+			<Target title="Debug64">
+				<Option platforms="Unix;" />
+				<Option output="syncsys-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Linux64" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="zlib123" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="zlib123" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="./libSyncSys64_d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release64">
+				<Option output="syncsys-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Linux64" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++0x" />
+					<Add directory="zlib123" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="zlib123" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="./libSyncSys64.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="pthread" />
+			<Add library="z" />
+			<Add library="ncursesw" />
+		</Linker>
+		<Unit filename="test/performancetest.cpp" />
+		<Unit filename="test/performancetest.h" />
+		<Unit filename="test/test-classes.cpp" />
+		<Unit filename="test/test-classes.h" />
+		<Unit filename="test/test-main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
