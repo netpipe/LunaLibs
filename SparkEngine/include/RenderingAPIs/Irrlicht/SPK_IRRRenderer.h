@@ -36,7 +36,7 @@ namespace IRR
 {
 	/**
 	* @brief The base renderer for all Irrlicht renderers
-	* 
+	*
 	* This class presents a convenient interface to set some parameters common to all Irrlicht renderers (blending mode...).<br>
 	* <br>
 	* Note that rendering hints work with Irrlicht renderers except the SPK::ALPHA_TEST
@@ -158,12 +158,12 @@ namespace IRR
 		inline void updateMaterialBlendingMode();
 	};
 
-	
+
 	inline void IRRRenderer::setAlphaTestThreshold(float alphaThreshold)
 	{
 		Renderer::setAlphaTestThreshold(0.0f); // the alpha threshold of the irrlicht material is always 0
 	}
-	
+
 	inline irr::IrrlichtDevice* IRRRenderer::getDevice() const
 	{
 		return device;
@@ -202,7 +202,7 @@ namespace IRR
 
 	inline void IRRRenderer::updateMaterialBlendingMode()
 	{
-		material.MaterialTypeParam = irr::video::pack_texureBlendFunc(
+		material.MaterialTypeParam = irr::video::pack_textureBlendFunc(
 			blendSrcFunc,
 			blendDestFunc,
 			irr::video::EMFN_MODULATE_1X,

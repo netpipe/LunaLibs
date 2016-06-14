@@ -30,8 +30,8 @@
 		<Compiler>
 			<Add option="-DCOMPILE_WITH_IRRLICHT" />
 			<Add directory="../enet-1.2.1/include" />
-			<Add directory="C:/Dev/agnostic/libs/zlib-1.2.3/" />
-			<Add directory="../../../../libs/game/Irrlicht-SVN/include" />
+			<Add directory="../../zlib-1.2.3" />
+			<Add directory="../../Irrlicht/include" />
 		</Compiler>
 		<Linker>
 			<Add option="--no-export-all-symbols --add-stdcall-alias" />

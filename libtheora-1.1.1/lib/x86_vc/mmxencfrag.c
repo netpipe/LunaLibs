@@ -17,12 +17,12 @@
 #include <stddef.h>
 #include "x86enc.h"
 
-#if defined(OC_X86_ASM)
+#if defined(OC_X86_ASM)   // if you ended up here you need to pick x64 im compile target
 
 unsigned oc_enc_frag_sad_mmxext(const unsigned char *_src,
  const unsigned char *_ref,int _ystride){
   ptrdiff_t ret;
-  __asm{
+  __asm{   // if you ended up here you need to pick x64 im compile target
 #define SRC esi
 #define REF edx
 #define YSTRIDE ecx
@@ -880,7 +880,7 @@ void oc_enc_frag_sub_128_mmx(ogg_int16_t _residue[64],
     movq mm3,[SRC+YSTRIDE3]
     /*mm6={128}x4*/
     psrlw mm6,8
-    /*mm7=0*/ 
+    /*mm7=0*/
     pxor mm7,mm7
     /*[src]=[src]+4*[ystride]*/
     lea SRC,[SRC+YSTRIDE*4]

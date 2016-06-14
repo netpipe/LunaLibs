@@ -7,9 +7,9 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug Win32">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Debug Win32" />
+				<Option object_output="Win32/Debug Win32" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -29,9 +29,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Debug x64">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Debug x64" />
+				<Option object_output="Win32/Debug x64" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -50,9 +50,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release Win32">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release Win32" />
+				<Option object_output="Win32/Release Win32" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -71,9 +71,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release x64">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release x64" />
+				<Option object_output="Win32/Release x64" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -92,9 +92,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release_SSE Win32">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release_SSE Win32" />
+				<Option object_output="Win32/Release_SSE Win32" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -113,9 +113,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release_SSE x64">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release_SSE x64" />
+				<Option object_output="Win32/Release_SSE x64" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -134,9 +134,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release_SSE2 Win32">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release_SSE2 Win32" />
+				<Option object_output="Win32/Release_SSE2 Win32" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -155,9 +155,9 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="Release_SSE2 x64">
-				<Option output="libogg" prefix_auto="1" extension_auto="1" />
+				<Option output="ogg" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
-				<Option object_output="Win32\Release_SSE2 x64" />
+				<Option object_output="Win32/Release_SSE2 x64" />
 				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
@@ -176,18 +176,22 @@
 				</ResourceCompiler>
 			</Target>
 		</Build>
-		<Unit filename="include\ogg\ogg.h" />
-		<Unit filename="include\ogg\os_types.h" />
-		<Unit filename="src\bitwise.c">
+		<Compiler>
+			<Add option="-fPIC" />
+		</Compiler>
+		<Unit filename="../ogg.def" />
+		<Unit filename="include/ogg/ogg.h" />
+		<Unit filename="include/ogg/os_types.h" />
+		<Unit filename="src/bitwise.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src\framing.c">
+		<Unit filename="src/framing.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="..\ogg.def" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

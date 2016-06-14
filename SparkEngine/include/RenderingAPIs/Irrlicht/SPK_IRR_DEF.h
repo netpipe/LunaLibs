@@ -34,7 +34,7 @@
 #ifdef SPK_IRR_EXPORT
 #define SPK_IRR_PREFIX __declspec(dllexport)
 #elif defined(SPK_IMPORT) || defined(SPK_IRR_IMPORT)
-#define SPK_IRR_PREFIX __declspec(dllimport) 
+#define SPK_IRR_PREFIX __declspec(dllimport)
 #else
 #define SPK_IRR_PREFIX
 #endif
@@ -63,7 +63,7 @@ namespace IRR
     }
 
 	/**
-	* @brief Converts an Irrlicht vector3df to a SPARK Vector3D 
+	* @brief Converts an Irrlicht vector3df to a SPARK Vector3D
 	* @param v : the vector3df to convert
 	* @return the SPARK Vector3D
 	*/

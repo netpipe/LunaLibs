@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug Win32">
-				<Option output="../lib/mingw/static/libSPARK_IRR_debug" prefix_auto="1" extension_auto="1" />
+				<Option output="../lib/mingw/static/SPARK_IRR_debug" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Debug Win32" />
 				<Option type="2" />
@@ -21,7 +21,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release Win32">
-				<Option output="../lib/mingw/static/libSPARK_IRR" prefix_auto="1" extension_auto="1" />
+				<Option output="../lib/mingw/static/SPARK_IRR" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Release Win32" />
 				<Option type="2" />
@@ -40,7 +40,7 @@
 				</Linker>
 			</Target>
 			<Target title="Linux">
-				<Option output="../lib/Linux/static/libSPARK_IRR" prefix_auto="1" extension_auto="1" />
+				<Option output="../lib/Linux/static/SPARK_IRR" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Release Win32" />
 				<Option type="2" />
@@ -51,11 +51,11 @@
 					<Add option="-O3" />
 					<Add option="-O" />
 					<Add option="-W" />
-					<Add directory="../../irrlicht-1.6/include" />
+					<Add directory="../../Irrlicht/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add directory="../../irrlicht-1.6/lib/Linux" />
+					<Add directory="../../Irrlicht/lib/Linux" />
 				</Linker>
 			</Target>
 		</Build>
