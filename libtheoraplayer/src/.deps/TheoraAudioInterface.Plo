@@ -1,0 +1,6 @@
+TheoraAudioInterface.lo: TheoraAudioInterface.cpp \
+ ../include/TheoraAudioInterface.h ../include/TheoraExport.h
+
+../include/TheoraAudioInterface.h:
+
+../include/TheoraExport.h:

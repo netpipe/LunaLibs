@@ -1,0 +1,6 @@
+TheoraTimer.lo: TheoraTimer.cpp ../include/TheoraTimer.h \
+ ../include/TheoraExport.h
+
+../include/TheoraTimer.h:
+
+../include/TheoraExport.h:

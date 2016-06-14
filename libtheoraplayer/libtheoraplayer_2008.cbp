@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libtheoraplayer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="$(SolutionDir)bin/Linux/theoraplayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="$(SolutionDir)bin/Linux/lib/libtheoraplayer_2008/Debug Win32/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-D_WIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DTHEORAVIDEO_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libtheora" />
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="lib" />
+					<Add directory="$(SolutionDir)bin/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="$(SolutionDir)bin/Linux/theoraplayer_2008" prefix_auto="1" extension_auto="1" />
+				<Option object_output="$(SolutionDir)bin/Linux/lib/libtheoraplayer_2008/Release Win32/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-D_WIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DTHEORAVIDEO_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libtheora" />
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="lib" />
+					<Add directory="$(SolutionDir)bin/Linux" />
+				</Linker>
+			</Target>
+			<Target title="Debug_Static Win32">
+				<Option output="$(SolutionDir)bin/Linux/theoraplayer_2008_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(SolutionDir)bin/Linux/lib/libtheoraplayer_2008/Debug_Static Win32/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-D_WIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DTHEORAVIDEO_STATIC" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release_Static Win32">
+				<Option output="$(SolutionDir)bin/Linux/theoraplayer_2008_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="$(SolutionDir)bin/Linux/lib/libtheoraplayer_2008/Release_Static Win32/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DTHEORAVIDEO_STATIC" />
+					<Add option="-W" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Linux">
+				<Option output="$(SolutionDir)bin/Linux/theoraplayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="$(SolutionDir)bin/Linux/lib/libtheoraplayer_2008/Release Win32/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fPIC" />
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DTHEORAVIDEO_EXPORTS" />
+					<Add option="-D_LINUX" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+					<Add directory="../libogg-1.1.4/include" />
+					<Add directory="../libvorbis-1.2.3/include" />
+					<Add directory="../libtheora-1.1.1/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="theora" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
+					<Add directory="lib" />
+					<Add directory="$(SolutionDir)bin/Linux" />
+					<Add directory="../libogg-1.1.4/src" />
+					<Add directory="../libvorbis-1.2.3/" />
+					<Add directory="../libtheora-1.1.1/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fPIC" />
+		</Compiler>
+		<Unit filename="include/theoraplayer/TheoraAsync.h" />
+		<Unit filename="include/theoraplayer/TheoraAudioInterface.h" />
+		<Unit filename="include/theoraplayer/TheoraDataSource.h" />
+		<Unit filename="include/theoraplayer/TheoraException.h" />
+		<Unit filename="include/theoraplayer/TheoraExport.h" />
+		<Unit filename="include/theoraplayer/TheoraFrameQueue.h" />
+		<Unit filename="include/theoraplayer/TheoraPlayer.h" />
+		<Unit filename="include/theoraplayer/TheoraTimer.h" />
+		<Unit filename="include/theoraplayer/TheoraUtil.h" />
+		<Unit filename="include/theoraplayer/TheoraVideoClip.h" />
+		<Unit filename="include/theoraplayer/TheoraVideoFrame.h" />
+		<Unit filename="include/theoraplayer/TheoraVideoManager.h" />
+		<Unit filename="include/theoraplayer/TheoraWorkerThread.h" />
+		<Unit filename="src/TheoraAsync.cpp" />
+		<Unit filename="src/TheoraAudioInterface.cpp" />
+		<Unit filename="src/TheoraDataSource.cpp" />
+		<Unit filename="src/TheoraException.cpp" />
+		<Unit filename="src/TheoraFrameQueue.cpp" />
+		<Unit filename="src/TheoraTimer.cpp" />
+		<Unit filename="src/TheoraUtil.cpp" />
+		<Unit filename="src/TheoraVideoClip.cpp" />
+		<Unit filename="src/TheoraVideoFrame.cpp" />
+		<Unit filename="src/TheoraVideoManager.cpp" />
+		<Unit filename="src/TheoraWorkerThread.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
