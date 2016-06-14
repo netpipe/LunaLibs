@@ -13,8 +13,8 @@
 		<Project filename="../../../../tecan/games/Luna/LunaLibs/angelscript/angelscript.cbp" />
 		<Project filename="../../../../tecan/games/Luna/LunaLibs/SparkEngine/src/SPARK.cbp" />
 		<Project filename="../../../../tecan/games/Luna/LunaLibs/SparkEngine/src/SPARK-IRR.cbp" />
-		<Project filename="../../../../tecan/games/Luna/LunaLibs/cAudio2/cAudio.cbp" />
 		<Project filename="../../../../tecan/games/Luna/LunaLibs/theoraplayer/libtheoraplayer_2008.cbp" />
 		<Project filename="../../../../tecan/games/Luna/LunaLibs/libIrrOpenSteer_10-02-15/libIrrOpenSteer.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/cAudio23/cAudio/cAudio.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

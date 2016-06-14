@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g -DNDEBUG    CMakeFiles/Tutorial4_AudioCapture.dir/src/main.cpp.o  -o CMakeFiles/CMakeRelink.dir/Tutorial4_AudioCapture -rdynamic ../../cAudio/libcAudio.so ../../DependenciesSource/libvorbis-1.3.2/libVorbis.a ../../DependenciesSource/libogg-1.2.2/libOgg.a -lopenal 

@@ -1,0 +1,487 @@
+# depslib dependency file v1.0
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/Theora/TheoraVideoClip_Theora.cpp
+	<memory.h>
+	<algorithm>
+	"TheoraVideoManager.h"
+	"TheoraFrameQueue.h"
+	"TheoraVideoFrame.h"
+	"TheoraAudioInterface.h"
+	"TheoraTimer.h"
+	"TheoraDataSource.h"
+	"TheoraUtil.h"
+	"TheoraException.h"
+	"TheoraVideoClip_Theora.h"
+	"TheoraPixelTransform.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraVideoManager.h
+	<vector>
+	<list>
+	<string>
+	"TheoraExport.h"
+	"TheoraVideoClip.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraExport.h
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraVideoClip.h
+	<string>
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraFrameQueue.h
+	"TheoraAsync.h"
+	<list>
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraAsync.h
+	<stdlib.h>
+	<pthread.h>
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraVideoFrame.h
+	"TheoraExport.h"
+	"TheoraVideoClip.h"
+
+1465894665 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraAudioInterface.h
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraTimer.h
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraDataSource.h
+	<stdint.h>
+	<limits.h>
+	<string>
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraUtil.h
+	<string>
+	<vector>
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraException.h
+	<string>
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/Theora/TheoraVideoClip_Theora.h
+	<ogg/ogg.h>
+	<vorbis/vorbisfile.h>
+	<theora/theoradec.h>
+	"TheoraAudioPacketQueue.h"
+	"TheoraVideoClip.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraAudioPacketQueue.h
+	"TheoraExport.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraPixelTransform.h
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraAsync.cpp
+	<stdlib.h>
+	<windows.h>
+	<unistd.h>
+	<pthread.h>
+	"TheoraAsync.h"
+	"TheoraUtil.h"
+	"TheoraVideoManager.h"
+	<wrl.h>
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraAudioInterface.cpp
+	"TheoraAudioInterface.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraAudioPacketQueue.cpp
+	<stdlib.h>
+	"TheoraAudioPacketQueue.h"
+	"TheoraAudioInterface.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraDataSource.cpp
+	<stdio.h>
+	<sys/stat.h>
+	<memory.h>
+	"TheoraDataSource.h"
+	"TheoraException.h"
+	"TheoraVideoManager.h"
+	"TheoraUtil.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraException.cpp
+	"TheoraException.h"
+	"TheoraUtil.h"
+	"TheoraVideoManager.h"
+	<stdio.h>
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraFrameQueue.cpp
+	"TheoraFrameQueue.h"
+	"TheoraVideoFrame.h"
+	"TheoraVideoManager.h"
+	"TheoraUtil.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraTimer.cpp
+	"TheoraTimer.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraUtil.cpp
+	<stdio.h>
+	<unistd.h>
+	<pthread.h>
+	"TheoraUtil.h"
+	"TheoraException.h"
+	<windows.h>
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraVideoClip.cpp
+	<math.h>
+	"TheoraVideoClip.h"
+	"TheoraVideoManager.h"
+	"TheoraVideoFrame.h"
+	"TheoraFrameQueue.h"
+	"TheoraAudioInterface.h"
+	"TheoraTimer.h"
+	"TheoraDataSource.h"
+	"TheoraUtil.h"
+	"TheoraException.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraVideoFrame.cpp
+	<memory.h>
+	"TheoraPixelTransform.h"
+	"TheoraVideoClip.h"
+	"TheoraVideoFrame.h"
+	"TheoraVideoManager.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraVideoManager.cpp
+	"TheoraVideoManager.h"
+	"TheoraWorkerThread.h"
+	"TheoraVideoClip.h"
+	"TheoraFrameQueue.h"
+	"TheoraAudioInterface.h"
+	"TheoraUtil.h"
+	"TheoraDataSource.h"
+	"TheoraException.h"
+	<theora/codec.h>
+	<vorbis/codec.h>
+	"TheoraVideoClip_Theora.h"
+	"TheoraVideoClip_AVFoundation.h"
+	"TheoraVideoClip_FFmpeg.h"
+	"cpu-features.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/include/theoraplayer/TheoraWorkerThread.h
+	"TheoraAsync.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/TheoraWorkerThread.cpp
+	"windows.h"
+	"TheoraWorkerThread.h"
+	"TheoraVideoManager.h"
+	"TheoraVideoClip.h"
+	"TheoraAsync.h"
+	"TheoraUtil.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/C/yuv420_grey_c.c
+	"yuv_util.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/yuv_util.h
+	"TheoraPixelTransform.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/C/yuv420_rgb_c.c
+	"yuv_util.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/C/yuv420_yuv_c.c
+	"yuv_util.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/compare.cc
+	"libyuv/compare.h"
+	<float.h>
+	<math.h>
+	<omp.h>
+	"libyuv/basic_types.h"
+	"libyuv/cpu_id.h"
+	"libyuv/row.h"
+	"libyuv/video_common.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/compare.h
+	"libyuv/basic_types.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/basic_types.h
+	<stddef.h>
+	<sys/types.h>
+	<stdint.h>
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/cpu_id.h
+	"libyuv/basic_types.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/row.h
+	<stdlib.h>
+	"libyuv/basic_types.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/video_common.h
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/compare_common.cc
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/compare_neon.cc
+	"libyuv/basic_types.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/compare_posix.cc
+	"libyuv/basic_types.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/compare_win.cc
+	"libyuv/basic_types.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert.cc
+	"libyuv/convert.h"
+	"libyuv/basic_types.h"
+	"libyuv/cpu_id.h"
+	"libyuv/planar_functions.h"
+	"libyuv/rotate.h"
+	"libyuv/scale.h"
+	"libyuv/row.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/convert.h
+	"libyuv/basic_types.h"
+	"libyuv/convert_from.h"
+	"libyuv/planar_functions.h"
+	"libyuv/rotate.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/convert_from.h
+	"libyuv/basic_types.h"
+	"libyuv/rotate.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/rotate.h
+	"libyuv/basic_types.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/planar_functions.h
+	"libyuv/basic_types.h"
+	"libyuv/convert.h"
+	"libyuv/convert_argb.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/convert_argb.h
+	"libyuv/basic_types.h"
+	"libyuv/convert_from.h"
+	"libyuv/planar_functions.h"
+	"libyuv/rotate.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/scale.h
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_argb.cc
+	"libyuv/convert_argb.h"
+	"libyuv/cpu_id.h"
+	"libyuv/mjpeg_decoder.h"
+	"libyuv/rotate_argb.h"
+	"libyuv/row.h"
+	"libyuv/video_common.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/mjpeg_decoder.h
+	"libyuv/basic_types.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/rotate_argb.h
+	"libyuv/basic_types.h"
+	"libyuv/rotate.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_from.cc
+	"libyuv/convert_from.h"
+	"libyuv/basic_types.h"
+	"libyuv/convert.h"
+	"libyuv/cpu_id.h"
+	"libyuv/planar_functions.h"
+	"libyuv/rotate.h"
+	"libyuv/scale.h"
+	"libyuv/video_common.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_from_argb.cc
+	"libyuv/convert_from_argb.h"
+	"libyuv/basic_types.h"
+	"libyuv/cpu_id.h"
+	"libyuv/planar_functions.h"
+	"libyuv/row.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/convert_from_argb.h
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_jpeg.cc
+	"libyuv/convert.h"
+	"libyuv/mjpeg_decoder.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_to_argb.cc
+	"libyuv/convert_argb.h"
+	"libyuv/cpu_id.h"
+	"libyuv/mjpeg_decoder.h"
+	"libyuv/rotate_argb.h"
+	"libyuv/row.h"
+	"libyuv/video_common.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/convert_to_i420.cc
+	<stdlib.h>
+	"libyuv/convert.h"
+	"libyuv/video_common.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/cpu_id.cc
+	"libyuv/cpu_id.h"
+	"cpu-features.h"
+	<intrin.h>
+	<immintrin.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/mjpeg_decoder.cc
+	"libyuv/mjpeg_decoder.h"
+	<assert.h>
+	<setjmp.h>
+	<jpeglib.h>
+	"libyuv/planar_functions.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/mjpeg_validate.cc
+	"libyuv/mjpeg_decoder.h"
+	<string.h>
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/planar_functions.cc
+	"libyuv/planar_functions.h"
+	<string.h>
+	"libyuv/cpu_id.h"
+	"libyuv/mjpeg_decoder.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/rotate.cc
+	"libyuv/rotate.h"
+	"libyuv/cpu_id.h"
+	"libyuv/convert.h"
+	"libyuv/planar_functions.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/rotate_argb.cc
+	"libyuv/rotate.h"
+	"libyuv/cpu_id.h"
+	"libyuv/convert.h"
+	"libyuv/planar_functions.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/rotate_mips.cc
+	"libyuv/row.h"
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/rotate_neon.cc
+	"libyuv/row.h"
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_any.cc
+	"libyuv/row.h"
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_common.cc
+	"libyuv/row.h"
+	<string.h>
+	"libyuv/basic_types.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_mips.cc
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_neon.cc
+	"libyuv/row.h"
+
+1448195374 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_posix.cc
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/row_win.cc
+	"libyuv/row.h"
+	<emmintrin.h>
+	<tmmintrin.h>
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/scale.cc
+	"libyuv/scale.h"
+	<assert.h>
+	<string.h>
+	"libyuv/cpu_id.h"
+	"libyuv/planar_functions.h"
+	"libyuv/row.h"
+	"libyuv/scale_row.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/scale_row.h
+	"libyuv/basic_types.h"
+	"libyuv/scale.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/scale_argb.cc
+	"libyuv/scale.h"
+	<assert.h>
+	<string.h>
+	"libyuv/cpu_id.h"
+	"libyuv/planar_functions.h"
+	"libyuv/row.h"
+	"libyuv/scale_row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/scale_argb_neon.cc
+	"libyuv/basic_types.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/scale_mips.cc
+	"libyuv/basic_types.h"
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/scale_neon.cc
+	"libyuv/row.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/src/video_common.cc
+	"libyuv/video_common.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/yuv_libyuv.c
+	<libyuv.h>
+	"yuv_util.h"
+	"yuv_libyuv.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv.h
+	"libyuv/basic_types.h"
+	"libyuv/compare.h"
+	"libyuv/convert.h"
+	"libyuv/convert_argb.h"
+	"libyuv/convert_from.h"
+	"libyuv/convert_from_argb.h"
+	"libyuv/cpu_id.h"
+	"libyuv/mjpeg_decoder.h"
+	"libyuv/planar_functions.h"
+	"libyuv/rotate.h"
+	"libyuv/rotate_argb.h"
+	"libyuv/row.h"
+	"libyuv/scale.h"
+	"libyuv/scale_argb.h"
+	"libyuv/scale_row.h"
+	"libyuv/version.h"
+	"libyuv/video_common.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/scale_argb.h
+	"libyuv/basic_types.h"
+	"libyuv/scale.h"
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/include/libyuv/version.h
+
+1446825098 /home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/libyuv/yuv_libyuv.h
+	"TheoraPixelTransform.h"
+
+1446825098 source:/home/tecan/games/Luna/LunaLibs/theoraplayer/src/YUV/yuv_util.c
+	"yuv_util.h"
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libogg-1.1.4/include/ogg/ogg.h
+	<stddef.h>
+	<ogg/os_types.h>
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libogg-1.1.4/include/ogg/os_types.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<inttypes.h>
+	<sys/types.h>
+	<ogg/config_types.h>
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libvorbis-1.2.3/include/vorbis/vorbisfile.h
+	<stdio.h>
+	"codec.h"
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libvorbis-1.2.3/include/vorbis/codec.h
+	<ogg/ogg.h>
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libtheora-1.1.1/include/theora/theoradec.h
+	<stddef.h>
+	<ogg/ogg.h>
+	"codec.h"
+
+1254974602 /home/tecan/games/Luna/LunaLibs/libtheora-1.1.1/include/theora/codec.h
+	<ogg/ogg.h>
+

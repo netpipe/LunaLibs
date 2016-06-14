@@ -208,15 +208,15 @@
 					<Add option="-D_LINUX" />
 					<Add directory="include" />
 					<Add directory="include/theoraplayer" />
-					<Add directory="../ogg/include" />
-					<Add directory="../vorbis/include" />
-					<Add directory="../theora/include" />
 					<Add directory="src" />
 					<Add directory="src/Theora" />
 					<Add directory="src/YUV" />
 					<Add directory="src/YUV/C" />
 					<Add directory="src/YUV/libyuv" />
 					<Add directory="src/YUV/libyuv/include" />
+					<Add directory="../libogg-1.1.4/include" />
+					<Add directory="../libvorbis-1.2.3/include" />
+					<Add directory="../libtheora-1.1.1/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -232,14 +232,20 @@
 					<Add directory="src/YUV/libyuv/include" />
 				</ResourceCompiler>
 				<Linker>
-					<Add library="libtheora" />
-					<Add library="libogg" />
-					<Add library="libvorbis" />
+					<Add library="theora" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
 					<Add directory="lib" />
 					<Add directory="$(SolutionDir)bin/Linux" />
+					<Add directory="../libogg-1.1.4/src" />
+					<Add directory="../libvorbis-1.2.3/" />
+					<Add directory="../libtheora-1.1.1/" />
 				</Linker>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add option="-fPIC" />
+		</Compiler>
 		<Unit filename="include/theoraplayer/TheoraAsync.h" />
 		<Unit filename="include/theoraplayer/TheoraAudioInterface.h" />
 		<Unit filename="include/theoraplayer/TheoraAudioPacketQueue.h" />
