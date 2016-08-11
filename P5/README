@@ -1,0 +1,24 @@
+The Essential Reality P5 Data Glove Library
+-------------------------------------------
+
+Copyright 2003, Jason McMullan <ezrec@hotmail.com>
+
+Introduction
+------------
+
+  The Essential Reality P5 Data Glove is a USB device that reports
+5 finger positions, and 8 X/Y/Z IR locations. 
+
+
+Library Features
+----------------
+
+  This library is a polling system. See demos/p5dump.c for a simple
+example usage.
+
+What's This Kernel Patch?
+-------------------------
+
+  Some 2.4.x kernels' hid.o module will "eat" the P5 HID endpoint.
+Apply this patch to you kernel & rebuild the hid.o module to prevent
+this. (A similar thing happens with Watcom tablets)
