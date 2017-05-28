@@ -7,8 +7,9 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="default">
-				<Option output="./Pong" prefix_auto="0" extension_auto="0" />
-				<Option type="1" />
+				<Option output="./P5.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
 				<Option compiler="gcc" />
 				<Option projectResourceIncludeDirsRelation="1" />
 			</Target>
@@ -35,15 +36,6 @@
 			<Add library="usb" />
 			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
 		</Linker>
-		<Unit filename="config.h" />
-		<Unit filename="config.h.in" />
-		<Unit filename="demo/p5common.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="demo/p5common.h" />
-		<Unit filename="demo/p5hand.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="p5glove.c">
 			<Option compilerVar="CC" />
 		</Unit>

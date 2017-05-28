@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveProject path="examples/example1.cbp" />
+	<PreferredTarget name="All" />
+	<EditorTabsLayout layout="056f9a90545f312b002f70e600000002=0;IrrNetLite22:INetManager.h,1;IrrNetLite22:CNetManager.cpp,2;IrrNetLite22:SPacket.cpp,3;IrrNetLite22:irrNet.h,4;IrrNetLite22:CNetManager.h,5;IrrNet Example1:Example1.cpp,6;IrrNetExample2:Example2.cpp,7;Tutorial:Tutorial.cpp,*8;BSD Sockets TCP Client:BSD Client.cpp,9;BSD Sockets TCP Server:BSD Server.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=403;besth=725;minw=403;minh=725;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=056f9a90545f312b002f70e600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_workspace_layout_file>
