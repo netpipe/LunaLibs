@@ -23,22 +23,24 @@
 		</Build>
 		<Compiler>
 			<Add directory="/home/Dev/libs/Irrlicht/include" />
-			<Add directory="/home/Dev/libs/net/irrNetLite21" />
+			<Add directory="../../../irrNetLite22" />
 		</Compiler>
 		<Linker>
 			<Add library="GL" />
 			<Add library="Irrlicht" />
 			<Add library="Xxf86vm" />
-			<Add library="irrNetLite21" />
+			<Add library="irrNetLite22" />
 			<Add library="/home/Dev/libs/net/enet-1.2.1/libenet.a" />
 			<Add library="z" />
+			<Add library="X11" />
 			<Add directory="/home/Dev/libs/Irrlicht/lib/Linux" />
-			<Add directory="/home/Dev/libs/net/irrNetLite21" />
+			<Add directory="../../../irrNetLite22" />
 		</Linker>
 		<Unit filename="client.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
+			<envvars />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

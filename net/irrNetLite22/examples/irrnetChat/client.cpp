@@ -109,7 +109,7 @@ int main(int argc, char **argv)
 {
    MyEventReceiver receiver;
 
-   device = createDevice( video::EDT_SOFTWARE, dimension2d<s32>(800, 600), 16,false, false, false, &receiver);
+   device = createDevice( video::EDT_OPENGL, dimension2du(800, 600), 16,false, false, false, &receiver);
    device->setWindowCaption(L"Irrlicht MMORPG");
    driver = device->getVideoDriver();
    smgr = device->getSceneManager();
