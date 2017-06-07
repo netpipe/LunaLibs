@@ -2,35 +2,50 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="All" />
-	<File name="CNetManager.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="INetManager.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5794" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="CNetManager.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2858" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="irrNet.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="SPacket.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="SPacket.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+		</Folding>
 	</File>
-	<EditorTabsLayout layout="04e5fd7059386186003fab6f00000003=*0;IrrNetLite22:INetManager.h,1;IrrNetLite22:CNetManager.cpp,2;IrrNetLite22:SPacket.cpp,3;IrrNetLite22:irrNet.h,4;IrrNetLite22:CNetManager.h,5;IrrNetLite22:SPacket.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=04e5fd7059386186003fab6f00000003;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+	<File name="INetManager.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5794" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+		</Folding>
+	</File>
+	<File name="SPacket.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="76" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="22" />
+		</Folding>
+	</File>
+	<File name="CNetManager.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="16" />
+		</Folding>
+	</File>
+	<File name="CNetManager.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2858" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+		</Folding>
+	</File>
+	<EditorTabsLayout layout="0423d66059388e380022464e00000003=*0;IrrNetLite22:INetManager.h,1;IrrNetLite22:CNetManager.cpp,2;IrrNetLite22:SPacket.cpp,3;IrrNetLite22:irrNet.h,4;IrrNetLite22:CNetManager.h,5;IrrNetLite22:SPacket.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0423d66059388e380022464e00000003;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>
