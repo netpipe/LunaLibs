@@ -14,14 +14,14 @@
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
 					<Add option="-DWIN32" />
 					<Add option="-D_DEBUG" />
 					<Add option="-D_WINDOWS" />
 					<Add option="-D_USRDLL" />
 					<Add option="-DLIBOGG_EXPORTS" />
-					<Add option="-Wall" />
-					<Add option="-g" />
-					<Add option="-O0" />
 					<Add directory="include" />
 				</Compiler>
 				<ResourceCompiler>
