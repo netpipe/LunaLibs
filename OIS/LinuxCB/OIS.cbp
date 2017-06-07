@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OIS" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="~/libs/OIS_d.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="~/libs" />
+				<Option object_output="../lib/obj/debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-Wfatal-errors" />
+					<Add option="-W" />
+					<Add option="-Wall" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DOIS_JOYEVENTS" />
+					<Add directory="../includes" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="libXaw" />
+					<Add library="libX11" />
+					<Add directory="/usr/lib" />
+					<Add directory="/usr/lib/X11R6" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="~/libs/OIS.so" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="~/libs" />
+				<Option object_output="../lib/obj/release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option projectResourceIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DOIS_JOYEVENTS" />
+					<Add directory="../includes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libXaw" />
+					<Add library="libX11" />
+					<Add directory="/usr/lib" />
+					<Add directory="/usr/lib/X11R6" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;Release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-fPIC" />
+		</Compiler>
+		<Unit filename="../includes/OIS.h" />
+		<Unit filename="../includes/OISConfig.h" />
+		<Unit filename="../includes/OISEffect.h" />
+		<Unit filename="../includes/OISEvents.h" />
+		<Unit filename="../includes/OISException.h" />
+		<Unit filename="../includes/OISForceFeedback.h" />
+		<Unit filename="../includes/OISInputManager.h" />
+		<Unit filename="../includes/OISInterface.h" />
+		<Unit filename="../includes/OISJoyStick.h" />
+		<Unit filename="../includes/OISKeyboard.h" />
+		<Unit filename="../includes/OISMouse.h" />
+		<Unit filename="../includes/OISObject.h" />
+		<Unit filename="../includes/OISPrereqs.h" />
+		<Unit filename="../src/OISEffect.cpp" />
+		<Unit filename="../src/OISForceFeedback.cpp" />
+		<Unit filename="../src/OISInputManager.cpp" />
+		<Unit filename="../src/OISJoyStick.cpp" />
+		<Unit filename="../src/OISKeyboard.cpp" />
+		<Unit filename="../src/OISObject.cpp" />
+		<Unit filename="../src/linux/EventHelpers.cpp" />
+		<Unit filename="../src/linux/LinuxForceFeedback.cpp" />
+		<Unit filename="../src/linux/LinuxInputManager.cpp" />
+		<Unit filename="../src/linux/LinuxJoyStickEvents.cpp" />
+		<Unit filename="../src/linux/LinuxKeyboard.cpp" />
+		<Unit filename="../src/linux/LinuxMouse.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/EventHelpers.cpp
+	"linux/EventHelpers.h"
+	"linux/LinuxPrereqs.h"
+	"linux/LinuxForceFeedback.h"
+	"OISException.h"
+	"OISJoyStick.h"
+	<linux/input.h>
+	<cstring>
+	<iostream>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/EventHelpers.h
+	"linux/LinuxPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxPrereqs.h
+	"config.h"
+	"OISPrereqs.h"
+
+1496517816 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/config.h
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISPrereqs.h
+	<vector>
+	<string>
+	<map>
+	"OISConfig.h"
+	<unistd.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISConfig.h
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxForceFeedback.h
+	"linux/LinuxPrereqs.h"
+	"OISForceFeedback.h"
+	<linux/input.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISForceFeedback.h
+	"OISPrereqs.h"
+	"OISInterface.h"
+	"OISEffect.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISInterface.h
+	"OISPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISEffect.h
+	"OISPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISException.h
+	"OISPrereqs.h"
+	<exception>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISJoyStick.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISObject.h
+	"OISPrereqs.h"
+	"OISInterface.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISEvents.h
+	"OISPrereqs.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/LinuxForceFeedback.cpp
+	"linux/LinuxForceFeedback.h"
+	"OISException.h"
+	<cstdlib>
+	<errno.h>
+	<memory.h>
+	<iostream>
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/LinuxInputManager.cpp
+	"linux/LinuxInputManager.h"
+	"linux/LinuxKeyboard.h"
+	"linux/LinuxJoyStickEvents.h"
+	"linux/LinuxMouse.h"
+	"OISException.h"
+	<cstdlib>
+	<stdio.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxInputManager.h
+	"linux/LinuxPrereqs.h"
+	"OISFactoryCreator.h"
+	"OISInputManager.h"
+	<X11/Xlib.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISFactoryCreator.h
+	"OISPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISInputManager.h
+	"OISPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxKeyboard.h
+	"linux/LinuxPrereqs.h"
+	"OISKeyboard.h"
+	<X11/Xlib.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISKeyboard.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxJoyStickEvents.h
+	"linux/LinuxPrereqs.h"
+	"OISJoyStick.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/linux/LinuxMouse.h
+	"linux/LinuxPrereqs.h"
+	"OISMouse.h"
+	<X11/Xlib.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/OISMouse.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/LinuxJoyStickEvents.cpp
+	"OISConfig.h"
+	"linux/LinuxJoyStickEvents.h"
+	"linux/LinuxInputManager.h"
+	"linux/LinuxForceFeedback.h"
+	"linux/EventHelpers.h"
+	"OISEvents.h"
+	"OISException.h"
+	<fcntl.h>
+	<cassert>
+	<linux/input.h>
+	<sstream>
+	<iostream>
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/LinuxKeyboard.cpp
+	"linux/LinuxInputManager.h"
+	"linux/LinuxKeyboard.h"
+	"OISException.h"
+	"OISEvents.h"
+	<X11/keysym.h>
+	<X11/Xutil.h>
+	<cstring>
+	<iostream>
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/linux/LinuxMouse.cpp
+	"linux/LinuxMouse.h"
+	"linux/LinuxInputManager.h"
+	"OISException.h"
+	"OISEvents.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISEffect.cpp
+	"OISEffect.h"
+	"OISException.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISForceFeedback.cpp
+	"OISForceFeedback.h"
+	"OISException.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISInputManager.cpp
+	"OISInputManager.h"
+	"OISException.h"
+	"OISFactoryCreator.h"
+	"OISObject.h"
+	<sstream>
+	<algorithm>
+	"SDL/SDLInputManager.h"
+	"win32/Win32InputManager.h"
+	"linux/LinuxInputManager.h"
+	"mac/MacInputManager.h"
+	"iphone/iPhoneInputManager.h"
+	"xbox/XBoxInputManager.h"
+	"extras/LIRC/OISLIRCFactoryCreator.h"
+	"win32/extras/WiiMote/OISWiiMoteFactoryCreator.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/SDL/SDLInputManager.h
+	"OISInputManager.h"
+	"SDL/SDLPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/SDL/SDLPrereqs.h
+	"OISPrereqs.h"
+	<SDL/SDL.h>
+	<SDL.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/win32/Win32InputManager.h
+	"OISInputManager.h"
+	"OISFactoryCreator.h"
+	"win32/Win32Prereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/win32/Win32Prereqs.h
+	<cstddef>
+	<windows.h>
+	<dinput.h>
+	<XInput.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/mac/MacInputManager.h
+	"OISInputManager.h"
+	"OISFactoryCreator.h"
+	"mac/MacPrereqs.h"
+	<Carbon/Carbon.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/mac/MacPrereqs.h
+	<string>
+	<list>
+	<CoreFoundation/CoreFoundation.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/iphone/iPhoneInputManager.h
+	"OISInputManager.h"
+	"OISFactoryCreator.h"
+	"iphone/iPhonePrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/includes/iphone/iPhonePrereqs.h
+	<string>
+	<list>
+	<CoreFoundation/CoreFoundation.h>
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/src/extras/LIRC/OISLIRCFactoryCreator.h
+	"OISConfig.h"
+	"OISPrereqs.h"
+	"OISFactoryCreator.h"
+	"OISLIRC.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/src/extras/LIRC/OISLIRC.h
+	"OISConfig.h"
+	"OISJoyStick.h"
+	"OISLIRCRingBuffer.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/src/extras/LIRC/OISLIRCRingBuffer.h
+	"OISConfig.h"
+	"OISPrereqs.h"
+
+1496517776 /home/tecan/games/Luna/LunaLibs/OIS-git/src/win32/extras/WiiMote/OISWiiMoteFactoryCreator.h
+	"OISConfig.h"
+	"OISPrereqs.h"
+	"OISFactoryCreator.h"
+	<deque>
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISJoyStick.cpp
+	"OISJoyStick.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISKeyboard.cpp
+	"OISKeyboard.h"
+	"OISException.h"
+
+1496517776 source:/home/tecan/games/Luna/LunaLibs/OIS-git/src/OISObject.cpp
+
