@@ -8,7 +8,7 @@
 
 // CMake-generated build settings.
 // %BUILD_DIR%/include to your include search path to find cAudioBuildSettings.h.
-///#include "cAudioBuildSettings.h"
+#include "cAudioBuildSettings.h"
 
 //! Global define for the version of cAudio.
 //! This is used primarily by plugins to make sure they are linking to the right library.
@@ -34,7 +34,7 @@
 //! Define enables threading for the main update loop.  Disable to run the internal update loop yourself. NOTE: Internal threading should NOT be used if the library is not thread safe!
 #if CAUDIO_MAKE_THREAD_SAFE == 1
 	#define CAUDIO_USE_INTERNAL_THREAD
-#endif
+#endif 
 
 
 #if !defined( CAUDIO_PLATFORM_IPHONE ) && CAUDIO_STATIC_LIB == 0

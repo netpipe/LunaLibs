@@ -17,6 +17,5 @@ namespace cAudio
 		virtual void update() = 0;
 		virtual IAudioManager* getAudioManager() const = 0;
 		virtual IAudioEffects* getEffects() const = 0;
-        virtual ~IAudioDeviceContext(){}
 	};
 }

@@ -91,7 +91,7 @@ namespace cAudio
 
 		operator float*() { return &x; }
 
-		float operator[] ( int i ) const { return ( ( float* ) &x ) [i]; }
+		const float operator[] ( int i ) const { return ( ( float* ) &x ) [i]; }
 
 		float &operator[] ( int i ) { return ( ( float* ) &x ) [i]; }
 

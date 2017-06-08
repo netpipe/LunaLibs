@@ -7,7 +7,9 @@
 #include "cAudioDefines.h"
 
 #if CAUDIO_MAKE_THREAD_SAFE == 1
-	#ifndef CAUDIO_PLATFORM_WIN
+	#ifdef CAUDIO_PLATFORM_WIN
+	#include <windows.h>	//Basic windows include
+	#else
 	#include <pthread.h>	//Assumed linux system
 	#endif
 #endif

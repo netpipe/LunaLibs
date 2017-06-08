@@ -84,9 +84,9 @@ namespace cAudio
 			return false;
 		}
 
-		getLogger()->logWarning("AudioManager", "OpenAL Version: %s", alGetString(AL_VERSION));
-		getLogger()->logWarning("AudioManager", "Vendor: %s", alGetString(AL_VENDOR));
-		getLogger()->logWarning("AudioManager", "Renderer: %s", alGetString(AL_RENDERER));
+		getLogger()->logInfo("AudioManager", "OpenAL Version: %s", alGetString(AL_VERSION));
+		getLogger()->logInfo("AudioManager", "Vendor: %s", alGetString(AL_VENDOR));
+		getLogger()->logInfo("AudioManager", "Renderer: %s", alGetString(AL_RENDERER));
 
 #if CAUDIO_EFX_ENABLED == 1
 		initEffects.getEFXInterface()->Mutex.lock();
@@ -108,8 +108,7 @@ namespace cAudio
 			getLogger()->logWarning("AudioManager", "EFX is not supported, EFX disabled.");
 		}
 #endif
-		getLogger()->logWarning("AudioManager", "Supported Extensions: %s", alGetString(AL_EXTENSIONS));
-        Initialized = true;
+		getLogger()->logInfo("AudioManager", "Supported Extensions: %s", alGetString(AL_EXTENSIONS));
 
 		return true;
 	}
@@ -125,8 +124,8 @@ namespace cAudio
 			alcDestroyContext(Context);
 			Context = NULL;
 			//Close the device
-			if (!alcCloseDevice(Device))
-				getLogger()->logError("AudioManager", "alcCloseDevice failed");
+			alcCloseDevice(Device);
+			checkError();
 
 			Device = NULL;
 			Initialized = false;
@@ -170,12 +169,12 @@ namespace cAudio
 			return true;
 		}
 
-		//if(Device)
+		if(Device)
 		{
 			error = alcGetError(Device);
 			if (error != AL_NO_ERROR)
 			{
-				errorString = alcGetString(Device, error);
+				errorString = alGetString(error);
 				getLogger()->logError("AudioManager", "OpenAL Error: %s.", errorString);
 				return true;
 			}

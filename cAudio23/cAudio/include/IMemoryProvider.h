@@ -28,7 +28,5 @@ namespace cAudio
 
 		//! Returns the largest possible single allocation that can be made.
 		virtual size_t getMaxAllocationSize() = 0;
-        
-        virtual ~IMemoryProvider() {}
 	};
 };

@@ -11,21 +11,19 @@ namespace cAudio
 	{
 	public:
 		//! This function is called when a source updates its buffers.
-		virtual void onUpdate(){}
+		virtual void onUpdate() = 0;
 
 		//! This function is called when a source is released and soon to be deleted.
-		virtual void onRelease(){}
+		virtual void onRelease() = 0;
 
 		//! This function is called when a source starts playing.
-		virtual void onPlay(){}
+		virtual void onPlay() = 0;
 
 		//! This function is called when a source stopped playback.
-		virtual void onStop(){}
+		virtual void onStop() = 0;
 
 		//! This function is called when a source is paused.
-		virtual void onPause(){}
-        
-        virtual ~ISourceEventHandler(){}
+		virtual void onPause() = 0;
 	};
 };
 

@@ -27,8 +27,6 @@ namespace cAudio
 
 		//! This function is called when a data source is registered.
 		virtual void onDataSourceRegister() = 0;
-        
-        virtual ~IManagerEventHandler(){}
 	};
 };
 

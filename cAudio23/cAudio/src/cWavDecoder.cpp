@@ -19,6 +19,7 @@ namespace cAudio
 		char ident[4];
 		int tempint32 = 0;
 		short tempint16 = 0;
+		char tempint8 = 0;
 
 		unsigned int startOffset = 0;
 
@@ -191,7 +192,7 @@ namespace cAudio
 
     bool cWavDecoder::seek(float seconds,bool relative)
     {
-		int amountToSeek = (int) (seconds * (float)SampleRate * (float)Channels * (float)(BitsPerSample/8));
+		int amountToSeek = seconds * (float)SampleRate * (float)Channels * (float)(BitsPerSample/8);
         return setPosition(amountToSeek, relative);
     }
 

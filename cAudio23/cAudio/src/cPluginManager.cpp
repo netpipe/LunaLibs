@@ -186,7 +186,7 @@ namespace cAudio
 		return ret;
 
 #elif defined(CAUDIO_PLATFORM_MAC) || defined(CAUDIO_PLATFORM_LINUX)
-		const char* error = dlerror();
+		char* error = dlerror();
 
 		return error != NULL ? cAudioString(error) : cAudioString("");
 #else

@@ -7,7 +7,7 @@
 #include "cAudioDefines.h"
 #include "IMemoryProvider.h"
 
-#if 0 /* defined(CAUDIO_DEBUG) */
+#ifdef CAUDIO_DEBUG
 	#define CAUDIO_NEW new (__FILE__, __LINE__, __FUNCTION__)
 	#define CAUDIO_DELETE delete
 	#define CAUDIO_MALLOC(size) cAudio::getMemoryProvider()->Allocate(size, __FILE__, __LINE__, __FUNCTION__)
