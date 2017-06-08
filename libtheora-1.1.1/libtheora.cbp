@@ -6,6 +6,28 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
+			<Target title="Linux">
+				<Option output="theora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Linux" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg-1.1.4/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+			</Target>
 			<Target title="Debug Win32">
 				<Option output="theora" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
@@ -118,29 +140,6 @@
 					<Add option="-D_WINDOWS" />
 					<Add option="-D_USRDLL" />
 					<Add option="-DLIBTHEORA_EXPORTS" />
-					<Add directory="./include" />
-					<Add directory="./lib" />
-					<Add directory="./../libogg/include" />
-					<Add directory="././../core/ogg/libogg/include/" />
-				</Compiler>
-				<ResourceCompiler>
-					<Add directory="./include" />
-					<Add directory="./lib" />
-					<Add directory="./../libogg/include" />
-					<Add directory="././../core/ogg/libogg/include/" />
-				</ResourceCompiler>
-			</Target>
-			<Target title="Linux">
-				<Option output="theora" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="" />
-				<Option object_output="../objs/theora/Linux" />
-				<Option type="2" />
-				<Option compiler="gcc" />
-				<Option createDefFile="1" />
-				<Compiler>
-					<Add option="-O2" />
-					<Add option="-Wall" />
-					<Add option="-DNDEBUG" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
 					<Add directory="./../libogg/include" />
