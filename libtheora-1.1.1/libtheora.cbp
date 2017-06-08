@@ -27,6 +27,9 @@
 					<Add directory="./../libogg/include" />
 					<Add directory="././../core/ogg/libogg/include/" />
 				</ResourceCompiler>
+				<Linker>
+					<Add directory="./../libogg-1.1.4/" />
+				</Linker>
 			</Target>
 			<Target title="Debug Win32">
 				<Option output="theora" prefix_auto="1" extension_auto="1" />

@@ -13,5 +13,6 @@
 		<Project filename="./OIS/LinuxCB/OIS.cbp" />
 		<Project filename="./irrlicht-1.8.4/source/Irrlicht/Irrlicht-gcc.cbp" />
 		<Project filename="./assimp-3.3.1/Assimp.cbp" />
+		<Project filename="./cAudio23/cAudio/cAudio.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

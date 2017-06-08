@@ -125,6 +125,8 @@
 					<Add directory="dependencies/Headers" />
 					<Add directory="dependencies/Headers/AL" />
 					<Add directory="/usr/include/AL" />
+					<Add directory="./../libogg-1.1.4/include" />
+					<Add directory="../../libvorbis-1.2.3" />
 				</Compiler>
 				<Linker>
 					<Add library="vorbisfile" />
@@ -141,6 +143,7 @@
 			<Add option="-DCOMPILE_FOR_WINDOWS" />
 			<Add option="-DCAUDIO_EXPORTS" />
 			<Add directory="../include" />
+			<Add directory="./../libogg-1.1.4/include" />
 		</Compiler>
 		<Linker>
 			<Add directory="dependencies/Libs/windows" />
