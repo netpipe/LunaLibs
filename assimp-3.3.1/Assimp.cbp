@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assimp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-modules\;CMake Files\code\;CMake Files\tools\;CMake Files\tools\assimp_cmd\;CMake Files\test\;CMake Files\test\headercheck\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\libs\;CMake Files\..\..\..\..\..\..\libs\Media\;CMake Files\..\..\..\..\..\..\libs\Media\assimp-git\;CMake Files\..\..\..\..\..\..\libs\Media\assimp-git\test\;CMake Files\..\..\..\..\..\..\libs\Media\assimp-git\test\gtest\;CMake Files\..\..\..\..\..\..\libs\Media\assimp-git\test\gtest\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp">
+				<Option output="/home/Dev/libs/Media/assimp-git/code/libassimp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/../contrib/rapidjson/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/../contrib/openddlparser/include"/>
+					<Add directory="/usr/include/minizip"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp/fast">
+				<Option output="/home/Dev/libs/Media/assimp-git/code/libassimp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/../contrib/rapidjson/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/../contrib/openddlparser/include"/>
+					<Add directory="/usr/include/minizip"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd">
+				<Option output="/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/assimp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/tools/assimp_cmd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd/fast">
+				<Option output="/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/assimp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/tools/assimp_cmd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit">
+				<Option output="/home/Dev/libs/Media/assimp-git/test/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_TEST_MODELS_DIR=&quot;/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/models&quot;"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/googletest/include"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/gtest/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 unit"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit/fast">
+				<Option output="/home/Dev/libs/Media/assimp-git/test/unit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_TEST_MODELS_DIR=&quot;/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/models&quot;"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/googletest/include"/>
+					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/gtest/include"/>
+					<Add directory="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/c++/5/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 unit/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option working_dir="/home/Dev/libs/Media/assimp-git/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/3DSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ACLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ACLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ASELoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ASELoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ASEParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ASEParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssbinExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssbinExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssbinLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssbinLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Assimp.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssimpCExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssxmlExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/AssxmlExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/B3DImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/B3DImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BVHLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BVHLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BaseImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BaseImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BaseProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BaseProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Bitmap.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Bitmap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderBMesh.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderBMesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderDNA.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderDNA.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderDNA.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderIntermediate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderModifier.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderModifier.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderScene.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderSceneGen.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderTessellator.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlenderTessellator.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/BlobIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ByteSwapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CInterfaceIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/COBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/COBLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/COBScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CSMLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CSMLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CalcTangentsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CalcTangentsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ColladaParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ComputeUVMappingProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ComputeUVMappingProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ConvertToLHProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ConvertToLHProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/D3MFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/D3MFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/D3MFOpcPackage.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/D3MFOpcPackage.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DXFHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DXFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DXFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DeboneProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DeboneProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultIOStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultIOStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultLogger.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/DefaultProgressHandler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Exporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXBinaryTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXCompileConfig.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXConverter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXDeformer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXDocument.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXDocument.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXDocumentUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXDocumentUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXImportSettings.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXMeshGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXMeshGeometry.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXModel.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXNodeAttribute.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXProperties.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXProperties.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXTokenizer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FBXUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FileLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindDegenerates.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindDegenerates.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindInstancesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindInstancesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindInvalidDataProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FindInvalidDataProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FixNormalsStep.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/FixNormalsStep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/GenFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/GenFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/GenVertexNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/GenVertexNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/GenericProperty.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/HMPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/HMPLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/HMPLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/HalfLifeFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Hash.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCBoolean.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCCurve.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCOpenings.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCProfile.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCReaderGen.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCReaderGen.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFCUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IFF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRMeshLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRMeshLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRShared.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/IRRShared.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Importer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Importer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ImporterRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ImproveCacheLocality.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ImproveCacheLocality.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/JoinVerticesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/JoinVerticesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWOMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LWSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LimitBoneWeightsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LimitBoneWeightsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LineSplitter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/LogAux.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD2FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD2Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD2Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD2NormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD3FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD3Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD3Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD5Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD5Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD5Parser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MD5Parser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDCFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDCNormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDLDefaultColorMap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDLFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MDLMaterialLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MS3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MS3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MakeVerboseFormat.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MakeVerboseFormat.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MaterialSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MaterialSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/MemoryIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/NDOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/NDOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/NFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/NFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileMtlImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileMtlImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ObjTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreBinarySerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreBinarySerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreStructs.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreXmlSerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OgreXmlSerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OpenGEXExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OpenGEXExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OpenGEXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OpenGEXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OpenGEXStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OptimizeGraph.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OptimizeGraph.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OptimizeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/OptimizeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PlyParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PolyTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PostStepRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PretransformVertices.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/PretransformVertices.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ProcessHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ProcessHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Profiler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPZipArchive.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3BSPZipArchive.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Q3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RawLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RawLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveComments.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveComments.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveRedundantMaterials.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveRedundantMaterials.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveVCProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/RemoveVCProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SGSpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SGSpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SIBImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SIBImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SMDLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SMDLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STEPFile.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STEPFileEncoding.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STEPFileEncoding.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STEPFileReader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STEPFileReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STLExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STLExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/STLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SceneCombiner.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SceneCombiner.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ScenePreprocessor.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ScenePreprocessor.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ScenePrivate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SkeletonMeshBuilder.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SkeletonMeshBuilder.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SmoothingGroups.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SortByPTypeProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SortByPTypeProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SplitByBoneCountProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SplitByBoneCountProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SplitLargeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/SplitLargeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StandardShapes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StandardShapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StdOStreamLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StepExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StepExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StreamReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StreamWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StringComparison.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/StringUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Subdivision.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Subdivision.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TargetAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TargetAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TerragenLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TerragenLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TextureTransform.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TextureTransform.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TinyFormatter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TriangulateProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/TriangulateProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/UnrealLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/UnrealLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ValidateDataStructure.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/ValidateDataStructure.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Version.cpp">
+			<Option target="assimp"/>
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Vertex.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/VertexTriangleAdjacency.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/VertexTriangleAdjacency.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/Win32DebugLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XGLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XGLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/XMLTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/fast_atof.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFAsset.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFAsset.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFAssetWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFAssetWriter.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/glTFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/irrXMLWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/qnan.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/ConvertUTF/ConvertUTF.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/ConvertUTF/ConvertUTF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/clipper/clipper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/clipper/clipper.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/CXMLReaderImpl.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/heapsort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/irrArray.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/irrString.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/irrTypes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/irrXML.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/irrXML/irrXML.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/code/DDLNode.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/code/OpenDDLCommon.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/code/OpenDDLExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/code/OpenDDLParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/code/Value.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/DDLNode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/OpenDDLExport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/OpenDDLParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/openddlparser/include/openddlparser/Value.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/common/shapes.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/common/shapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/common/utils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/advancing_front.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/advancing_front.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/cdt.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/cdt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/sweep.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/sweep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/sweep_context.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/contrib/poly2tri/poly2tri/sweep/sweep_context.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Compiler/poppack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Compiler/pstdint.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Compiler/pushpack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/DefaultLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Exporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/IOStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/IOSystem.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Importer.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/LogStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/Logger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/NullLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/ProgressHandler.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/ai_assert.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/anim.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/camera.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/cexport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/cfileio.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/cimport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/color4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/color4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/config.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/defs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/importerdesc.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/light.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/material.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/material.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/matrix3x3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/matrix3x3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/matrix4x4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/matrix4x4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/mesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/metadata.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/postprocess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/quaternion.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/quaternion.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/scene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/texture.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/types.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/vector2.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/vector2.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/vector3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/vector3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/include/assimp/version.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/AssimpAPITest.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/CCompilerTest.c">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/Main.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utBlendImportAreaLight.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utBlendImportMaterials.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utColladaExportCamera.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utColladaExportLight.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utFastAtof.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utFindDegenerates.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utFindInvalidData.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utFixInfacingNormals.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utGenNormals.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utIOSystem.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utImporter.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utImproveCacheLocality.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utIssues.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utJoinVertices.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utLimitBoneWeights.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utMaterialSystem.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utMatrix3x3.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utMatrix4x4.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utPretransformVertices.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utRemoveComments.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utRemoveComponent.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utRemoveRedundantMaterials.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utScenePreprocessor.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utSharedPPData.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utSortByPType.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utSplitLargeMeshes.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utTargetAnimation.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utTextureTransform.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utTriangulate.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/unit/utVertexTriangleAdjacency.cpp">
+			<Option target="unit"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/CompareDump.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/Export.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/ImageExtractor.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/Info.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/Main.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/Main.h">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/WriteDumb.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/assimp_cmd.rc">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/resource.h">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/revision.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/assimp.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/cmake-modules/AddGTest.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\code\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\headercheck\"/>
+		</Unit>
+		<Unit filename="/home/Dev/agnostic-codeg/Stuff2/Demos/WIPs/Model/assimp-git/../../../../../../libs/Media/assimp-git/test/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\libs\Media\assimp-git\test\gtest\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

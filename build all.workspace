@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
-		<Project filename="./libogg-1.1.4/libogg_static.cbp" />
-		<Project filename="./libvorbis-1.2.3/libvorbis_dynamic.cbp" />
-		<Project filename="./libvorbis-1.2.3/libvorbisfile_dynamic.cbp" />
-		<Project filename="./libtheora-1.1.1/libtheora.cbp" />
-		<Project filename="./freetype-2.3.9/freetype.cbp" />
-		<Project filename="./net/enet-1.2.1/enet.cbp" />
-		<Project filename="./zlib-1.2.3/zlib.cbp" />
-		<Project filename="./libIrrOpenSteer_10-02-15/libIrrOpenSteer.cbp" />
-		<Project filename="./net/irrNetLite22/irrNetLite.cbp" />
-		<Project filename="./OIS/LinuxCB/OIS.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/libogg-1.1.4/libogg_static.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/libvorbis-1.2.3/libvorbis_dynamic.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/libvorbis-1.2.3/libvorbisfile_dynamic.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/libtheora-1.1.1/libtheora.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/freetype-2.3.9/freetype.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/net/enet-1.2.1/enet.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/zlib-1.2.3/zlib.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/libIrrOpenSteer_10-02-15/libIrrOpenSteer.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/net/irrNetLite22/irrNetLite.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/OIS/LinuxCB/OIS.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/irrlicht-1.8.4/source/Irrlicht/Irrlicht-gcc.cbp" />
+		<Project filename="../../../../tecan/games/Luna/LunaLibs/assimp-3.3.1/Assimp.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
