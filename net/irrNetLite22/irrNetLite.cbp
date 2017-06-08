@@ -19,7 +19,7 @@
 		</VirtualTargets>
 		<Compiler>
 			<Add option="-DCOMPILE_WITH_IRRLICHT" />
-			<Add directory="../../Irrlicht/include" />
+			<Add directory="../../irrlicht-1.8.4/include" />
 			<Add directory="../enet-1.2.1/include" />
 		</Compiler>
 		<Linker>

@@ -31,12 +31,12 @@
 		</Build>
 		<Compiler>
 			<Add option="-DDO_NOT_USE_IrrExtensions_Terrain2" />
-			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/include" />
 			<Add directory="include" />
+			<Add directory="../irrlicht-1.8.4/include" />
 		</Compiler>
 		<Linker>
 			<Add library="Irrlicht" />
-			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
+			<Add directory="../irrlicht-1.8.4/lib/Linux" />
 		</Linker>
 		<Unit filename="help/IrrOpenSteer.chm" />
 		<Unit filename="include/IrrOpenSteer.h" />
