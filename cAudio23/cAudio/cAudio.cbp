@@ -130,7 +130,6 @@
 				</Compiler>
 				<Linker>
 					<Add library="vorbisfile" />
-					<Add library="vorbisenc" />
 					<Add library="vorbis" />
 					<Add library="ogg" />
 					<Add library="openal" />
