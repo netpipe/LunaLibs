@@ -53,7 +53,7 @@
 					<Add library="vorbis" />
 					<Add directory="lib" />
 					<Add directory="$(SolutionDir)bin/Linux" />
-					<Add directory="../libogg-1.1.4/src" />
+					<Add directory="../libogg-1.1.4" />
 					<Add directory="../libvorbis-1.2.3/" />
 					<Add directory="../libtheora-1.1.1/" />
 				</Linker>
