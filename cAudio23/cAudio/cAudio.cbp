@@ -125,8 +125,8 @@
 					<Add directory="dependencies/Headers" />
 					<Add directory="dependencies/Headers/AL" />
 					<Add directory="/usr/include/AL" />
-					<Add directory="./../libogg-1.1.4/include" />
-					<Add directory="../../libvorbis-1.2.3" />
+					<Add directory="../../libogg-1.1.4/include" />
+					<Add directory="../../libvorbis-1.2.3/include" />
 				</Compiler>
 				<Linker>
 					<Add library="vorbisfile" />
@@ -135,6 +135,8 @@
 					<Add library="ogg" />
 					<Add library="openal" />
 					<Add directory="dependencies/Libs/windows-mingw" />
+					<Add directory="../../libvorbis-1.2.3/" />
+					<Add directory="../../libogg-1.1.4" />
 				</Linker>
 			</Target>
 		</Build>
