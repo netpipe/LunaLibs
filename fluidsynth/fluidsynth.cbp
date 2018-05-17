@@ -40,9 +40,10 @@
 			<Add library="Xxf86vm" />
 			<Add library="X11" />
 			<Add library="sndfile" />
-			<Add library="openal" />
+			<Add library="./fluidsynth.so" />
 			<Add library="readline" />
-			<Add library="./libfluidsynth.so" />
+			<Add library="pulse" />
+			<Add library="pulse-simple" />
 			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
 		</Linker>
 		<Unit filename="config.h" />
