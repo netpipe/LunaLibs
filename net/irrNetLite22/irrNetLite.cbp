@@ -18,9 +18,8 @@
 			<Add alias="All" targets="default;" />
 		</VirtualTargets>
 		<Compiler>
-			<Add option="-DCOMPILE_WITH_IRRLICHT" />
-			<Add directory="../../irrlicht-1.8.4/include" />
 			<Add directory="../enet-1.2.1/include" />
+			<Add directory="../../irrlicht-1.8.4/include" />
 		</Compiler>
 		<Linker>
 			<Add option="--no-export-all-symbols --add-stdcall-alias" />

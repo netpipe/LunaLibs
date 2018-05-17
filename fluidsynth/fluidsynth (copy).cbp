@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Irrlicht Pong" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./fluidsynth" prefix_auto="0" extension_auto="0" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-fPIC" />
+			<Add option="-I/usr/include/atk-1.0 -I/usr/include/pango-1.0" />
+			<Add option="-I/usr/include/pixman-1" />
+			<Add option="`pkg-config gtk+-2.0 --cflags`" />
+			<Add option="`wx-config --cflags --gl-libs`" />
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/include" />
+			<Add directory="../include/fluidsynth" />
+			<Add directory="utils" />
+			<Add directory="midi" />
+			<Add directory="drivers" />
+			<Add directory="bindings" />
+			<Add directory="synth" />
+			<Add directory="rvoice" />
+			<Add directory="sfloader" />
+			<Add directory="./" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config gtk+-2.0 --libs`" />
+			<Add library="GL" />
+			<Add library="Irrlicht" />
+			<Add library="Xxf86vm" />
+			<Add library="X11" />
+			<Add library="./fluidsynth.so" />
+			<Add library="sndfile" />
+			<Add library="openal" />
+			<Add library="readline" />
+			<Add library="pulse" />
+			<Add library="pulse-simple" />
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
+		</Linker>
+		<Unit filename="config.h" />
+		<Unit filename="fluidsynth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
