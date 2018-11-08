@@ -110,6 +110,31 @@
 					<Add directory="../../../../src" />
 				</ResourceCompiler>
 			</Target>
+			<Target title="Linux">
+				<Option output="../../lib/Release/LinearMath" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="LinearMath.dir/Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DUSE_GRAPHICAL_BENCHMARK" />
+					<Add option="-D_IRR_STATIC_LIB_" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_SCL_SECURE_NO_WARNINGS" />
+					<Add option='-DCMAKE_INTDIR=\&quot;Release\&quot;' />
+					<Add directory="../../../../Glut" />
+					<Add directory="../../../../src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../../../Glut" />
+					<Add directory="../../../../src" />
+				</ResourceCompiler>
+			</Target>
 		</Build>
 		<Unit filename="../../../../src/LinearMath/btAabbUtil2.h" />
 		<Unit filename="../../../../src/LinearMath/btAlignedAllocator.cpp" />

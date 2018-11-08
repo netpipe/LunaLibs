@@ -116,10 +116,10 @@
 			</Target>
 		</Build>
 		<Unit filename="../../../../src/MiniCL/MiniCL.cpp" />
-		<Unit filename="../../../../src/MiniCL/MiniCLTaskScheduler.cpp" />
-		<Unit filename="../../../../src/MiniCL/MiniCLTaskScheduler.h" />
 		<Unit filename="../../../../src/MiniCL/MiniCLTask/MiniCLTask.cpp" />
 		<Unit filename="../../../../src/MiniCL/MiniCLTask/MiniCLTask.h" />
+		<Unit filename="../../../../src/MiniCL/MiniCLTaskScheduler.cpp" />
+		<Unit filename="../../../../src/MiniCL/MiniCLTaskScheduler.h" />
 		<Unit filename="../../../../src/MiniCL/cl.h" />
 		<Unit filename="../../../../src/MiniCL/cl_MiniCL_Defs.h" />
 		<Unit filename="../../../../src/MiniCL/cl_gl.h" />

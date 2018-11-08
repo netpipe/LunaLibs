@@ -1,3 +1,6 @@
+/** @file test.h 
+ *  @brief Doxy Test File
+ */
 /* FluidSynth - A Software Synthesizer
  *
  * Copyright (C) 2003  Peter Hanappe and others.
