@@ -145,9 +145,15 @@
 			<Add option="-DCAUDIO_EXPORTS" />
 			<Add directory="../include" />
 			<Add directory="./../libogg-1.1.4/include" />
+			<Add directory="C:/Dev/openal-soft-1.19.1-bin/include/AL" />
+			<Add directory="../../libogg-1.1.4/include" />
+			<Add directory="../../libvorbis-1.2.3/include" />
 		</Compiler>
 		<Linker>
 			<Add directory="dependencies/Libs/windows" />
+			<Add directory="../../libvorbis-1.2.3" />
+			<Add directory="../../libogg-1.1.4" />
+			<Add directory="../../../openal-soft-1.19.1-bin/libs/Win32" />
 		</Linker>
 		<Unit filename="Headers/cAudioCapture.h" />
 		<Unit filename="Headers/cAudioEffects.h" />
