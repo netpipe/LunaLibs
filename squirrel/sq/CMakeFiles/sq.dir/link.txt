@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG   CMakeFiles/sq.dir/sq.c.o  -o ../bin/sq -Wl,-rpath,/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/squirrel/lib64: ../lib64/libsqstdlib.so.0.0.0 ../lib64/libsquirrel.so.0.0.0 
