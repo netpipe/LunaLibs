@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Tutorial4_AudioCapture" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\DependenciesSource\;CMake Files\DependenciesSource\libogg-1.2.2\;CMake Files\DependenciesSource\libvorbis-1.3.2\;CMake Files\Examples\;CMake Files\Examples\Tutorial1_2DSound\;CMake Files\Examples\Tutorial2_3DSound\;CMake Files\Examples\Tutorial3_MemoryPlayback\;CMake Files\Examples\Tutorial4_AudioCapture\;CMake Files\Examples\Tutorial5_AudioEffects\;CMake Files\Examples\Tutorial6_CustomEventHandler\;CMake Files\Examples\Tutorial7_CustomLogReceiver\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\;CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\;CMake Files\CMake\;CMake Files\CMake\Utils\;CMake Files\CMake\Packages\;CMake Files\CMake\Templates\;CMake Files\cAudio\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Tutorial4_AudioCapture">
+         <Option output="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Tutorial4_AudioCapture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/AL" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/include" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/cAudio/include" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 Tutorial4_AudioCapture" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Tutorial4_AudioCapture/fast">
+         <Option output="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Tutorial4_AudioCapture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include/AL" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/include" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/cAudio/include" />
+            <Add directory="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 Tutorial4_AudioCapture/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libogg-1.2.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DependenciesSource\libogg-1.2.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libogg-1.2.2/libogg_src_files.cmake">
+          <Option virtualFolder="CMake Files\DependenciesSource\libogg-1.2.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libogg-1.2.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DependenciesSource\libogg-1.2.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libogg-1.2.2/libogg_src_files.cmake">
+          <Option virtualFolder="CMake Files\DependenciesSource\libogg-1.2.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libvorbis-1.3.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DependenciesSource\libvorbis-1.3.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libvorbis-1.3.2/libvorbis_src_files.cmake">
+          <Option virtualFolder="CMake Files\DependenciesSource\libvorbis-1.3.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libvorbis-1.3.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\DependenciesSource\libvorbis-1.3.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/DependenciesSource/libvorbis-1.3.2/libvorbis_src_files.cmake">
+          <Option virtualFolder="CMake Files\DependenciesSource\libvorbis-1.3.2\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial1_2DSound/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial1_2DSound\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial1_2DSound/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial1_2DSound\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial2_3DSound/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial2_3DSound\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial2_3DSound/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial2_3DSound\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial3_MemoryPlayback/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial3_MemoryPlayback\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial3_MemoryPlayback/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial3_MemoryPlayback\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial4_AudioCapture\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial4_AudioCapture/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial4_AudioCapture\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial5_AudioEffects/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial5_AudioEffects\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial5_AudioEffects/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial5_AudioEffects\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial6_CustomEventHandler/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial6_CustomEventHandler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial6_CustomEventHandler/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial6_CustomEventHandler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial7_CustomLogReceiver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial7_CustomLogReceiver\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/Examples/Tutorial7_CustomLogReceiver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Examples\Tutorial7_CustomLogReceiver\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeGenericSystem.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeCInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/UnixPaths.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU-C.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Platform\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU-C.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/../../../../../../usr/share/cmake-2.8/Modules/Compiler/GNU.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\cmake-2.8\Modules\Compiler\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/CMakeDependentOption.cmake">
+          <Option virtualFolder="CMake Files\CMake\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/ConfigureBuild.cmake">
+          <Option virtualFolder="CMake Files\CMake\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Dependencies.cmake">
+          <Option virtualFolder="CMake Files\CMake\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/InstallDependencies.cmake">
+          <Option virtualFolder="CMake Files\CMake\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Utils/PreprocessorUtils.cmake">
+          <Option virtualFolder="CMake Files\CMake\Utils\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Utils/MacroLogFeature.cmake">
+          <Option virtualFolder="CMake Files\CMake\Utils\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Utils/FindPkgMacros.cmake">
+          <Option virtualFolder="CMake Files\CMake\Utils\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Utils/FindPkgMacros.cmake">
+          <Option virtualFolder="CMake Files\CMake\Utils\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Packages/FindOpenAL.cmake">
+          <Option virtualFolder="CMake Files\CMake\Packages\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/CMake/Templates/cAudioBuildSettings.h.in">
+          <Option virtualFolder="CMake Files\CMake\Templates\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/cAudio/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cAudio\" />
+      </Unit>
+      <Unit filename="/home/Dev/libs/Media/cAudio/cAudio-2.1.0/cAudio/cAudio_src_files.cmake">
+          <Option virtualFolder="CMake Files\cAudio\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
