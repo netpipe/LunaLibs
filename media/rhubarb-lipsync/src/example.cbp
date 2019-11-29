@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Irrlicht Pong" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./Pong" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/include" />
+			<Add directory="./" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="GL" />
+			<Add library="Xxf86vm" />
+			<Add library="X11" />
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
+		</Linker>
+		<Unit filename="animation/ShapeRule.cpp" />
+		<Unit filename="animation/ShapeRule.h" />
+		<Unit filename="animation/animationRules.cpp" />
+		<Unit filename="animation/animationRules.h" />
+		<Unit filename="animation/mouthAnimation.cpp" />
+		<Unit filename="animation/mouthAnimation.h" />
+		<Unit filename="animation/pauseAnimation.cpp" />
+		<Unit filename="animation/pauseAnimation.h" />
+		<Unit filename="animation/roughAnimation.cpp" />
+		<Unit filename="animation/roughAnimation.h" />
+		<Unit filename="animation/shapeShorthands.h" />
+		<Unit filename="animation/staticSegments.cpp" />
+		<Unit filename="animation/staticSegments.h" />
+		<Unit filename="animation/targetShapeSet.cpp" />
+		<Unit filename="animation/targetShapeSet.h" />
+		<Unit filename="animation/timingOptimization.cpp" />
+		<Unit filename="animation/timingOptimization.h" />
+		<Unit filename="animation/tweening.cpp" />
+		<Unit filename="animation/tweening.h" />
+		<Unit filename="audio/AudioClip.cpp" />
+		<Unit filename="audio/AudioClip.h" />
+		<Unit filename="audio/AudioSegment.cpp" />
+		<Unit filename="audio/AudioSegment.h" />
+		<Unit filename="audio/DcOffset.cpp" />
+		<Unit filename="audio/DcOffset.h" />
+		<Unit filename="audio/OggVorbisFileReader.cpp" />
+		<Unit filename="audio/OggVorbisFileReader.h" />
+		<Unit filename="audio/SampleRateConverter.cpp" />
+		<Unit filename="audio/SampleRateConverter.h" />
+		<Unit filename="audio/WaveFileReader.cpp" />
+		<Unit filename="audio/WaveFileReader.h" />
+		<Unit filename="audio/audioFileReading.cpp" />
+		<Unit filename="audio/audioFileReading.h" />
+		<Unit filename="audio/ioTools.h" />
+		<Unit filename="audio/processing.cpp" />
+		<Unit filename="audio/processing.h" />
+		<Unit filename="audio/voiceActivityDetection.cpp" />
+		<Unit filename="audio/voiceActivityDetection.h" />
+		<Unit filename="audio/waveFileWriting.cpp" />
+		<Unit filename="audio/waveFileWriting.h" />
+		<Unit filename="core/Phone.cpp" />
+		<Unit filename="core/Phone.h" />
+		<Unit filename="core/Shape.cpp" />
+		<Unit filename="core/Shape.h" />
+		<Unit filename="core/appInfo.cpp.in" />
+		<Unit filename="core/appInfo.h" />
+		<Unit filename="exporters/DatExporter.cpp" />
+		<Unit filename="exporters/DatExporter.h" />
+		<Unit filename="exporters/Exporter.h" />
+		<Unit filename="exporters/JsonExporter.cpp" />
+		<Unit filename="exporters/JsonExporter.h" />
+		<Unit filename="exporters/TsvExporter.cpp" />
+		<Unit filename="exporters/TsvExporter.h" />
+		<Unit filename="exporters/XmlExporter.cpp" />
+		<Unit filename="exporters/XmlExporter.h" />
+		<Unit filename="exporters/exporterTools.cpp" />
+		<Unit filename="exporters/exporterTools.h" />
+		<Unit filename="lib/rhubarbLib.cpp" />
+		<Unit filename="lib/rhubarbLib.h" />
+		<Unit filename="logging/Entry.cpp" />
+		<Unit filename="logging/Entry.h" />
+		<Unit filename="logging/Formatter.h" />
+		<Unit filename="logging/Level.cpp" />
+		<Unit filename="logging/Level.h" />
+		<Unit filename="logging/Sink.h" />
+		<Unit filename="logging/formatters.cpp" />
+		<Unit filename="logging/formatters.h" />
+		<Unit filename="logging/logging.cpp" />
+		<Unit filename="logging/logging.h" />
+		<Unit filename="logging/sinks.cpp" />
+		<Unit filename="logging/sinks.h" />
+		<Unit filename="rhubarb/ExportFormat.cpp" />
+		<Unit filename="rhubarb/ExportFormat.h" />
+		<Unit filename="rhubarb/RecognizerType.cpp" />
+		<Unit filename="rhubarb/RecognizerType.h" />
+		<Unit filename="rhubarb/main.cpp" />
+		<Unit filename="rhubarb/semanticEntries.cpp" />
+		<Unit filename="rhubarb/semanticEntries.h" />
+		<Unit filename="rhubarb/sinks.cpp" />
+		<Unit filename="rhubarb/sinks.h" />
+		<Unit filename="time/BoundedTimeline.h" />
+		<Unit filename="time/ContinuousTimeline.h" />
+		<Unit filename="time/TimeRange.cpp" />
+		<Unit filename="time/TimeRange.h" />
+		<Unit filename="time/Timed.h" />
+		<Unit filename="time/Timeline.h" />
+		<Unit filename="time/centiseconds.cpp" />
+		<Unit filename="time/centiseconds.h" />
+		<Unit filename="time/timedLogging.h" />
+		<Unit filename="tools/EnumConverter.h" />
+		<Unit filename="tools/Lazy.h" />
+		<Unit filename="tools/NiceCmdLineOutput.cpp" />
+		<Unit filename="tools/NiceCmdLineOutput.h" />
+		<Unit filename="tools/ObjectPool.h" />
+		<Unit filename="tools/ProgressBar.cpp" />
+		<Unit filename="tools/ProgressBar.h" />
+		<Unit filename="tools/TablePrinter.cpp" />
+		<Unit filename="tools/TablePrinter.h" />
+		<Unit filename="tools/array.h" />
+		<Unit filename="tools/exceptions.cpp" />
+		<Unit filename="tools/exceptions.h" />
+		<Unit filename="tools/fileTools.cpp" />
+		<Unit filename="tools/fileTools.h" />
+		<Unit filename="tools/nextCombination.h" />
+		<Unit filename="tools/pairs.h" />
+		<Unit filename="tools/parallel.h" />
+		<Unit filename="tools/platformTools.cpp" />
+		<Unit filename="tools/platformTools.h" />
+		<Unit filename="tools/progress.cpp" />
+		<Unit filename="tools/progress.h" />
+		<Unit filename="tools/stringTools.cpp" />
+		<Unit filename="tools/stringTools.h" />
+		<Unit filename="tools/textFiles.cpp" />
+		<Unit filename="tools/textFiles.h" />
+		<Unit filename="tools/tools.cpp" />
+		<Unit filename="tools/tools.h" />
+		<Unit filename="tools/tupleHash.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
