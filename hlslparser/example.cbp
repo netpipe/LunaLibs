@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Irrlicht Pong" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="./Pong" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="GL" />
+			<Add library="Xxf86vm" />
+			<Add library="X11" />
+			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
+		</Linker>
+		<Unit filename="CodeWriter.cpp" />
+		<Unit filename="CodeWriter.h" />
+		<Unit filename="Engine/Allocator.h" />
+		<Unit filename="Engine/Array.h" />
+		<Unit filename="Engine/Assert.h" />
+		<Unit filename="Engine/Log.cpp" />
+		<Unit filename="Engine/Log.h" />
+		<Unit filename="Engine/String.cpp" />
+		<Unit filename="Engine/String.h" />
+		<Unit filename="Engine/StringPool.cpp" />
+		<Unit filename="Engine/StringPool.h" />
+		<Unit filename="GLSLGenerator.cpp" />
+		<Unit filename="GLSLGenerator.h" />
+		<Unit filename="HLSLGenerator.cpp" />
+		<Unit filename="HLSLGenerator.h" />
+		<Unit filename="HLSLParser.cpp" />
+		<Unit filename="HLSLParser.h" />
+		<Unit filename="HLSLTokenizer.cpp" />
+		<Unit filename="HLSLTokenizer.h" />
+		<Unit filename="HLSLTree.cpp" />
+		<Unit filename="HLSLTree.h" />
+		<Unit filename="Main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

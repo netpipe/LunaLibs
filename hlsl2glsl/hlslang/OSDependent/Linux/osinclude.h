@@ -33,7 +33,7 @@ typedef unsigned int OS_TLSIndex;
 
 OS_TLSIndex OS_AllocTLSIndex();
 bool        OS_SetTLSValue(OS_TLSIndex nIndex, void *lpvValue);
-bool        OS_FreeTLSIndex(OS_TLSIndex nIndex); 
+bool        OS_FreeTLSIndex(OS_TLSIndex nIndex);
 
 
 inline void * OS_GetTLSValue(OS_TLSIndex nIndex)
@@ -42,7 +42,7 @@ inline void * OS_GetTLSValue(OS_TLSIndex nIndex)
 	// This function should return 0 if nIndex is invalid.
 	//
 	assert(nIndex != OS_INVALID_TLS_INDEX);
-	return pthread_getspecific(nIndex); 
+	return pthread_getspecific(nIndex);
 }
 
 #endif // __OSINCLUDE_H

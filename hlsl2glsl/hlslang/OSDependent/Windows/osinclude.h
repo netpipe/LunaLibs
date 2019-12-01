@@ -10,7 +10,8 @@
 // This file contains contains the window's specific datatypes and
 // declares any windows specific functions.
 //
-
+#ifdef __linux__
+#else
 #if !(defined(_WIN32) || defined(_WIN64))
 #error Trying to include a windows specific file in a non windows build.
 #endif
@@ -36,5 +37,5 @@ inline void* OS_GetTLSValue(OS_TLSIndex nIndex)
 	assert(nIndex != OS_INVALID_TLS_INDEX);
 	return TlsGetValue(nIndex);
 }
-
+#endif // __linux__
 #endif // __OSINCLUDE_H

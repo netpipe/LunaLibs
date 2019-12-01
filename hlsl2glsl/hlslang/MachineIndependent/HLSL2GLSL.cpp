@@ -16,12 +16,12 @@
 
 #include "../Include/InitializeGlobals.h"
 #include "../Include/InitializeParseContext.h"
-#include "osinclude.h"
+#include "../OSDependent/Linux/osinclude.h"
 
 
 // -----------------------------------------------------------------------------
-
-
+//typedef double OS_TLSIndex;
+//#define OS_INVALID_TLS_INDEX (static_cast<OS_TLSIndex>(-1))
 static OS_TLSIndex s_ThreadInitialized = OS_INVALID_TLS_INDEX;
 
 
@@ -36,13 +36,13 @@ static bool InitThread()
 	// already initialized?
 	if (OS_GetTLSValue(s_ThreadInitialized) != 0)
 		return true;
-	
+
 	// initialize per-thread data
 	InitializeGlobalPools();
-	
+
 	if (!InitializeGlobalParseContext())
 		return false;
-	
+
 	if (!OS_SetTLSValue(s_ThreadInitialized, (void *)1))
 	{
 		assert(0 && "InitThread(): Unable to set init flag.");
@@ -56,26 +56,26 @@ static bool InitProcess()
 {
 	if (s_ThreadInitialized != OS_INVALID_TLS_INDEX)
 		return true;
-	
+
 	s_ThreadInitialized = OS_AllocTLSIndex();
 	if (s_ThreadInitialized == OS_INVALID_TLS_INDEX)
 	{
 		assert(0 && "InitProcess(): Failed to allocate TLS area for init flag");
 		return false;
 	}
-	
+
 	if (!InitializePoolIndex())
 	{
 		assert(0 && "InitProcess(): Failed to initalize global pool");
 		return false;
 	}
-	
+
 	if (!InitializeParseContextIndex())
 	{
 		assert(0 && "InitProcess(): Failed to initalize parse context");
 		return false;
 	}
-	
+
 	InitThread();
 	return true;
 }
@@ -87,19 +87,19 @@ static bool DetachThread()
 		return true;
 	if (OS_GetTLSValue(s_ThreadInitialized) == 0)
 		return true;
-	
+
 	bool success = true;
 	if (!OS_SetTLSValue(s_ThreadInitialized, (void *)0))
 	{
 		assert(0 && "DetachThread(): Unable to clear init flag.");
 		success = false;
 	}
-	
+
 	FreeGlobalPools();
-	
+
 	if (!FreeParseContext())
 		success = false;
-	
+
 	return success;
 }
 
@@ -131,7 +131,7 @@ TPoolAllocator* PerProcessGPA = 0;
 ///      Whether to use the global symbol table or the per-language symbol table
 /// \return
 ///      True if succesfully initialized, false otherwise
-static bool InitializeSymbolTable( TBuiltInStrings* BuiltInStrings, EShLanguage language, TInfoSink& infoSink, 
+static bool InitializeSymbolTable( TBuiltInStrings* BuiltInStrings, EShLanguage language, TInfoSink& infoSink,
                             TSymbolTable* symbolTables, bool bUseGlobalSymbolTable )
 {
    TSymbolTable* symbolTable;
@@ -200,7 +200,7 @@ static bool GenerateBuiltInSymbolTable(TInfoSink& infoSink, TSymbolTable* symbol
    TBuiltIns builtIns;
 
    if ( language != EShLangCount )
-   {      
+   {
       InitializeSymbolTable(builtIns.getBuiltInStrings(), language, infoSink, symbolTables, true);
    }
    else
@@ -244,7 +244,7 @@ int C_DECL Hlsl2Glsl_Initialize()
       symTables[EShLangFragment].pop();
 
       builtInPoolAllocator->popAll();
-      delete builtInPoolAllocator;        
+      delete builtInPoolAllocator;
 
    }
 
@@ -255,22 +255,22 @@ void C_DECL Hlsl2Glsl_Shutdown()
 {
 	if (s_ThreadInitialized == OS_INVALID_TLS_INDEX)
 		return;
-	
+
 	if (PerProcessGPA)
 	{
 		SymbolTables[EShLangVertex].pop();
 		SymbolTables[EShLangFragment].pop();
-		
+
 		PerProcessGPA->popAll();
 		delete PerProcessGPA;
 		PerProcessGPA = NULL;
 	}
-	
+
 	DetachThread();
-	
+
 	FreePoolIndex();
 	FreeParseContextIndex();
-	
+
 	OS_FreeTLSIndex(s_ThreadInitialized);
 	s_ThreadInitialized = OS_INVALID_TLS_INDEX;
 }
@@ -457,9 +457,9 @@ const ShUniformInfo* C_DECL Hlsl2Glsl_GetUniformInfo( const ShHandle handle )
 }
 
 
-int C_DECL Hlsl2Glsl_SetUserAttributeNames ( ShHandle handle, 
-                                             const EAttribSemantic *pSemanticEnums, 
-                                             const char *pSemanticNames[], 
+int C_DECL Hlsl2Glsl_SetUserAttributeNames ( ShHandle handle,
+                                             const EAttribSemantic *pSemanticEnums,
+                                             const char *pSemanticNames[],
                                              int nNumSemantics )
 {
 	if (!handle)
