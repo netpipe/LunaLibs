@@ -1,0 +1,190 @@
+# depslib dependency file v1.0
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslCommon.cpp
+	"glslStruct.h"
+	<string.h>
+	<stdlib.h>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslStruct.h
+	"glslCommon.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslCommon.h
+	<sstream>
+	"localintermediate.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/localintermediate.h
+	"../Include/intermediate.h"
+	"../../include/hlsl2glsl.h"
+	"SymbolTable.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/intermediate.h
+	"../Include/Common.h"
+	"../Include/Types.h"
+	"../../include/hlsl2glsl.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/Common.h
+	<basetsd.h>
+	<sys/int_types.h>
+	<stdint.h>
+	<set>
+	<vector>
+	<map>
+	<string>
+	<stdio.h>
+	<sstream>
+	<assert.h>
+	"PoolAlloc.h"
+	"../MachineIndependent/preprocessor/sourceloc.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/PoolAlloc.h
+	<stddef.h>
+	<vector>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/preprocessor/sourceloc.h
+	<sstream>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/Types.h
+	"../Include/Common.h"
+	"../Include/BaseTypes.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/BaseTypes.h
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/include/hlsl2glsl.h
+	<string>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/SymbolTable.h
+	"../Include/Common.h"
+	"../Include/intermediate.h"
+	"../Include/InfoSink.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/InfoSink.h
+	"../Include/Common.h"
+	<math.h>
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslFunction.cpp
+	"glslFunction.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslFunction.h
+	<set>
+	"glslCommon.h"
+	"glslStruct.h"
+	"glslSymbol.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslSymbol.h
+	"glslCommon.h"
+	"glslStruct.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslOutput.cpp
+	"glslOutput.h"
+	<cstdlib>
+	<cstring>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslOutput.h
+	<sstream>
+	"localintermediate.h"
+	"glslCommon.h"
+	"glslStruct.h"
+	"glslSymbol.h"
+	"glslFunction.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslStruct.cpp
+	"glslStruct.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/glslSymbol.cpp
+	"glslSymbol.h"
+	<float.h>
+	<cstring>
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslCrossCompiler.cpp
+	"hlslCrossCompiler.h"
+	"glslOutput.h"
+	"typeSamplers.h"
+	"propagateMutable.h"
+	"hlslLinker.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslCrossCompiler.h
+	"../Include/Common.h"
+	"glslFunction.h"
+	"glslStruct.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/typeSamplers.h
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/propagateMutable.h
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslLinker.h
+	<sstream>
+	"../Include/Common.h"
+	"glslFunction.h"
+
+1575147317 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslLinker.cpp
+	"hlslLinker.h"
+	"glslFunction.h"
+	"hlslCrossCompiler.h"
+	"hlslSupportLib.h"
+	"osinclude.h"
+	<algorithm>
+	<string.h>
+	<set>
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslSupportLib.h
+	<set>
+	<string>
+	"../Include/intermediate.h"
+	"../../include/hlsl2glsl.h"
+
+1575147288 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/OSDependent/Windows/osinclude.h
+	<windows.h>
+	<assert.h>
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/hlslSupportLib.cpp
+	<map>
+	"hlslSupportLib.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/propagateMutable.cpp
+	"propagateMutable.h"
+	<set>
+	"localintermediate.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/GLSLCodeGen/typeSamplers.cpp
+	"typeSamplers.h"
+	"localintermediate.h"
+	"glslOutput.h"
+
+1575145981 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/ConstantFolding.cpp
+	"../Include/intermediate.h"
+
+1575156633 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/HLSL2GLSL.cpp
+	"SymbolTable.h"
+	"ParseHelper.h"
+	"RemoveTree.h"
+	"../../include/hlsl2glsl.h"
+	"Initialize.h"
+	"../GLSLCodeGen/hlslSupportLib.h"
+	"../GLSLCodeGen/hlslCrossCompiler.h"
+	"../GLSLCodeGen/hlslLinker.h"
+	"../Include/InitializeGlobals.h"
+	"../Include/InitializeParseContext.h"
+	"../OSDependent/Linux/osinclude.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/ParseHelper.h
+	"SymbolTable.h"
+	"localintermediate.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/RemoveTree.h
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/MachineIndependent/Initialize.h
+	"../Include/Common.h"
+	"SymbolTable.h"
+	"../../include/hlsl2glsl.h"
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/InitializeGlobals.h
+
+1575145981 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/Include/InitializeParseContext.h
+
+1575149943 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/hlsl2glsl/hlslang/OSDependent/Linux/osinclude.h
+	<pthread.h>
+	<semaphore.h>
+	<assert.h>
+	<errno.h>
+	"Include/InitializeGlobals.h"
+	"Include/PoolAlloc.h"
+

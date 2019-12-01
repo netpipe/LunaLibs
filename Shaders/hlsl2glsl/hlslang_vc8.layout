@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Linux" />
+	<File name="hlslang/GLSLCodeGen/hlslLinker.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="47186" topLine="213" />
+		</Cursor>
+		<Folding>
+			<Collapse line="16" />
+			<Collapse line="26" />
+			<Collapse line="81" />
+			<Collapse line="137" />
+			<Collapse line="192" />
+			<Collapse line="249" />
+			<Collapse line="254" />
+			<Collapse line="259" />
+			<Collapse line="264" />
+			<Collapse line="270" />
+			<Collapse line="276" />
+			<Collapse line="284" />
+			<Collapse line="302" />
+			<Collapse line="311" />
+			<Collapse line="322" />
+			<Collapse line="341" />
+			<Collapse line="383" />
+			<Collapse line="391" />
+			<Collapse line="393" />
+			<Collapse line="565" />
+			<Collapse line="567" />
+			<Collapse line="574" />
+			<Collapse line="595" />
+			<Collapse line="610" />
+			<Collapse line="615" />
+			<Collapse line="704" />
+			<Collapse line="738" />
+			<Collapse line="754" />
+			<Collapse line="760" />
+			<Collapse line="772" />
+			<Collapse line="792" />
+			<Collapse line="809" />
+			<Collapse line="819" />
+			<Collapse line="873" />
+			<Collapse line="920" />
+			<Collapse line="927" />
+			<Collapse line="952" />
+			<Collapse line="972" />
+			<Collapse line="991" />
+			<Collapse line="1010" />
+			<Collapse line="1043" />
+			<Collapse line="1052" />
+			<Collapse line="1079" />
+			<Collapse line="1120" />
+			<Collapse line="1139" />
+			<Collapse line="1210" />
+			<Collapse line="1224" />
+			<Collapse line="1272" />
+			<Collapse line="1316" />
+			<Collapse line="1364" />
+			<Collapse line="1431" />
+			<Collapse line="1485" />
+			<Collapse line="1503" />
+			<Collapse line="1539" />
+			<Collapse line="1699" />
+			<Collapse line="1720" />
+		</Folding>
+	</File>
+	<File name="hlslang/OSDependent/Linux/osinclude.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="890" topLine="14" />
+		</Cursor>
+		<Folding>
+			<Collapse line="39" />
+		</Folding>
+	</File>
+	<File name="hlslang/MachineIndependent/HLSL2GLSL.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="757" topLine="10" />
+		</Cursor>
+		<Folding>
+			<Collapse line="55" />
+			<Collapse line="84" />
+			<Collapse line="133" />
+			<Collapse line="135" />
+			<Collapse line="198" />
+			<Collapse line="217" />
+			<Collapse line="254" />
+			<Collapse line="279" />
+			<Collapse line="288" />
+			<Collapse line="295" />
+			<Collapse line="301" />
+			<Collapse line="387" />
+			<Collapse line="392" />
+			<Collapse line="417" />
+			<Collapse line="425" />
+			<Collapse line="438" />
+			<Collapse line="449" />
+			<Collapse line="459" />
+			<Collapse line="463" />
+			<Collapse line="480" />
+			<Collapse line="489" />
+		</Folding>
+	</File>
+	<EditorTabsLayout layout="0450ec405de2d6f800a313dc00000002=1;Targets - hlslang (generic):hlslang/GLSLCodeGen/hlslLinker.cpp,2;Targets - hlslang (generic):hlslang/OSDependent/Linux/osinclude.h,3;Targets - hlslang (generic):hlslang/MachineIndependent/HLSL2GLSL.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=758;besth=296;minw=758;minh=296;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0450ec405de2d6f800a313dc00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Targets - hlslang (generic)" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="UserM_Debug Win32">
+				<Option output="UserM_Debug/generic/hlsl2glsl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="UserM_Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DTEST_EXPORTS" />
+					<Add option="-DGENERIC_COMPILER" />
+					<Add option="-D_HAS_ITERATOR_DEBUGGING=0" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy /y UserM_Debug\generic\hlsl2glsl.* standalone" />
+				</ExtraCommands>
+			</Target>
+			<Target title="UserM_Release Win32">
+				<Option output="UserM_Release/generic/hlsl2glsl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="UserM_Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DTEST_EXPORTS" />
+					<Add option="-DGENERIC_COMPILER" />
+					<Add option="-D_COMPILER" />
+					<Add option="-D_HAS_ITERATOR_DEBUGGING=0" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</ResourceCompiler>
+				<ExtraCommands>
+					<Add after="xcopy /y UserM_Release\generic\hlsl2glsl.* standalone" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Linux">
+				<Option output="./hlsl2glsl" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="UserM_Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-DTEST_EXPORTS" />
+					<Add option="-DGENERIC_COMPILER" />
+					<Add option="-D_COMPILER" />
+					<Add option="-D_HAS_ITERATOR_DEBUGGING=0" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D__LINUX__" />
+					<Add option="-D__linux__" />
+					<Add option="-Dlinux" />
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="hlslang" />
+					<Add directory="hlslang/MachineIndependent" />
+					<Add directory="hlslang/OSDependent/Windows" />
+					<Add directory="OGLCompilersDLL" />
+				</ResourceCompiler>
+				<ExtraCommands>
+					<Add after="xcopy /y UserM_Release\generic\hlsl2glsl.* standalone" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="Gen_hlslang.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/Link.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslCommon.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslCommon.h" />
+		<Unit filename="hlslang/GLSLCodeGen/glslFunction.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslFunction.h" />
+		<Unit filename="hlslang/GLSLCodeGen/glslOutput.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslOutput.h" />
+		<Unit filename="hlslang/GLSLCodeGen/glslStruct.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslStruct.h" />
+		<Unit filename="hlslang/GLSLCodeGen/glslSymbol.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/glslSymbol.h" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslCrossCompiler.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslCrossCompiler.h" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslLinker.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslLinker.h" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslSupportLib.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/hlslSupportLib.h" />
+		<Unit filename="hlslang/GLSLCodeGen/propagateMutable.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/propagateMutable.h" />
+		<Unit filename="hlslang/GLSLCodeGen/typeSamplers.cpp" />
+		<Unit filename="hlslang/GLSLCodeGen/typeSamplers.h" />
+		<Unit filename="hlslang/Include/BaseTypes.h" />
+		<Unit filename="hlslang/Include/Common.h" />
+		<Unit filename="hlslang/Include/InfoSink.h" />
+		<Unit filename="hlslang/Include/InitializeGlobals.h" />
+		<Unit filename="hlslang/Include/InitializeParseContext.h" />
+		<Unit filename="hlslang/Include/PoolAlloc.h" />
+		<Unit filename="hlslang/Include/Types.h" />
+		<Unit filename="hlslang/Include/intermediate.h" />
+		<Unit filename="hlslang/MachineIndependent/ConstantFolding.cpp" />
+		<Unit filename="hlslang/MachineIndependent/HLSL2GLSL.cpp" />
+		<Unit filename="hlslang/MachineIndependent/InfoSink.cpp" />
+		<Unit filename="hlslang/MachineIndependent/Initialize.cpp" />
+		<Unit filename="hlslang/MachineIndependent/Initialize.h" />
+		<Unit filename="hlslang/MachineIndependent/IntermTraverse.cpp" />
+		<Unit filename="hlslang/MachineIndependent/Intermediate.cpp" />
+		<Unit filename="hlslang/MachineIndependent/ParseHelper.cpp" />
+		<Unit filename="hlslang/MachineIndependent/ParseHelper.h" />
+		<Unit filename="hlslang/MachineIndependent/PoolAlloc.cpp" />
+		<Unit filename="hlslang/MachineIndependent/RemoveTree.cpp" />
+		<Unit filename="hlslang/MachineIndependent/RemoveTree.h" />
+		<Unit filename="hlslang/MachineIndependent/SymbolTable.cpp" />
+		<Unit filename="hlslang/MachineIndependent/SymbolTable.h" />
+		<Unit filename="hlslang/MachineIndependent/intermOut.cpp" />
+		<Unit filename="hlslang/MachineIndependent/localintermediate.h" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader.cpp" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader.h" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader_common.cpp" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader_internal.h" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader_lexer.cpp" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader_lexer.re" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/mojoshader_preprocessor.cpp" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/sourceloc.cpp" />
+		<Unit filename="hlslang/MachineIndependent/preprocessor/sourceloc.h" />
+		<Unit filename="hlslang/OSDependent/Linux/osinclude.h" />
+		<Unit filename="hlslang/OSDependent/Linux/ossource.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
