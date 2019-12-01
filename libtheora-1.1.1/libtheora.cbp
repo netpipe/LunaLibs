@@ -19,7 +19,7 @@
 					<Add option="-DNDEBUG" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
-					<Add directory="./../libogg-1.1.4/include" />
+					<Add directory="../Ogg/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />
@@ -28,7 +28,7 @@
 					<Add directory="././../core/ogg/libogg/include/" />
 				</ResourceCompiler>
 				<Linker>
-					<Add directory="./../libogg-1.1.4/" />
+					<Add directory="./../Ogg/" />
 				</Linker>
 			</Target>
 			<Target title="Debug Win32">
@@ -39,8 +39,6 @@
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
-					<Add option="-W" />
-					<Add option="-O0" />
 					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
 					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
 					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
@@ -51,11 +49,12 @@
 					<Add option="-DLIBTHEORA_EXPORTS" />
 					<Add option="-DDEBUG" />
 					<Add option="-DOC_X86_ASM" />
+					<Add option="-W" />
+					<Add option="-O0" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
-					<Add directory="./..libogg-1.1.4/include" />
+					<Add directory="./../libogg/include" />
 					<Add directory="././../core/ogg/libogg/include/" />
-					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />
@@ -72,8 +71,6 @@
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
-					<Add option="-W" />
-					<Add option="-O0" />
 					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
 					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
 					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
@@ -83,11 +80,12 @@
 					<Add option="-D_USRDLL" />
 					<Add option="-DLIBTHEORA_EXPORTS" />
 					<Add option="-DDEBUG" />
+					<Add option="-W" />
+					<Add option="-O0" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
 					<Add directory="./../libogg/include" />
 					<Add directory="././../core/ogg/libogg/include/" />
-					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />
@@ -157,6 +155,32 @@
 					<Add directory="././../core/ogg/libogg/include/" />
 				</ResourceCompiler>
 			</Target>
+			<Target title="emscripten">
+				<Option output="theora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Linux/em" />
+				<Option type="2" />
+				<Option compiler="emscripten" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="../Ogg/include" />
+					<Add directory="../openal-soft/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="./../Ogg/" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-fPIC" />
@@ -164,6 +188,7 @@
 		<Unit filename="include/theora/codec.h" />
 		<Unit filename="include/theora/theora.h" />
 		<Unit filename="include/theora/theoradec.h" />
+		<Unit filename="include/theora/theoraenc.h" />
 		<Unit filename="lib/analyze.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -175,10 +200,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib/bitpack.h" />
-		<Unit filename="lib/cpu.c">
+		<Unit filename="lib/collect.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lib/cpu.h" />
+		<Unit filename="lib/collect.h" />
 		<Unit filename="lib/dct.h" />
 		<Unit filename="lib/decapiwrapper.c">
 			<Option compilerVar="CC" />
@@ -209,7 +234,6 @@
 		</Unit>
 		<Unit filename="lib/encoder_disabled.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="lib/enquant.c">
 			<Option compilerVar="CC" />
@@ -260,6 +284,7 @@
 		<Unit filename="lib/state.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lib/state.h" />
 		<Unit filename="lib/tokenize.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -284,10 +309,6 @@
 		<Unit filename="lib/x86_vc/x86state.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

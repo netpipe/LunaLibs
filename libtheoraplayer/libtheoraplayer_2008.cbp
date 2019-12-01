@@ -14,8 +14,8 @@
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
-					<Add option="-W" />
 					<Add option="-fPIC" />
+					<Add option="-W" />
 					<Add option="-D__THEORA" />
 					<Add option="-D_YUV_LIBYUV" />
 					<Add option="-D__SSSE3__" />
@@ -30,9 +30,9 @@
 					<Add directory="src/YUV/C" />
 					<Add directory="src/YUV/libyuv" />
 					<Add directory="src/YUV/libyuv/include" />
-					<Add directory="../libogg-1.1.4/include" />
-					<Add directory="../libvorbis-1.2.3/include" />
-					<Add directory="../libtheora-1.1.1/include" />
+					<Add directory="../Ogg/include" />
+					<Add directory="../Vorbis/include" />
+					<Add directory="../theora/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -53,9 +53,9 @@
 					<Add library="vorbis" />
 					<Add directory="lib" />
 					<Add directory="$(SolutionDir)bin/Linux" />
-					<Add directory="../libogg-1.1.4" />
-					<Add directory="../libvorbis-1.2.3/" />
-					<Add directory="../libtheora-1.1.1/" />
+					<Add directory="../Ogg" />
+					<Add directory="../Vorbis/" />
+					<Add directory="../theora/" />
 				</Linker>
 			</Target>
 			<Target title="Linux dynamic">
@@ -294,6 +294,58 @@
 					<Add directory="src/YUV/libyuv/include" />
 				</ResourceCompiler>
 			</Target>
+			<Target title="emscripten">
+				<Option output="./theoraplayer" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="./emobjs" />
+				<Option type="2" />
+				<Option compiler="emscripten" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add option="-W" />
+					<Add option="-D__THEORA" />
+					<Add option="-D_YUV_LIBYUV" />
+					<Add option="-D__SSSE3__" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DTHEORAVIDEO_EXPORTS" />
+					<Add option="-D_LINUX" />
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+					<Add directory="../Ogg/include" />
+					<Add directory="../Vorbis/include" />
+					<Add directory="../theora/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="include/theoraplayer" />
+					<Add directory="../ogg/include" />
+					<Add directory="../vorbis/include" />
+					<Add directory="../theora/include" />
+					<Add directory="src" />
+					<Add directory="src/Theora" />
+					<Add directory="src/YUV" />
+					<Add directory="src/YUV/C" />
+					<Add directory="src/YUV/libyuv" />
+					<Add directory="src/YUV/libyuv/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="theora" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
+					<Add directory="lib" />
+					<Add directory="$(SolutionDir)bin/Linux" />
+					<Add directory="../Ogg" />
+					<Add directory="../Vorbis/" />
+					<Add directory="../theora/" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-fPIC" />
@@ -323,10 +375,7 @@
 		<Unit filename="src/TheoraVideoManager.cpp" />
 		<Unit filename="src/TheoraWorkerThread.cpp" />
 		<Extensions>
-			<envvars />
-			<code_completion />
 			<lib_finder disable_auto="1" />
-			<debugger />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
