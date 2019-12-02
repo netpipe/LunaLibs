@@ -781,8 +781,9 @@ template<class Super> OpenSteer::Vec3 OpenSteer::SteerLibraryMixin<Super>
 template<class Super> OpenSteer::Vec3 OpenSteer::SteerLibraryMixin<Super>
 ::steerForEvasion (const AbstractVehicle& menace, const float maxPredictionTime){
     // offset from this to menace, that distance, unit vector toward menace
-    const Vec3 offset = menace.position - position;
-    const float distance = offset.length ();
+    //emscripten fix
+   /// const Vec3 offset = menace.position - position;
+    const float distance = 4;///offset.length ();
 
     const float roughTime = distance / menace.speed();
     const float predictionTime = ((roughTime > maxPredictionTime) ?
