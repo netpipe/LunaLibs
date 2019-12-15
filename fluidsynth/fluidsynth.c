@@ -1,4 +1,4 @@
-/** @file test.h 
+/** @file test.h
  *  @brief Doxy Test File
  */
 /* FluidSynth - A Software Synthesizer
@@ -583,7 +583,7 @@ int main(int argc, char** argv)
     fluid_settings_setstr(settings, "player.timing-source", "sample");
     fluid_settings_setint(settings, "synth.lock-memory", 0);
   }
-  
+
   /* create the synthesizer */
   synth = new_fluid_synth(settings);
   if (synth == NULL) {
@@ -670,7 +670,7 @@ int main(int argc, char** argv)
         s = NULL;
       if ((s != NULL) && (s[0] != '\0'))
         fluid_synth_sfload(synth, s, 1);
-      
+
       FLUID_FREE(s);
     }
 
@@ -682,7 +682,7 @@ int main(int argc, char** argv)
     fprintf(stderr, "Failed to create the command handler\n");
     goto cleanup;
   }
-  
+
   /* try to load the user or system configuration */
   if (config_file != NULL) {
     fluid_source(cmd_handler, config_file);
@@ -691,7 +691,7 @@ int main(int argc, char** argv)
   } else if (fluid_get_sysconf(buf, sizeof(buf)) != NULL) {
     fluid_source(cmd_handler, buf);
   }
-  
+
   /* run the server, if requested */
 #ifdef NETWORK_SUPPORT
   if (with_server) {
@@ -727,7 +727,7 @@ int main(int argc, char** argv)
     if (player == NULL) {
       fprintf(stderr, "No midi file specified!\n");
       goto cleanup;
-    } 
+    }
 
     fluid_settings_dupstr (settings, "audio.file.name", &filename);
     printf ("Rendering audio to file '%s'..\n", filename);
@@ -758,7 +758,7 @@ int main(int argc, char** argv)
       fluid_player_stop(player);
     }
     if (adriver != NULL || !fluid_settings_str_equal(settings, "player.timing-source", "sample")) {
-      /* if no audio driver and sample timers are used, nothing makes the player advance */  
+      /* if no audio driver and sample timers are used, nothing makes the player advance */
       fluid_player_join(player);
     }
     delete_fluid_player(player);
