@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Linux">
-				<Option output="libenet" prefix_auto="1" extension_auto="1" />
+				<Option output="enet" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option type="2" />
 				<Option compiler="gcc" />
@@ -20,7 +20,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Win32 Release">
-				<Option output="libenet" prefix_auto="1" extension_auto="1" />
+				<Option output="enet" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Release" />
 				<Option type="2" />
@@ -38,7 +38,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Win32 Debug">
-				<Option output="libenet" prefix_auto="1" extension_auto="1" />
+				<Option output="enet" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Debug" />
 				<Option type="2" />
@@ -56,9 +56,23 @@
 					<Add directory="include" />
 				</Compiler>
 			</Target>
+			<Target title="emscripten">
+				<Option output="../emlibs/enet" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output=".emobjs" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-fpic" />
+					<Add option="-DHAS_SOCKLEN_T" />
+					<Add option="-D_LIB" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
 		</Build>
 		<Linker>
-			<Add directory="..\..\zlib-1.2.3" />
+			<Add directory="../../zlib-1.2.3" />
 		</Linker>
 		<Unit filename="callbacks.c">
 			<Option compilerVar="CC" />
@@ -66,15 +80,15 @@
 		<Unit filename="host.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="include\enet\callbacks.h" />
-		<Unit filename="include\enet\enet.h" />
-		<Unit filename="include\enet\list.h" />
-		<Unit filename="include\enet\protocol.h" />
-		<Unit filename="include\enet\time.h" />
-		<Unit filename="include\enet\types.h" />
-		<Unit filename="include\enet\unix.h" />
-		<Unit filename="include\enet\utility.h" />
-		<Unit filename="include\enet\win32.h">
+		<Unit filename="include/enet/callbacks.h" />
+		<Unit filename="include/enet/enet.h" />
+		<Unit filename="include/enet/list.h" />
+		<Unit filename="include/enet/protocol.h" />
+		<Unit filename="include/enet/time.h" />
+		<Unit filename="include/enet/types.h" />
+		<Unit filename="include/enet/unix.h" />
+		<Unit filename="include/enet/utility.h" />
+		<Unit filename="include/enet/win32.h">
 			<Option target="Win32 Release" />
 			<Option target="Win32 Debug" />
 		</Unit>
@@ -100,9 +114,6 @@
 			<Option target="Win32 Release" />
 			<Option target="Win32 Debug" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

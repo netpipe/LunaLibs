@@ -6,7 +6,7 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Linux">
+			<Target title="Linux64">
 				<Option output="theora" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="../objs/theora/Linux" />
@@ -156,7 +156,7 @@
 				</ResourceCompiler>
 			</Target>
 			<Target title="emscripten">
-				<Option output="theora" prefix_auto="1" extension_auto="1" />
+				<Option output="../emlibs/theora" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="../objs/theora/Linux/em" />
 				<Option type="2" />
@@ -168,8 +168,32 @@
 					<Add option="-DNDEBUG" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
+					<Add directory="../media/Ogg/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./include" />
+					<Add directory="./lib" />
+					<Add directory="./../libogg/include" />
+					<Add directory="././../core/ogg/libogg/include/" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="../emlibs" />
+				</Linker>
+			</Target>
+			<Target title="Linux32">
+				<Option output="theora" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../objs/theora/Linux" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add directory="./include" />
+					<Add directory="./lib" />
 					<Add directory="../Ogg/include" />
-					<Add directory="../openal-soft/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />

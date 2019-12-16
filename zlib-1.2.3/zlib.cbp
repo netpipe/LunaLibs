@@ -6,9 +6,9 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Linux32 - Static">
+			<Target title="Linux32">
 				<Option platforms="Unix;Mac;" />
-				<Option output="../Compiled/Linux/libzlib" prefix_auto="1" extension_auto="1" />
+				<Option output="../Compiled/Linux/zlib" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="../objs/zlib/Linux" />
 				<Option type="2" />
@@ -35,8 +35,8 @@
 					<Add library="odbccp32" />
 				</Linker>
 			</Target>
-			<Target title="Linux64 - Static">
-				<Option output="../Libs/Compiled/libzlib" prefix_auto="1" extension_auto="1" />
+			<Target title="Linux64">
+				<Option output="../Libs/Compiled/zlib" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="../objs/zlib/Linux" />
 				<Option type="2" />
@@ -180,7 +180,7 @@
 				</Linker>
 			</Target>
 			<Target title="Win32 LIB Release">
-				<Option output="libzlib" prefix_auto="1" extension_auto="1" />
+				<Option output="zlib" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Win32_LIB_Release" />
 				<Option type="2" />
@@ -194,7 +194,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Win32 LIB Debug">
-				<Option output="C:/Dev/agnostic/libs/zlib-1.2.3/projects/visualc6/Win32_LIB_Debug/libzlib" prefix_auto="1" extension_auto="1" />
+				<Option output="C:/Dev/agnostic/libs/zlib-1.2.3/projects/visualc6/Win32_LIB_Debug/zlib" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Win32_LIB_Debug" />
 				<Option type="2" />
@@ -208,7 +208,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Win32 LIB ASM Release">
-				<Option output="libzlib" prefix_auto="1" extension_auto="1" />
+				<Option output="zlib" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Win32_LIB_ASM_Release" />
 				<Option type="2" />
@@ -224,7 +224,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Win32 LIB ASM Debug">
-				<Option output="libzlibd" prefix_auto="1" extension_auto="1" />
+				<Option output="zlibd" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="Win32_LIB_ASM_Debug" />
 				<Option type="2" />
@@ -238,6 +238,34 @@
 					<Add option="-DASMV" />
 					<Add option="-DASMINF" />
 				</Compiler>
+			</Target>
+			<Target title="emscripten">
+				<Option output="../emobjs/zlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output=".emobjs/zlib/Linux" />
+				<Option type="2" />
+				<Option compiler="emscripten" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
 			</Target>
 		</Build>
 		<Unit filename="README.txt" />
@@ -305,8 +333,9 @@
 			<Option target="Win32 DLL Debug" />
 			<Option target="Win32 DLL ASM Release" />
 			<Option target="Win32 DLL ASM Debug" />
-			<Option target="Linux32 - Static" />
-			<Option target="Linux64 - Static" />
+			<Option target="Linux32" />
+			<Option target="Linux64" />
+			<Option target="emscripten" />
 		</Unit>
 		<Unit filename="zconf.h" />
 		<Unit filename="zlib.h" />
@@ -314,9 +343,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="zutil.h" />
-		<Extensions>
-			<code_completion />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

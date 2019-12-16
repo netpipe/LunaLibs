@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug Win32">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Debug Win32" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -39,7 +39,7 @@
 				</Linker>
 			</Target>
 			<Target title="Debug x64">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Debug x64" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -68,7 +68,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release Win32">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release Win32" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -96,7 +96,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release x64">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release x64" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -124,7 +124,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release_SSE Win32">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release_SSE Win32" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -152,7 +152,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release_SSE x64">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release_SSE x64" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -180,7 +180,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release_SSE2 Win32">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release_SSE2 Win32" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -208,7 +208,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release_SSE2 x64">
-				<Option output="libvorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Win32/Release_SSE2 x64" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -235,15 +235,107 @@
 					<Add directory="../Win32/Release_SSE2 x64" />
 				</Linker>
 			</Target>
+			<Target title="Linux32">
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32/Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add option="-fPIC" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="../libogg-1.1.4/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="../libogg/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../Win32/Debug Win32" />
+					<Add directory="../libvorbis-1.2.3" />
+				</Linker>
+			</Target>
+			<Target title="Linux64">
+				<Option output="vorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32/Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add option="-fPIC" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="../libogg-1.1.4/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="../libogg/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../Win32/Debug Win32" />
+					<Add directory="../libvorbis-1.2.3" />
+				</Linker>
+			</Target>
+			<Target title="emscripten">
+				<Option output="../emlibs/vorbisfile" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32/Debug Win32" />
+				<Option type="2" />
+				<Option compiler="emscripten" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DLIBVORBISFILE_EXPORTS" />
+					<Add directory="include" />
+					<Add directory="../libogg-1.1.4/include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+					<Add directory="../libogg/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libogg" />
+					<Add library="libvorbis" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../Win32/Debug Win32" />
+					<Add directory="../libvorbis-1.2.3" />
+				</Linker>
+			</Target>
 		</Build>
 		<Unit filename="include/vorbis/vorbisfile.h" />
 		<Unit filename="lib/vorbisfile.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
