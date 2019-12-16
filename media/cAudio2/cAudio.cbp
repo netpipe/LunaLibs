@@ -111,7 +111,7 @@
 				<Option output="bin/gcc/cAudio" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/gcc/" />
 				<Option type="3" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createStaticLib="1" />
 				<Compiler>
 					<Add option="-O3" />
@@ -129,9 +129,9 @@
 				</Linker>
 			</Target>
 			<Target title="emscripten">
-				<Option output="bin/gcc/libcAudio.a" prefix_auto="0" extension_auto="0" />
+				<Option output="../emlibs/libcAudio.a" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="" />
-				<Option object_output="obj/gcc/" />
+				<Option object_output="emobj/gcc/" />
 				<Option type="2" />
 				<Option compiler="emscripten" />
 				<Compiler>
@@ -152,6 +152,27 @@
 					<Add directory="../../EMLibs/media/Vorbis/" />
 					<Add directory="../../EMLibs/media/Ogg/" />
 					<Add directory="../../EMLibs/media/openal-soft" />
+				</Linker>
+			</Target>
+			<Target title="Linux32">
+				<Option output="bin/gcc/cAudio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/gcc/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-fPIC" />
+					<Add option="-DHAVE_MALLOC_H" />
+					<Add option="-DCAUDIO_PLATFORM_LINUX" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="vorbisfile" />
+					<Add library="vorbisenc" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="openal" />
 				</Linker>
 			</Target>
 		</Build>
