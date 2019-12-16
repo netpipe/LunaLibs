@@ -1,0 +1,5 @@
+currently builds for both linux64 and emscripten be careful not to rename the lib folder or cmake does not work
+
+also the codeblocks projects are a wip still i might have added extra sources to them by accident to cause the compile collisions.
+
+cmake -DBUILD_SHARED_LIBS=0 .

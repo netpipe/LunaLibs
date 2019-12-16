@@ -1,8 +1,8 @@
-IF(NOT EXISTS "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth/install_manifest.txt")
+IF(NOT EXISTS "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth-emscripten/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth-emscripten/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth-emscripten/install_manifest.txt")
 
-FILE(READ "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth/install_manifest.txt" files)
+FILE(READ "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs-current/media/fluidsynth-emscripten/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"${file}\"")
