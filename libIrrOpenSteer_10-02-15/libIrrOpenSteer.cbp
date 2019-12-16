@@ -4,14 +4,14 @@
 	<Project>
 		<Option title="libOpenSteer" />
 		<Option pch_mode="2" />
-		<Option compiler="emscripten" />
+		<Option compiler="gcc" />
 		<Build>
 			<Target title="Release">
 				<Option output="lib/libIrrOpenSteer.a" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="" />
 				<Option object_output=".obj/Release/" />
 				<Option type="2" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-O3" />
@@ -22,7 +22,7 @@
 				<Option working_dir="" />
 				<Option object_output=".obj/Debug/" />
 				<Option type="2" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-DDEBUG" />
@@ -120,9 +120,6 @@
 		</Unit>
 		<Unit filename="work/help.doxy" />
 		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
 			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
