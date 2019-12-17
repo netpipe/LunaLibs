@@ -444,6 +444,7 @@
 					<Add option="-ffast-math" />
 					<Add option="-fno-exceptions" />
 					<Add option="-U__STRICT_ANSI__" />
+					<Add option="-fPIC" />
 					<Add option="-D_IRR_STATIC_LIB_" />
 					<Add directory="../../include" />
 					<Add directory="zlib" />
@@ -471,6 +472,7 @@
 					<Add option="-ffast-math" />
 					<Add option="-fno-exceptions" />
 					<Add option="-U__STRICT_ANSI__" />
+					<Add option="-fPIC" />
 					<Add option="-D_IRR_STATIC_LIB_" />
 					<Add directory="../../include" />
 					<Add directory="zlib" />

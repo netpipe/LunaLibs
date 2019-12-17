@@ -121,8 +121,10 @@
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBody.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyData.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyHelpers.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyHelpers.h" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyInternals.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodySolverVertexBuffer.h" />
@@ -134,10 +136,6 @@
 		<Unit filename="../../../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSparseSDF.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

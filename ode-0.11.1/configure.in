@@ -229,7 +229,7 @@ AC_SUBST(GL_LIBS)
 dnl stdc++ is required when linking C programs against ode
 AC_CHECK_LIB(stdc++,main,[LIBSTDCXX="-lstdc++"],[LIBSTDCXX=])
 AC_SUBST(LIBSTDCXX)
-AC_CHECK_LIB(pthread,main,[LIBS="$LIBS -lpthread"])
+AC_CHECK_LIB(pthread,main,[LIBS="$LIBS -lpthread -lX11"])
 
 
 dnl test if we will build demos

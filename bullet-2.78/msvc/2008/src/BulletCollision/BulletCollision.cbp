@@ -324,11 +324,55 @@
 		<Unit filename="../../../../src/BulletCollision/NarrowPhaseCollision/btSubSimplexConvexCast.h" />
 		<Unit filename="../../../../src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp" />
 		<Unit filename="../../../../src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h" />
+		<Unit filename="../../../../src/BulletDynamics/Character/btCharacterControllerInterface.h" />
+		<Unit filename="../../../../src/BulletDynamics/Character/btKinematicCharacterController.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Character/btKinematicCharacterController.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btConeTwistConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btConeTwistConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btConstraintSolver.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btContactConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btContactConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btContactSolverInfo.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btGeneric6DofSpringConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btHinge2Constraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btHinge2Constraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btHingeConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btHingeConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btJacobianEntry.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btPoint2PointConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSequentialImpulseConstraintSolver.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSliderConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSliderConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSolve2LinearConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSolverBody.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btSolverConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btTypedConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btTypedConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btUniversalConstraint.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/ConstraintSolver/btUniversalConstraint.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/Bullet-C-API.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btActionInterface.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btContinuousDynamicsWorld.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btContinuousDynamicsWorld.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btDynamicsWorld.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btRigidBody.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btRigidBody.h" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btSimpleDynamicsWorld.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Dynamics/btSimpleDynamicsWorld.h" />
+		<Unit filename="../../../../src/BulletDynamics/Vehicle/btRaycastVehicle.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Vehicle/btRaycastVehicle.h" />
+		<Unit filename="../../../../src/BulletDynamics/Vehicle/btVehicleRaycaster.h" />
+		<Unit filename="../../../../src/BulletDynamics/Vehicle/btWheelInfo.cpp" />
+		<Unit filename="../../../../src/BulletDynamics/Vehicle/btWheelInfo.h" />
 		<Unit filename="../../../../src/btBulletCollisionCommon.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
