@@ -1,0 +1,18 @@
+*.o
+*.a
+*.pyo
+*.pyc
+a.out
+a.out.js
+build
+pyconfig.h
+config.log
+config.status
+Misc/python.pc
+
+# Binaries for the host system
+hostpython
+Parser/hostpgen
+
+# Configuration for Emscripten
+Lib/plat-emscripten/
