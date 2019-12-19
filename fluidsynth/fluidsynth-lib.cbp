@@ -33,13 +33,11 @@
 			<Add directory="./" />
 			<Add directory="include/fluidsynth" />
 			<Add directory="../include/fluidsynth" />
+			<Add directory="include" />
 		</Compiler>
 		<Linker>
 			<Add option="`pkg-config gtk+-2.0 --libs`" />
-			<Add library="GL" />
-			<Add library="Irrlicht" />
 			<Add library="Xxf86vm" />
-			<Add library="X11" />
 			<Add library="asound" />
 			<Add library="jack" />
 			<Add library="openal" />

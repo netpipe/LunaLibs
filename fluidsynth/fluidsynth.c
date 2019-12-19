@@ -46,6 +46,9 @@
 #define WITH_MIDI 1
 #endif
 
+#define TRUE 1
+#define FALSE 0
+
 void print_usage(void);
 void print_help(fluid_settings_t *settings);
 void print_welcome(void);
