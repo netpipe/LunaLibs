@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="SPARK Engine CORE LIB/DLL" />
 		<Option pch_mode="2" />
-		<Option compiler="emscripten" />
+		<Option compiler="gcc" />
 		<Option virtualFolders="Headers/" />
 		<Build>
 			<Target title="STATIC-Debug Win32">
@@ -12,7 +12,7 @@
 				<Option working_dir="" />
 				<Option object_output="Debug Win32" />
 				<Option type="2" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-W" />
@@ -27,7 +27,7 @@
 				<Option working_dir="" />
 				<Option object_output="Release Win32" />
 				<Option type="2" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
@@ -47,7 +47,7 @@
 				<Option working_dir="" />
 				<Option object_output="Release Win32" />
 				<Option type="2" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
@@ -65,7 +65,7 @@
 				<Option working_dir="../../../lib/mingw/dynamic" />
 				<Option object_output="Debug Win32" />
 				<Option type="3" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-W" />
@@ -80,7 +80,7 @@
 				<Option working_dir="../lib/mingw/static" />
 				<Option object_output="Release Win32" />
 				<Option type="3" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
@@ -100,7 +100,7 @@
 				<Option working_dir="../lib/Linux/static" />
 				<Option object_output="Release Win32" />
 				<Option type="3" />
-				<Option compiler="emscripten" />
+				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
 					<Add option="-fexpensive-optimizations" />
@@ -136,10 +136,6 @@
 			<Add directory="../include" />
 		</Compiler>
 		<Unit filename="SPK_All.cpp" />
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

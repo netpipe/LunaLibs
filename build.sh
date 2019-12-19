@@ -2,22 +2,24 @@
 #testing still
 
 
-
+prefix="./test/"
 #itarget=emscripten
-#itarget=Linux64
+itarget=Linux64
 #itarget=Linux32
 #itarget=windows
-#debug=true
+#debugf=64
+debug=true
 
 if ( $debug )
 then
 	debugf=debug
-	debugf=""
+else
+debugf=""
 fi
 
 codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libogg-1.1.4/libogg_static.cbp" 
-codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libvorbis-1.2.3/libvorbis_dynamic.cbp" 
-codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libvorbis-1.2.3/libvorbisfile_dynamic.cbp"
+codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libvorbis-1.2.3/libvorbis_static.cbp" 
+codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libvorbis-1.2.3/libvorbisfile_static.cbp"
 codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libtheora-1.1.1/libtheora.cbp" 
 codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./libtheoraplayer/libtheoraplayer_2008.cbp"
 codeblocks --build ./prefix="$prefix" -v --target=$itarget$debugf "./freetype-2.3.9/freetype.cbp"
