@@ -224,10 +224,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib/bitpack.h" />
-		<Unit filename="lib/collect.c">
+		<Unit filename="lib/cpu.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lib/collect.h" />
+		<Unit filename="lib/cpu.h" />
 		<Unit filename="lib/dct.h" />
 		<Unit filename="lib/decapiwrapper.c">
 			<Option compilerVar="CC" />

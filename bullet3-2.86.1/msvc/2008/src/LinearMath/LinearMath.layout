@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="Debug Win32" />
-	<File name="../../../../src/LinearMath/btQuickprof.cpp" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<ActiveTarget name="Linux" />
+	<File name="../../../../src/LinearMath/btQuickprof.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="918" topLine="0" />
+			<Cursor1 position="902" topLine="14" />
 		</Cursor>
+		<Folding>
+			<Collapse line="70" />
+			<Collapse line="91" />
+			<Collapse line="100" />
+			<Collapse line="105" />
+			<Collapse line="111" />
+			<Collapse line="119" />
+			<Collapse line="143" />
+			<Collapse line="178" />
+			<Collapse line="212" />
+			<Collapse line="276" />
+			<Collapse line="288" />
+			<Collapse line="293" />
+			<Collapse line="325" />
+			<Collapse line="331" />
+			<Collapse line="339" />
+			<Collapse line="353" />
+			<Collapse line="373" />
+			<Collapse line="388" />
+			<Collapse line="397" />
+			<Collapse line="415" />
+			<Collapse line="422" />
+			<Collapse line="428" />
+			<Collapse line="434" />
+			<Collapse line="440" />
+			<Collapse line="455" />
+			<Collapse line="472" />
+			<Collapse line="493" />
+			<Collapse line="517" />
+			<Collapse line="527" />
+			<Collapse line="549" />
+			<Collapse line="566" />
+			<Collapse line="589" />
+			<Collapse line="605" />
+			<Collapse line="614" />
+			<Collapse line="624" />
+			<Collapse line="673" />
+			<Collapse line="686" />
+			<Collapse line="718" />
+			<Collapse line="722" />
+			<Collapse line="729" />
+			<Collapse line="732" />
+			<Collapse line="744" />
+			<Collapse line="748" />
+			<Collapse line="753" />
+			<Collapse line="757" />
+			<Collapse line="763" />
+			<Collapse line="767" />
+			<Collapse line="772" />
+			<Collapse line="777" />
+		</Folding>
 	</File>
-	<EditorTabsLayout layout="04e5fd7059386186003fab6f00000003=*7;LinearMath:../../../../src/LinearMath/btQuickprof.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=04e5fd7059386186003fab6f00000003;caption=;state=2098172;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,0,0)=363|dock_size(5,0,0)=202|" />
+	<EditorTabsLayout layout="04181f605dfbd8590013076b00000002=*0;LinearMath:../../../../src/LinearMath/btQuickprof.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=814;besth=348;minw=814;minh=348;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=04181f605dfbd8590013076b00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>

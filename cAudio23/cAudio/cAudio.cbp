@@ -108,16 +108,77 @@
 					<Add library="OpenAL32" />
 				</Linker>
 			</Target>
-			<Target title="Linux">
+			<Target title="Linux64">
 				<Option output="bin/gcc/cAudio" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/gcc/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-fPIC" />
+					<Add option="-g" />
+					<Add option="-DHAVE_MALLOC_H" />
+					<Add option="-DCAUDIO_MEMORY_USE_STD" />
+					<Add directory="include" />
+					<Add directory="Headers" />
+					<Add directory="dependencies/Headers" />
+					<Add directory="dependencies/Headers/AL" />
+					<Add directory="/usr/include/AL" />
+					<Add directory="../../libogg-1.1.4/include" />
+					<Add directory="../../libvorbis-1.2.3/include" />
+				</Compiler>
+				<Linker>
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="openal" />
+					<Add directory="dependencies/Libs/windows-mingw" />
+					<Add directory="../../libvorbis-1.2.3/" />
+					<Add directory="../../libogg-1.1.4" />
+				</Linker>
+			</Target>
+			<Target title="emscripten">
+				<Option output="bin/emcc/cAudio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/gcc/" />
+				<Option type="3" />
+				<Option compiler="emscripten" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-fPIC" />
+					<Add option="-g" />
+					<Add option="-DHAVE_MALLOC_H" />
+					<Add option="-DCAUDIO_MEMORY_USE_STD" />
+					<Add directory="include" />
+					<Add directory="Headers" />
+					<Add directory="dependencies/Headers" />
+					<Add directory="dependencies/Headers/AL" />
+					<Add directory="/usr/include/AL" />
+					<Add directory="../../libogg-1.1.4/include" />
+					<Add directory="../../libvorbis-1.2.3/include" />
+				</Compiler>
+				<Linker>
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="openal" />
+					<Add directory="dependencies/Libs/windows-mingw" />
+					<Add directory="../../libvorbis-1.2.3/" />
+					<Add directory="../../libogg-1.1.4" />
+				</Linker>
+			</Target>
+			<Target title="LinuxDynamic">
+				<Option output="bin/gcc/cAudio" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/gcc" />
 				<Option object_output="obj/gcc/" />
 				<Option type="3" />
 				<Option compiler="gcc" />
 				<Option createStaticLib="1" />
 				<Compiler>
 					<Add option="-O3" />
-					<Add option="-g" />
 					<Add option="-fPIC" />
+					<Add option="-g" />
 					<Add option="-DHAVE_MALLOC_H" />
 					<Add option="-DCAUDIO_MEMORY_USE_STD" />
 					<Add directory="include" />
@@ -145,15 +206,9 @@
 			<Add option="-DCAUDIO_EXPORTS" />
 			<Add directory="../include" />
 			<Add directory="./../libogg-1.1.4/include" />
-			<Add directory="C:/Dev/openal-soft-1.19.1-bin/include/AL" />
-			<Add directory="../../libogg-1.1.4/include" />
-			<Add directory="../../libvorbis-1.2.3/include" />
 		</Compiler>
 		<Linker>
 			<Add directory="dependencies/Libs/windows" />
-			<Add directory="../../libvorbis-1.2.3" />
-			<Add directory="../../libogg-1.1.4" />
-			<Add directory="../../../openal-soft-1.19.1-bin/libs/Win32" />
 		</Linker>
 		<Unit filename="Headers/cAudioCapture.h" />
 		<Unit filename="Headers/cAudioEffects.h" />
@@ -246,10 +301,6 @@
 		<Unit filename="src/cThread.cpp" />
 		<Unit filename="src/cWavAudioDecoderFactory.cpp" />
 		<Unit filename="src/cWavDecoder.cpp" />
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

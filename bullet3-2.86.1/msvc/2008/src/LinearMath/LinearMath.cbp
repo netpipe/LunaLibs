@@ -110,6 +110,26 @@
 					<Add directory="../../../../src" />
 				</ResourceCompiler>
 			</Target>
+			<Target title="Linux">
+				<Option output="../../lib/Debug/LinearMath" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="LinearMath.dir/Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DUSE_GRAPHICAL_BENCHMARK" />
+					<Add directory="../../../../Glut" />
+					<Add directory="../../../../src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../../../Glut" />
+					<Add directory="../../../../src" />
+				</ResourceCompiler>
+			</Target>
 		</Build>
 		<Unit filename="../../../../src/LinearMath/btAabbUtil2.h" />
 		<Unit filename="../../../../src/LinearMath/btAlignedAllocator.cpp" />
@@ -141,10 +161,6 @@
 		<Unit filename="../../../../src/LinearMath/btTransform.h" />
 		<Unit filename="../../../../src/LinearMath/btTransformUtil.h" />
 		<Unit filename="../../../../src/LinearMath/btVector3.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
