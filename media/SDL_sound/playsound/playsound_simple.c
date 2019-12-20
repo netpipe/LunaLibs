@@ -169,9 +169,9 @@ int main(int argc, char **argv)
         return(42);
     } /* if */
 
-    for (i = 1; i < argc; i++)  /* each arg is an audio file to play. */
-        playOneSoundFile(argv[i]);
-
+//    for (i = 1; i < argc; i++)  /* each arg is an audio file to play. */
+//        playOneSoundFile(argv[i]);
+playOneSoundFile("./bling.ogg");
     /* Shutdown the libraries... */
     Sound_Quit();
     SDL_Quit();
