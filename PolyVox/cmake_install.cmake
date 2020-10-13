@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox
+# Install script for directory: /home/netpipe/desktops/Luna/LunaLibs/PolyVox
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/examples/Basic/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/examples/Paging/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/examples/OpenGL/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/examples/SmoothLOD/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/tests/cmake_install.cmake")
-  include("/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/documentation/cmake_install.cmake")
+  include("/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/cmake_install.cmake")
+  include("/home/netpipe/desktops/Luna/LunaLibs/PolyVox/documentation/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/netpipe/desktops/Luna/LunaLibs/PolyVox/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

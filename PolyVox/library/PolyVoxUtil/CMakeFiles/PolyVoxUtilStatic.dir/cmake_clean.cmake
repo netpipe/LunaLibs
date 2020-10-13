@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.o"
-  "libPolyVoxUtil.pdb"
   "libPolyVoxUtil.a"
+  "libPolyVoxUtil.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

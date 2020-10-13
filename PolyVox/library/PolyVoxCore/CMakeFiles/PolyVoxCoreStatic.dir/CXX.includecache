@@ -6,83 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/AStarPathfinder.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/AStarPathfinder.cpp
 PolyVoxCore/AStarPathfinder.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/AStarPathfinder.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/AStarPathfinder.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/ArraySizes.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/ArraySizes.cpp
 PolyVoxCore/ArraySizes.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/ArraySizes.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/ArraySizes.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Density.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Density.cpp
 PolyVoxCore/Density.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Density.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Density.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/GradientEstimators.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/GradientEstimators.cpp
 PolyVoxImpl/TypeDef.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/TypeDef.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/TypeDef.h
 PolyVoxCore/GradientEstimators.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/GradientEstimators.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/GradientEstimators.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Log.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Log.cpp
 PolyVoxCore/Log.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Log.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Log.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Material.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Material.cpp
 PolyVoxCore/Material.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Material.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Material.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/MaterialDensityPair.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/MaterialDensityPair.cpp
 PolyVoxCore/MaterialDensityPair.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MaterialDensityPair.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MaterialDensityPair.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/MeshDecimator.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/MeshDecimator.cpp
 PolyVoxCore/MeshDecimator.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MeshDecimator.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MeshDecimator.h
 PolyVoxCore/SurfaceMesh.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/SurfaceMesh.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/SurfaceMesh.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/MarchingCubesTables.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/MarchingCubesTables.cpp
 PolyVoxImpl/MarchingCubesTables.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/MarchingCubesTables.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/MarchingCubesTables.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/RandomUnitVectors.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/RandomUnitVectors.cpp
 PolyVoxImpl/RandomUnitVectors.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/RandomUnitVectors.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/RandomUnitVectors.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/RandomVectors.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/RandomVectors.cpp
 PolyVoxImpl/RandomVectors.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/RandomVectors.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/RandomVectors.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/Utility.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/Utility.cpp
 PolyVoxImpl/Utility.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/Utility.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxImpl/PolyVoxImpl/Utility.h
 cassert
 -
 stdexcept
 -
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Region.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/Region.cpp
 PolyVoxCore/Region.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Region.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Region.h
 limits
 -
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/SimpleInterface.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/SimpleInterface.cpp
 PolyVoxCore/SimpleInterface.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/SimpleInterface.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/SimpleInterface.h
 PolyVoxCore/Density.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Density.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/Density.h
 PolyVoxCore/MaterialDensityPair.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MaterialDensityPair.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/MaterialDensityPair.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/VertexTypes.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/VertexTypes.cpp
 PolyVoxCore/VertexTypes.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/VertexTypes.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/VertexTypes.h
 
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/VoxelFilters.cpp
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/VoxelFilters.cpp
 PolyVoxCore/VoxelFilters.h
-/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/VoxelFilters.h
+/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/source/PolyVoxCore/VoxelFilters.h
 
 library/PolyVoxCore/include/PolyVoxCore/AStarPathfinder.h
 PolyVoxImpl/AStarPathfinderImpl.h

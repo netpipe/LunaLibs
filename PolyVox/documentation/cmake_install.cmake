@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox/documentation
+# Install script for directory: /home/netpipe/desktops/Luna/LunaLibs/PolyVox/documentation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
