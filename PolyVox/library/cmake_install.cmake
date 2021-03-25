@@ -1,4 +1,4 @@
-# Install script for directory: /home/netpipe/desktops/Luna/LunaLibs/PolyVox/library
+# Install script for directory: /home/gamedev/Desktop/LunaLibs/PolyVox/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/PolyVox/cmake" TYPE FILE FILES "/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/PolyVox/cmake" TYPE FILE FILES "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxCore/cmake_install.cmake")
-  include("/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxUtil/cmake_install.cmake")
+  include("/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/cmake_install.cmake")
+  include("/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxUtil/cmake_install.cmake")
 
 endif()
 

@@ -19,7 +19,7 @@
 					<Add option="-DNDEBUG" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
-					<Add directory="../Ogg/include" />
+					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />
@@ -193,7 +193,7 @@
 					<Add option="-DNDEBUG" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
-					<Add directory="../Ogg/include" />
+					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />

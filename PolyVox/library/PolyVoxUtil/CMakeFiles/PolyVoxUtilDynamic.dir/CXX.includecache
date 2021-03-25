@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxUtil/source/Dummy.cpp
+/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxUtil/source/Dummy.cpp
 PolyVoxImpl/TypeDef.h
-/home/netpipe/desktops/Luna/LunaLibs/PolyVox/library/PolyVoxUtil/source/PolyVoxImpl/TypeDef.h
+/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxUtil/source/PolyVoxImpl/TypeDef.h
 
 library/PolyVoxCore/include/PolyVoxImpl/TypeDef.h
 boost/smart_ptr.hpp
