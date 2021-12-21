@@ -1,3 +1,6 @@
 the libs dir was missing due to its size, i will slowly add in whats needed or remake this smaller with espeak.
 
 may not compile yet either.
+
+https://github.com/netpipe/emRhubarb-lip-sync is a working emscripten compiling version.
+

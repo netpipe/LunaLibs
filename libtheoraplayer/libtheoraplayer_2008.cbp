@@ -33,6 +33,9 @@
 					<Add directory="../Ogg/include" />
 					<Add directory="../Vorbis/include" />
 					<Add directory="../theora/include" />
+					<Add directory="../libogg-1.1.4/include" />
+					<Add directory="../libvorbis-1.2.3/include" />
+					<Add directory="../libtheora-1.1.1/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -56,6 +59,9 @@
 					<Add directory="../Ogg" />
 					<Add directory="../Vorbis/" />
 					<Add directory="../theora/" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../libvorbis-1.2.3/" />
+					<Add directory="../libtheora-1.1.1/" />
 				</Linker>
 			</Target>
 			<Target title="Linux dynamic">
@@ -66,8 +72,8 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
-					<Add option="-W" />
 					<Add option="-fPIC" />
+					<Add option="-W" />
 					<Add option="-D__THEORA" />
 					<Add option="-D_YUV_LIBYUV" />
 					<Add option="-D__SSSE3__" />
@@ -321,6 +327,7 @@
 					<Add directory="../media/Ogg/include" />
 					<Add directory="../libvorbis-1.2.3/include" />
 					<Add directory="../libtheora-1.1.1/include" />
+					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -344,6 +351,9 @@
 					<Add directory="../media/Ogg" />
 					<Add directory="../Vorbis/" />
 					<Add directory="../theora/" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../libvorbis-1.2.3/" />
+					<Add directory="../libtheora-1.1.1/" />
 				</Linker>
 			</Target>
 		</Build>

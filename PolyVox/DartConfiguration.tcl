@@ -4,8 +4,13 @@
 
 
 # Configuration directories and files
+<<<<<<< HEAD
 SourceDirectory: /home/netpipe/gamedev/LunaLibs/PolyVox
 BuildDirectory: /home/netpipe/gamedev/LunaLibs/PolyVox
+=======
+SourceDirectory: /home/netpipe/desktops/Luna/LunaLibs/PolyVox
+BuildDirectory: /home/netpipe/desktops/Luna/LunaLibs/PolyVox
+>>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +31,11 @@ SubmitURL: http://my.cdash.org/submit.php?project=PolyVox
 NightlyStartTime: 00:00:00 GMT
 
 # Commands for the build/test/submit cycle
+<<<<<<< HEAD
 ConfigureCommand: "/usr/bin/cmake" "/home/netpipe/gamedev/LunaLibs/PolyVox"
+=======
+ConfigureCommand: "/usr/bin/cmake" "/home/netpipe/desktops/Luna/LunaLibs/PolyVox"
+>>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

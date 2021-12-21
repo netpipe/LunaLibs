@@ -15,9 +15,14 @@
 		<Project filename="irrlicht-1.8.4/source/Irrlicht/Irrlicht-gcc.cbp" />
 		<Project filename="assimp-3.3.1/Assimp.cbp" />
 		<Project filename="cAudio23/cAudio/cAudio.cbp" />
+<<<<<<< HEAD
 		<Project filename="bullet3-2.86.1/msvc/2008/src/LinearMath/LinearMath.cbp" />
 		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletSoftBody/BulletSoftBody.cbp" />
 		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletDynamics/BulletDynamics.cbp" />
 		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletCollision/BulletCollision.cbp" />
+=======
+		<Project filename="SparkEngine/src/SPARK.cbp" />
+		<Project filename="SparkEngine/src/SPARK-IRR.cbp" />
+>>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
 	</Workspace>
 </CodeBlocks_workspace_file>
