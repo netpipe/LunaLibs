@@ -1,6 +1,8 @@
 The Open Dynamics Engine (ODE), Copyright (C) 2001-2007 Russell L. Smith.
 -------------------------------------------------------------------------
 
+make CPPFLAGS="-fpermissive"
+
 ODE is a free, industrial quality library for simulating articulated
 rigid body dynamics - for example ground vehicles, legged creatures,
 and moving objects in VR environments. It is fast, flexible, robust

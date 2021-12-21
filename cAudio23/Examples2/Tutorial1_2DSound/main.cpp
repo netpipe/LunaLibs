@@ -7,7 +7,7 @@
 #include <string>
 
 //Include cAudio.h so we can work wtih cAudio
-#include "../../include/cAudio.h"
+#include "cAudio.h"
 
 using namespace std;
 

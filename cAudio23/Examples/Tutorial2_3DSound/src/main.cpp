@@ -14,7 +14,7 @@
 #elif defined(CAUDIO_PLATFORM_WIN)
 #   define AUDIO_FILE(_soundName_) CAUDIO_MEDIA_ROOT##_soundName_
 #else
-#   define AUDIO_FILE(_soundName_) CAUDIO_MEDIA_ROOT#_soundName_
+#   define AUDIO_FILE(_soundName_) #_soundName_
 #endif
 
 
@@ -63,11 +63,11 @@ int main(int argc, char* argv[])
 		//Create a IAudio object and load a sound from a file
 
 #if defined(CAUDIO_COMPILER_MINGW)
-        cAudio::IAudioSource* mysound = audioMgr->create("bling", "../Media/bling.ogg",true);
+        cAudio::IAudioSource* mysound = audioMgr->create("bling", "../../Media/bling.ogg",true);
 #elif defined(CAUDIO_PLATFORM_WIN)
 		cAudio::IAudioSource* mysound = audioMgr->create("bling", AUDIO_FILE("bling.ogg"),true);
 #else
-		cAudio::IAudioSource* mysound = audioMgr->create("bling", AUDIO_FILE(bling.ogg),true);
+        cAudio::IAudioSource* mysound = audioMgr->create("bling", "../../Media/bling.ogg",true);
 #endif
 
 		//Set the IAudio Sound to play3d and loop

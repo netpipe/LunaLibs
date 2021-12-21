@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
-		<Project filename="../LunaLibs/libogg-1.1.4/libogg_static.cbp" />
-		<Project filename="../LunaLibs/libvorbis-1.2.3/libvorbis_dynamic.cbp" />
-		<Project filename="../LunaLibs/libvorbis-1.2.3/libvorbisfile_dynamic.cbp" />
-		<Project filename="../LunaLibs/libtheora-1.1.1/libtheora.cbp" />
-		<Project filename="../LunaLibs/libtheoraplayer/libtheoraplayer_2008.cbp" />
-		<Project filename="../LunaLibs/freetype-2.3.9/freetype.cbp" />
-		<Project filename="../LunaLibs/net/enet-1.2.1/enet.cbp" />
-		<Project filename="../LunaLibs/zlib-1.2.3/zlib.cbp" />
-		<Project filename="../LunaLibs/libIrrOpenSteer_10-02-15/libIrrOpenSteer.cbp" />
-		<Project filename="../LunaLibs/net/irrNetLite22/irrNetLite.cbp" />
-		<Project filename="../LunaLibs/OIS/LinuxCB/OIS.cbp" />
-		<Project filename="../LunaLibs/irrlicht-1.8.4/source/Irrlicht/Irrlicht-gcc.cbp" />
-		<Project filename="../LunaLibs/assimp-3.3.1/Assimp.cbp" />
-		<Project filename="../LunaLibs/cAudio23/cAudio/cAudio.cbp" />
+		<Project filename="libogg-1.1.4/libogg_static.cbp" />
+		<Project filename="libvorbis-1.2.3/libvorbis_dynamic.cbp" />
+		<Project filename="libvorbis-1.2.3/libvorbisfile_dynamic.cbp" />
+		<Project filename="libtheora-1.1.1/libtheora.cbp" />
+		<Project filename="libtheoraplayer/libtheoraplayer_2008.cbp" />
+		<Project filename="freetype-2.3.9/freetype.cbp" />
+		<Project filename="net/enet-1.2.1/enet.cbp" />
+		<Project filename="zlib-1.2.3/zlib.cbp" />
+		<Project filename="libIrrOpenSteer_10-02-15/libIrrOpenSteer.cbp" />
+		<Project filename="net/irrNetLite22/irrNetLite.cbp" />
+		<Project filename="OIS/LinuxCB/OIS.cbp" />
+		<Project filename="irrlicht-1.8.4/source/Irrlicht/Irrlicht-gcc.cbp" />
+		<Project filename="assimp-3.3.1/Assimp.cbp" />
+		<Project filename="cAudio23/cAudio/cAudio.cbp" />
+		<Project filename="bullet3-2.86.1/msvc/2008/src/LinearMath/LinearMath.cbp" />
+		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletSoftBody/BulletSoftBody.cbp" />
+		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletDynamics/BulletDynamics.cbp" />
+		<Project filename="bullet3-2.86.1/msvc/2008/src/BulletCollision/BulletCollision.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

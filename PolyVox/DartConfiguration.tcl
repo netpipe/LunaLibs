@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox
-BuildDirectory: /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox
+SourceDirectory: /home/netpipe/gamedev/LunaLibs/PolyVox
+BuildDirectory: /home/netpipe/gamedev/LunaLibs/PolyVox
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: linux-fc4y
+Site: localhost.localdomain
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -20,23 +20,13 @@ BuildName: Linux-c++
 LabelsForSubprojects: 
 
 # Submission information
-IsCDash: TRUE
-CDashVersion: 
-QueryCDashVersion: 
-DropSite: my.cdash.org
-DropLocation: /submit.php?project=PolyVox
-DropSiteUser: 
-DropSitePassword: 
-DropSiteMode: 
-DropMethod: http
-TriggerSite: 
-ScpCommand: /usr/bin/scp
+SubmitURL: http://my.cdash.org/submit.php?project=PolyVox
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 GMT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/PolyVox"
+ConfigureCommand: "/usr/bin/cmake" "/home/netpipe/gamedev/LunaLibs/PolyVox"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -73,12 +63,14 @@ UpdateType:
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 7.4.1
+CompilerVersion: 7.5.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
+DrMemoryCommand: 
+DrMemoryCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: /usr/bin/valgrind

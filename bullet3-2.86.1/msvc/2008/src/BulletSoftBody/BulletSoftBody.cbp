@@ -121,12 +121,16 @@
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBody.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyData.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyHelpers.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyHelpers.h" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyInternals.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodySolverVertexBuffer.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftBodySolvers.h" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftMultiBodyDynamicsWorld.cpp" />
+		<Unit filename="../../../../src/BulletSoftBody/btSoftMultiBodyDynamicsWorld.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.h" />
 		<Unit filename="../../../../src/BulletSoftBody/btSoftRigidDynamicsWorld.cpp" />
