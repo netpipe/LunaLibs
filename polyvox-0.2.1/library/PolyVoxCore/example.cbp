@@ -37,7 +37,6 @@
 			<Add library="Xxf86vm" />
 			<Add library="X11" />
 			<Add library="PolyVoxCore" />
-			<Add library="PolyVoxUtil" />
 			<Add directory="/home/Dev/libs/game/Irrlicht-SVN/lib/Linux" />
 			<Add directory="/home/Dev/libs/csg-stuff/polyvox-0.2.1/library/PolyVoxCore" />
 			<Add directory="/home/Dev/libs/csg-stuff/polyvox-0.2.1/library/PolyVoxUtil" />
