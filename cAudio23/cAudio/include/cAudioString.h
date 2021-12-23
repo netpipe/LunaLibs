@@ -44,7 +44,7 @@ namespace cAudio
 #	endif
 #endif
 
-    
+
 #if defined(CAUDIO_PLATFORM_WIN)
     static const TCHAR* toWINSTR(const char* str)
     {
@@ -52,7 +52,7 @@ namespace cAudio
         static int id = 0;
         static wchar_t buffer[8][1024];
         id = ++id & 0x7;
-        
+
         int slen = strlen(str);
         int buff_size = MultiByteToWideChar(CP_UTF8, 0, str, (int)(slen < 1023 ? slen : 1023), buffer[id], 1023);
         buffer[id][buff_size] = 0;
@@ -62,7 +62,7 @@ namespace cAudio
 		return str;
 #endif
     }
-    
+
     static const TCHAR* toWINSTR(const wchar_t* str)
     {
 #if (defined(UNICODE) || defined(_UNICODE))
@@ -71,9 +71,9 @@ namespace cAudio
         static int id = 0;
         static char buffer[8][1024];
         id = ++id & 0x7;
-    
+
         int slen = wcslen(str);
-        int buff_size = WideCharToMultiByte(CP_UTF8, 0, str, (int)(slen < 1023 ? slen : 1023), buffer[id], 1023, 0, false);
+        int buff_size = WideCharToMultiByte(CP_UTF8, 0, str, (int)(slen < 1023 ? slen : 1023), buffer[id], 1023, 0, 0);
         buffer[id][buff_size] = 0;
         buffer[id][1023] = 0;
         return buffer[id];
@@ -87,14 +87,14 @@ namespace cAudio
 	mbstowcs(wa, text, size);
 	return wa;
     }
-    
+
     static const char* toUTF8(const cAudioString& str)
     {
         static int id = 0;
         static char buffer[8][1024];
         id = ++id & 0x7;
-        
-	int buff_size = WideCharToMultiByte(CP_UTF8, 0, charToWChar(str.c_str()), (int)(str.size() < 1023 ? str.size() : 1023), buffer[id], 1023, 0, false);
+
+	int buff_size = WideCharToMultiByte(CP_UTF8, 0, charToWChar(str.c_str()), (int)(str.size() < 1023 ? str.size() : 1023), buffer[id], 1023, 0, 0);
         buffer[id][buff_size] = 0;
         buffer[id][1023] = 0;
         return buffer[id];
@@ -117,9 +117,9 @@ namespace cAudio
         delete[] buffer;
         return s;
     }
-    
+
 #else
-    static const char* toWINSTR(const char* str) 
+    static const char* toWINSTR(const char* str)
     {
 		return str;
     }

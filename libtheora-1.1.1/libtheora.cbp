@@ -39,6 +39,8 @@
 				<Option compiler="gcc" />
 				<Option createDefFile="1" />
 				<Compiler>
+					<Add option="-W" />
+					<Add option="-O0" />
 					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
 					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
 					<Add option="-D_BIND_TO_CURRENT_CRT_VERSION" />
@@ -49,12 +51,11 @@
 					<Add option="-DLIBTHEORA_EXPORTS" />
 					<Add option="-DDEBUG" />
 					<Add option="-DOC_X86_ASM" />
-					<Add option="-W" />
-					<Add option="-O0" />
 					<Add directory="./include" />
 					<Add directory="./lib" />
 					<Add directory="./../libogg/include" />
 					<Add directory="././../core/ogg/libogg/include/" />
+					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="./include" />
@@ -208,6 +209,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-fPIC" />
+			<Add directory="../libogg-1.1.4/include" />
 		</Compiler>
 		<Unit filename="include/theora/codec.h" />
 		<Unit filename="include/theora/theora.h" />
