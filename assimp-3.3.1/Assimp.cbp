@@ -6,7 +6,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="assimp">
-				<Option output="/home/Dev/libs/Media/assimp-git/code/libassimp.dll" prefix_auto="0" extension_auto="0" />
+				<Option output="libassimp.dll" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="/home/Dev/libs/Media/assimp-git/code" />
 				<Option object_output="./" />
 				<Option type="3" />
@@ -141,7 +141,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="assimpWindows static">
-				<Option output="/home/Dev/libs/Media/assimp-git/code/libassimp.a" prefix_auto="0" extension_auto="0" />
+				<Option output="libassimp.a" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="" />
 				<Option object_output="./" />
 				<Option type="2" />
