@@ -44,6 +44,9 @@
 					<Add directory="Headers" />
 					<Add directory="dependencies/Headers" />
 					<Add directory="dependencies/Headers/AL" />
+					<Add directory="C:/Program Files (x86)/OpenAL 1.1 SDK/include" />
+					<Add directory="C:/Dev/LunaLibs/libogg-1.1.4/include" />
+					<Add directory="C:/Dev/LunaLibs/libvorbis-1.2.3/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -52,6 +55,9 @@
 					<Add library="ogg" />
 					<Add library="OpenAL32" />
 					<Add directory="dependencies/Libs/windows-mingw" />
+					<Add directory="C:/Dev/LunaLibs/libogg-1.1.4" />
+					<Add directory="C:/Dev/LunaLibs/libvorbis-1.2.3" />
+					<Add directory="C:/Program Files (x86)/OpenAL 1.1 SDK/libs/Win64" />
 				</Linker>
 			</Target>
 			<Target title="Debug Visual">

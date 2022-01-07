@@ -14,10 +14,10 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
+					<Add option="-fPIC" />
 					<Add option="-g" />
 					<Add option="-W" />
 					<Add option="-O0" />
-					<Add option="-fPIC" />
 					<Add option="-DWIN32" />
 					<Add option="-D_DEBUG" />
 					<Add option="-D_WINDOWS" />
@@ -103,14 +103,15 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
+					<Add option="-W" />
 					<Add option="-DWIN32" />
 					<Add option="-DNDEBUG" />
 					<Add option="-D_WINDOWS" />
 					<Add option="-D_USRDLL" />
 					<Add option="-DLIBVORBISFILE_EXPORTS" />
-					<Add option="-W" />
 					<Add directory="include" />
 					<Add directory="../libogg/include" />
+					<Add directory="../libogg-1.1.4/include" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -121,6 +122,8 @@
 					<Add library="libvorbis" />
 					<Add directory="../libogg/win32/VS2008/Win32/Release x64" />
 					<Add directory="../Win32/Release x64" />
+					<Add directory="../libogg-1.1.4" />
+					<Add directory="../libvorbis-1.2.3" />
 				</Linker>
 			</Target>
 			<Target title="Release_SSE Win32">

@@ -98,7 +98,39 @@
 			<Add directory="include" />
 			<Add directory="../" />
 			<Add directory="../compat" />
+			<Add directory="../lib" />
 		</Compiler>
+		<Unit filename="../lib/Makefile" />
+		<Unit filename="../lib/Makefile.in" />
+		<Unit filename="../lib/block.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/encode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/extract.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/features.h" />
+		<Unit filename="../lib/handle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/internal.h" />
+		<Unit filename="../lib/libtar.h" />
+		<Unit filename="../lib/libtar_listhash.h" />
+		<Unit filename="../lib/output.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/tar.h" />
+		<Unit filename="../lib/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/wrapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="libtar.c">
 			<Option compilerVar="CC" />
 		</Unit>

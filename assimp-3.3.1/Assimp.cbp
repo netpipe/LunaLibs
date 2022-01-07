@@ -5,104 +5,8 @@
 		<Option title="Assimp" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="all">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 all' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="install/strip">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install/strip' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 edit_cache' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="uninstall">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 uninstall' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 rebuild_cache' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="list_install_components">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 list_install_components' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install/local' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 install' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
 			<Target title="assimp">
-				<Option output="/home/Dev/libs/Media/assimp-git/code/libassimp.so" prefix_auto="0" extension_auto="0" />
+				<Option output="libassimp.dll" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="/home/Dev/libs/Media/assimp-git/code" />
 				<Option object_output="./" />
 				<Option type="3" />
@@ -127,13 +31,16 @@
 					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include" />
 					<Add directory="/usr/include" />
 				</Compiler>
+				<Linker>
+					<Add library="z" />
+				</Linker>
 				<MakeCommands>
 					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp' />
 					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
 					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean' />
 					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean' />
 					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+					<SilentBuild command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp &gt; $(CMD_NULL)' />
 				</MakeCommands>
 			</Target>
 			<Target title="assimp/fast">
@@ -233,22 +140,23 @@
 					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
-			<Target title="unit">
-				<Option output="/home/Dev/libs/Media/assimp-git/test/unit" prefix_auto="0" extension_auto="0" />
-				<Option working_dir="/home/Dev/libs/Media/assimp-git/test" />
+			<Target title="assimpWindows static">
+				<Option output="libassimp.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
 				<Option object_output="./" />
-				<Option type="1" />
+				<Option type="2" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-DOPENDDL_NO_USE_CPP11" />
 					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB" />
 					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER" />
-					<Add option='-DASSIMP_TEST_MODELS_DIR=&quot;./test/models&quot;' />
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT" />
+					<Add option="-DOPENDDLPARSER_BUILD" />
 					<Add directory="/home/Dev/libs/Media/assimp-git" />
 					<Add directory="./include" />
-					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/googletest/include" />
-					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/gtest/include" />
-					<Add directory="./code" />
+					<Add directory="./code/../contrib/rapidjson/include" />
+					<Add directory="./code/../contrib/openddlparser/include" />
+					<Add directory="/usr/include/minizip" />
 					<Add directory="/usr/include/c++/5" />
 					<Add directory="/usr/include/c++/5/x86_64-suse-linux" />
 					<Add directory="/usr/include/c++/5/backward" />
@@ -258,1415 +166,1797 @@
 					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include" />
 					<Add directory="/usr/include" />
 				</Compiler>
+				<Linker>
+					<Add library="z" />
+				</Linker>
 				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 unit' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
+					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp' />
+					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 clean' />
 					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="unit/fast">
-				<Option output="/home/Dev/libs/Media/assimp-git/test/unit" prefix_auto="0" extension_auto="0" />
-				<Option working_dir="/home/Dev/libs/Media/assimp-git/test" />
-				<Option object_output="./" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-DOPENDDL_NO_USE_CPP11" />
-					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB" />
-					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER" />
-					<Add option='-DASSIMP_TEST_MODELS_DIR=&quot;./test/models&quot;' />
-					<Add directory="/home/Dev/libs/Media/assimp-git" />
-					<Add directory="./include" />
-					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/googletest/include" />
-					<Add directory="/home/Dev/libs/Media/assimp-git/test/gtest/src/gtest/gtest/include" />
-					<Add directory="./code" />
-					<Add directory="/usr/include/c++/5" />
-					<Add directory="/usr/include/c++/5/x86_64-suse-linux" />
-					<Add directory="/usr/include/c++/5/backward" />
-					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include" />
-					<Add directory="/usr/local/include" />
-					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/include-fixed" />
-					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/5/../../../../x86_64-suse-linux/include" />
-					<Add directory="/usr/include" />
-				</Compiler>
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 unit/fast' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
-				</MakeCommands>
-			</Target>
-			<Target title="gtest">
-				<Option type="4" />
-				<Option compiler="gcc" />
-				<MakeCommands>
-					<Build command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 gtest' />
-					<CompileFile command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
-					<Clean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
-					<DistClean command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/test/Makefile&quot;  VERBOSE=1 clean' />
-					<AskRebuildNeeded command="$make -q -f $makefile $target" />
-					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+					<SilentBuild command='/usr/bin/gmake -j6 -f &quot;/home/Dev/libs/Media/assimp-git/code/Makefile&quot;  VERBOSE=1 assimp &gt; $(CMD_NULL)' />
 				</MakeCommands>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-fPIC" />
+			<Add option="-O" />
 			<Add directory="../assimp-3.3.1" />
 		</Compiler>
 		<Unit filename="code/3DSConverter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/3DSExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/3DSExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/3DSHelper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/3DSLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/3DSLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ACLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ACLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ASELoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ASELoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ASEParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ASEParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssbinExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssbinExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssbinLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssbinLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Assimp.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssimpCExport.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssxmlExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/AssxmlExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/B3DImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/B3DImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BVHLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BVHLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BaseImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BaseImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BaseProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BaseProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Bitmap.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Bitmap.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderBMesh.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderBMesh.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderDNA.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderDNA.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderDNA.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderIntermediate.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderModifier.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderModifier.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderScene.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderScene.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderSceneGen.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderTessellator.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlenderTessellator.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/BlobIOSystem.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ByteSwapper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/CInterfaceIOWrapper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/COBLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/COBLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/COBScene.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/CSMLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/CSMLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/CalcTangentsProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/CalcTangentsProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaHelper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ColladaParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ComputeUVMappingProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ComputeUVMappingProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ConvertToLHProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ConvertToLHProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/D3MFImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/D3MFImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/D3MFOpcPackage.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/D3MFOpcPackage.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DXFHelper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DXFLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DXFLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DeboneProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DeboneProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultIOStream.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultIOStream.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultIOSystem.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultIOSystem.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultLogger.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/DefaultProgressHandler.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Exporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXAnimation.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXBinaryTokenizer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXCompileConfig.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXConverter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXConverter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXDeformer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXDocument.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXDocument.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXDocumentUtil.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXDocumentUtil.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXImportSettings.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXMaterial.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXMeshGeometry.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXMeshGeometry.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXModel.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXNodeAttribute.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXProperties.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXProperties.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXTokenizer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXTokenizer.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXUtil.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FBXUtil.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FileLogStream.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindDegenerates.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindDegenerates.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindInstancesProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindInstancesProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindInvalidDataProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FindInvalidDataProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FixNormalsStep.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/FixNormalsStep.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/GenFaceNormalsProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/GenFaceNormalsProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/GenVertexNormalsProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/GenVertexNormalsProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/GenericProperty.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/HMPFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/HMPLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/HMPLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/HalfLifeFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Hash.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCBoolean.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCCurve.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCGeometry.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCMaterial.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCOpenings.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCProfile.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCReaderGen.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCReaderGen.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCUtil.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFCUtil.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IFF.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRMeshLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRMeshLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRShared.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/IRRShared.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Importer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Importer.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ImporterRegistry.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ImproveCacheLocality.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ImproveCacheLocality.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/JoinVerticesProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/JoinVerticesProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOAnimation.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOAnimation.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOBLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWOMaterial.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWSLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LWSLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LimitBoneWeightsProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LimitBoneWeightsProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LineSplitter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/LogAux.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD2FileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD2Loader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD2Loader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD2NormalTable.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD3FileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD3Loader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD3Loader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD5Loader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD5Loader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD5Parser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MD5Parser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDCFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDCLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDCLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDCNormalTable.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDLDefaultColorMap.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDLFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDLLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDLLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MDLMaterialLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MS3DLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MS3DLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MakeVerboseFormat.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MakeVerboseFormat.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MaterialSystem.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MaterialSystem.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/MemoryIOWrapper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/NDOLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/NDOLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/NFFLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/NFFLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OFFLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OFFLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileMtlImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileMtlImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjFileParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ObjTools.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreBinarySerializer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreBinarySerializer.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreMaterial.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreParsingUtils.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreStructs.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreStructs.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreXmlSerializer.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OgreXmlSerializer.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OpenGEXExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OpenGEXExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OpenGEXImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OpenGEXImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OpenGEXStructs.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OptimizeGraph.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OptimizeGraph.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OptimizeMeshes.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/OptimizeMeshes.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ParsingUtils.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PlyParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PolyTools.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PostStepRegistry.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PretransformVertices.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/PretransformVertices.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ProcessHelper.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ProcessHelper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Profiler.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPFileData.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPFileImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPFileImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPFileParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPFileParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPZipArchive.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3BSPZipArchive.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3DLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Q3DLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RawLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RawLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveComments.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveComments.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveRedundantMaterials.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveRedundantMaterials.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveVCProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/RemoveVCProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SGSpatialSort.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SGSpatialSort.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SIBImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SIBImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SMDLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SMDLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STEPFile.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STEPFileEncoding.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STEPFileEncoding.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STEPFileReader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STEPFileReader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STLExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STLExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STLLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/STLLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SceneCombiner.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SceneCombiner.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ScenePreprocessor.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ScenePreprocessor.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ScenePrivate.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SkeletonMeshBuilder.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SkeletonMeshBuilder.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SmoothingGroups.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SortByPTypeProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SortByPTypeProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SpatialSort.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SpatialSort.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SplitByBoneCountProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SplitByBoneCountProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SplitLargeMeshes.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/SplitLargeMeshes.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StandardShapes.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StandardShapes.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StdOStreamLogStream.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StepExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StepExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StreamReader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StreamWriter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StringComparison.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/StringUtils.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Subdivision.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Subdivision.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TargetAnimation.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TargetAnimation.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TerragenLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TerragenLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TextureTransform.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TextureTransform.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TinyFormatter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TriangulateProcess.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/TriangulateProcess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/UnrealLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/UnrealLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ValidateDataStructure.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/ValidateDataStructure.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Version.cpp">
 			<Option target="assimp" />
-			<Option target="unit" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Vertex.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/VertexTriangleAdjacency.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/VertexTriangleAdjacency.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/Win32DebugLogStream.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileHelper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XFileParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XGLLoader.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XGLLoader.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/XMLTools.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/fast_atof.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFAsset.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFAsset.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFAssetWriter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFAssetWriter.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFExporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFExporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFImporter.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/glTFImporter.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/irrXMLWrapper.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="code/qnan.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/ConvertUTF/ConvertUTF.c">
 			<Option compilerVar="CC" />
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/ConvertUTF/ConvertUTF.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/clipper/clipper.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/clipper/clipper.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/CXMLReaderImpl.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/heapsort.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/irrArray.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/irrString.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/irrTypes.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/irrXML.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/irrXML/irrXML.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/code/DDLNode.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/code/OpenDDLCommon.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/code/OpenDDLExport.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/code/OpenDDLParser.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/code/Value.cpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/DDLNode.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/OpenDDLCommon.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/OpenDDLExport.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/OpenDDLParser.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/openddlparser/include/openddlparser/Value.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/common/shapes.cc">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/common/shapes.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/common/utils.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/advancing_front.cc">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/advancing_front.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/cdt.cc">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/cdt.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/sweep.cc">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/sweep.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/sweep_context.cc">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="contrib/poly2tri/poly2tri/sweep/sweep_context.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
+		<Unit filename="contrib/unzip/crypt.h" />
+		<Unit filename="contrib/unzip/ioapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="contrib/unzip/ioapi.h" />
+		<Unit filename="contrib/unzip/unzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="contrib/unzip/unzip.h" />
 		<Unit filename="include/assimp/Compiler/poppack1.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/Compiler/pstdint.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/Compiler/pushpack1.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/DefaultLogger.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/Exporter.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/IOStream.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/IOSystem.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/Importer.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/LogStream.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/Logger.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/NullLogger.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/ProgressHandler.hpp">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/ai_assert.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/anim.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/camera.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/cexport.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/cfileio.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/cimport.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/color4.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/color4.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/config.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/defs.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/importerdesc.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/light.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/material.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/material.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/matrix3x3.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/matrix3x3.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/matrix4x4.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/matrix4x4.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/mesh.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/metadata.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/postprocess.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/quaternion.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/quaternion.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/scene.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/texture.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/types.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/vector2.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/vector2.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/vector3.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/vector3.inl">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="include/assimp/version.h">
 			<Option target="assimp" />
+			<Option target="assimpWindows static" />
 		</Unit>
 		<Unit filename="test/unit/AssimpAPITest.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/CCompilerTest.c">
 			<Option compilerVar="CC" />
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/Main.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utBlendImportAreaLight.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utBlendImportMaterials.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utColladaExportCamera.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utColladaExportLight.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utFastAtof.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utFindDegenerates.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utFindInvalidData.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utFixInfacingNormals.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utGenNormals.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utIOSystem.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utImporter.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utImproveCacheLocality.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utIssues.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utJoinVertices.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utLimitBoneWeights.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utMaterialSystem.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utMatrix3x3.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utMatrix4x4.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utPretransformVertices.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utRemoveComments.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utRemoveComponent.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utRemoveRedundantMaterials.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utScenePreprocessor.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utSharedPPData.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utSortByPType.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utSplitLargeMeshes.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utTargetAnimation.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utTextureTransform.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utTriangulate.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="test/unit/utVertexTriangleAdjacency.cpp">
-			<Option target="unit" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="tools/assimp_cmd/CompareDump.cpp">
 			<Option target="assimp_cmd" />
@@ -1690,6 +1980,7 @@
 			<Option target="assimp_cmd" />
 		</Unit>
 		<Unit filename="tools/assimp_cmd/assimp_cmd.rc">
+			<Option compilerVar="WINDRES" />
 			<Option target="assimp_cmd" />
 		</Unit>
 		<Unit filename="tools/assimp_cmd/resource.h">

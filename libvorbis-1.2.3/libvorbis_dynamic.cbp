@@ -97,15 +97,17 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
 					<Add option="-DWIN32" />
 					<Add option="-DNDEBUG" />
 					<Add option="-D_WINDOWS" />
 					<Add option="-D_USRDLL" />
 					<Add option="-DLIBVORBIS_EXPORTS" />
-					<Add option="-Wall" />
-					<Add option="-O3" />
 					<Add directory="include" />
 					<Add directory="../libogg/include" />
+					<Add directory="../libogg-1.1.4/include" />
+					<Add directory="lib" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="include" />
@@ -114,6 +116,7 @@
 				<Linker>
 					<Add library="libogg" />
 					<Add directory="../libogg/win32/VS2005/Win32/Release x64" />
+					<Add directory="../libogg-1.1.4/" />
 				</Linker>
 			</Target>
 			<Target title="Linux32">
