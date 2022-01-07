@@ -1,0 +1,1141 @@
+# depslib dependency file v1.0
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_init.c
+
+1640719551 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/cAudioDemo.cpp
+	<iostream>
+	<fluidlite.h>
+	"cAudio.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidlite.h
+	<stdio.h>
+	"fluidsynth/types.h"
+	"fluidsynth/settings.h"
+	"fluidsynth/synth.h"
+	"fluidsynth/sfont.h"
+	"fluidsynth/ramsfont.h"
+	"fluidsynth/log.h"
+	"fluidsynth/misc.h"
+	"fluidsynth/mod.h"
+	"fluidsynth/gen.h"
+	"fluidsynth/voice.h"
+	"fluidsynth/version.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/types.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/settings.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/synth.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/sfont.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/ramsfont.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/log.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/misc.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/mod.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/gen.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/voice.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/version.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cAudio.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioSleep.h"
+	"EAudioFormats.h"
+	"IAudioSource.h"
+	"IAudioCapture.h"
+	"IAudioDecoder.h"
+	"IAudioDecoderFactory.h"
+	"IAudioEffects.h"
+	"IAudioManager.h"
+	"IDataSource.h"
+	"IEffect.h"
+	"IEffectParameters.h"
+	"IFilter.h"
+	"IListener.h"
+	"ILogger.h"
+	"ILogReceiver.h"
+	"IPluginManager.h"
+	"IRefCounted.h"
+	"IAudioDeviceList.h"
+
+1640197704 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioDefines.h
+	"cAudioPlatform.h"
+	"cAudioBuildSettings.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioPlatform.h
+	<windows.h>
+
+1640197960 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioBuildSettings.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/EAudioFormats.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioSource.h
+	"cAudioDefines.h"
+	"IRefCounted.h"
+	"IAudioDecoder.h"
+	"cVector3.h"
+	"IEffect.h"
+	"IFilter.h"
+	"ISourceEventHandler.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IRefCounted.h
+	"cAudioMemory.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioMemory.h
+	"cAudioDefines.h"
+	"IMemoryProvider.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IMemoryProvider.h
+	"cAudioDefines.h"
+	<cstring>
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioDecoder.h
+	"IRefCounted.h"
+	"IDataSource.h"
+	"EAudioFormats.h"
+	"cAudioString.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IDataSource.h
+	"IRefCounted.h"
+
+1640197984 /home/netpipe/Desktop/cAudio/cAudio/include/cAudioString.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioMemory.h"
+	"cSTLAllocator.h"
+	<string>
+	<stdlib.h>
+	<direct.h>
+	<io.h>
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cSTLAllocator.h
+	"cAudioDefines.h"
+	"cAudioMemory.h"
+	<set>
+	<map>
+	<list>
+	<vector>
+	<string>
+	<cstddef>
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/cVector3.h
+	<math.h>
+	<limits>
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/ISourceEventHandler.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/ICaptureEventHandler.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioDecoderFactory.h
+	"IAudioDecoder.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IManagerEventHandler.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/ILogReceiver.h
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IPluginManager.h
+	"IAudioPlugin.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1639894896 /home/netpipe/Desktop/cAudio/cAudio/include/IAudioDeviceList.h
+	"cAudioString.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.c
+	"fluid_chan.h"
+	"fluid_mod.h"
+	"fluid_synth.h"
+	"fluid_sfont.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.h
+	"fluidsynth_priv.h"
+	"fluid_midi.h"
+	"fluid_tuning.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluidsynth_priv.h
+	"fluid_config.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdarg.h>
+	<fcntl.h>
+	<limits.h>
+	"fluidlite.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_config.h
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_midi.h
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_list.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.h
+	"fluidsynth_priv.h"
+	"fluid_conv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.h
+	"fluid_config.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+	"fluid_rev.h"
+	"fluid_voice.h"
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.h
+	"fluid_phase.h"
+	"fluid_gen.h"
+	"fluid_mod.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_phase.h
+	"fluid_config.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_sfont.h
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.c
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.c
+	"fluid_conv.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.c
+	"fluid_defsfont.h"
+	"fluid_sfont.h"
+	"fluid_sys.h"
+	"vorbis/codec.h"
+	"vorbis/vorbisenc.h"
+	"vorbis/vorbisfile.h"
+	"stb_vorbis.c"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_dsp_float.c
+	"fluidsynth_priv.h"
+	"fluid_phase.h"
+	"fluidsynth_priv.h"
+	"fluid_synth.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.c
+	"fluid_gen.h"
+	"fluid_chan.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.c
+	"fluidsynth_priv.h"
+	"fluid_hash.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.h
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.c
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.c
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.c
+	"fluid_ramsfont.h"
+	"fluid_sys.h"
+	"fluid_synth.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_defsfont.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.c
+	"fluid_rev.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.c
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_hash.h"
+	"fluid_synth.h"
+	"fluid_settings.h"
+
+1635750602 /home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.h
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.c
+	<math.h>
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_chan.h"
+	"fluid_tuning.h"
+	"fluid_settings.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.c
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.c
+	"fluid_tuning.h"
+	"fluidsynth_priv.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.c
+	"fluidsynth_priv.h"
+	"fluid_voice.h"
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_conv.h"
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/Desktop/cAudio/Examples/Tutorial10Fluidlite/src/standalone/stb/stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<limits.h>
+	<crtdbg.h>
+
+1640719551 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/cAudioDemo.cpp
+	<iostream>
+	<fluidlite.h>
+	"cAudio.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidlite.h
+	<stdio.h>
+	"fluidsynth/types.h"
+	"fluidsynth/settings.h"
+	"fluidsynth/synth.h"
+	"fluidsynth/sfont.h"
+	"fluidsynth/ramsfont.h"
+	"fluidsynth/log.h"
+	"fluidsynth/misc.h"
+	"fluidsynth/mod.h"
+	"fluidsynth/gen.h"
+	"fluidsynth/voice.h"
+	"fluidsynth/version.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/types.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/settings.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/synth.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/sfont.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/ramsfont.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/log.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/misc.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/mod.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/gen.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/voice.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/version.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudio.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioSleep.h"
+	"EAudioFormats.h"
+	"IAudioSource.h"
+	"IAudioCapture.h"
+	"IAudioDecoder.h"
+	"IAudioDecoderFactory.h"
+	"IAudioEffects.h"
+	"IAudioManager.h"
+	"IDataSource.h"
+	"IEffect.h"
+	"IEffectParameters.h"
+	"IFilter.h"
+	"IListener.h"
+	"ILogger.h"
+	"ILogReceiver.h"
+	"IPluginManager.h"
+	"IRefCounted.h"
+	"IAudioDeviceList.h"
+
+1640197704 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioDefines.h
+	"cAudioPlatform.h"
+	"cAudioBuildSettings.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioPlatform.h
+	<windows.h>
+
+1640197960 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioBuildSettings.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/EAudioFormats.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioSource.h
+	"cAudioDefines.h"
+	"IRefCounted.h"
+	"IAudioDecoder.h"
+	"cVector3.h"
+	"IEffect.h"
+	"IFilter.h"
+	"ISourceEventHandler.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IRefCounted.h
+	"cAudioMemory.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioMemory.h
+	"cAudioDefines.h"
+	"IMemoryProvider.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IMemoryProvider.h
+	"cAudioDefines.h"
+	<cstring>
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioDecoder.h
+	"IRefCounted.h"
+	"IDataSource.h"
+	"EAudioFormats.h"
+	"cAudioString.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IDataSource.h
+	"IRefCounted.h"
+
+1640197984 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cAudioString.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioMemory.h"
+	"cSTLAllocator.h"
+	<string>
+	<stdlib.h>
+	<direct.h>
+	<io.h>
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cSTLAllocator.h
+	"cAudioDefines.h"
+	"cAudioMemory.h"
+	<set>
+	<map>
+	<list>
+	<vector>
+	<string>
+	<cstddef>
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/cVector3.h
+	<math.h>
+	<limits>
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/ISourceEventHandler.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/ICaptureEventHandler.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioDecoderFactory.h
+	"IAudioDecoder.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IManagerEventHandler.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/ILogReceiver.h
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IPluginManager.h
+	"IAudioPlugin.h"
+	"cAudioDefines.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1639894896 /home/netpipe/gamedev/LunaLibs/cAudioNP/cAudio/include/IAudioDeviceList.h
+	"cAudioString.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.c
+	"fluid_chan.h"
+	"fluid_mod.h"
+	"fluid_synth.h"
+	"fluid_sfont.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.h
+	"fluidsynth_priv.h"
+	"fluid_midi.h"
+	"fluid_tuning.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluidsynth_priv.h
+	"fluid_config.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdarg.h>
+	<fcntl.h>
+	<limits.h>
+	"fluidlite.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_config.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_midi.h
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_list.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.h
+	"fluidsynth_priv.h"
+	"fluid_conv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.h
+	"fluid_config.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+	"fluid_rev.h"
+	"fluid_voice.h"
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.h
+	"fluid_phase.h"
+	"fluid_gen.h"
+	"fluid_mod.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_phase.h
+	"fluid_config.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_sfont.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.c
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.c
+	"fluid_conv.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.c
+	"fluid_defsfont.h"
+	"fluid_sfont.h"
+	"fluid_sys.h"
+	"vorbis/codec.h"
+	"vorbis/vorbisenc.h"
+	"vorbis/vorbisfile.h"
+	"stb_vorbis.c"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_dsp_float.c
+	"fluidsynth_priv.h"
+	"fluid_phase.h"
+	"fluidsynth_priv.h"
+	"fluid_synth.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.c
+	"fluid_gen.h"
+	"fluid_chan.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.c
+	"fluidsynth_priv.h"
+	"fluid_hash.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_init.c
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.c
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.c
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.c
+	"fluid_ramsfont.h"
+	"fluid_sys.h"
+	"fluid_synth.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_defsfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.c
+	"fluid_rev.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.c
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_hash.h"
+	"fluid_synth.h"
+	"fluid_settings.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.c
+	<math.h>
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_chan.h"
+	"fluid_tuning.h"
+	"fluid_settings.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.c
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.c
+	"fluid_tuning.h"
+	"fluidsynth_priv.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.c
+	"fluidsynth_priv.h"
+	"fluid_voice.h"
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_conv.h"
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudioNP/Examples/Tutorial10Fluidlite/src/standalone/stb/stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<limits.h>
+	<crtdbg.h>
+
+1640719551 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/cAudioDemo.cpp
+	<iostream>
+	<fluidlite.h>
+	"cAudio.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidlite.h
+	<stdio.h>
+	"fluidsynth/types.h"
+	"fluidsynth/settings.h"
+	"fluidsynth/synth.h"
+	"fluidsynth/sfont.h"
+	"fluidsynth/ramsfont.h"
+	"fluidsynth/log.h"
+	"fluidsynth/misc.h"
+	"fluidsynth/mod.h"
+	"fluidsynth/gen.h"
+	"fluidsynth/voice.h"
+	"fluidsynth/version.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/types.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/settings.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/synth.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/sfont.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/ramsfont.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/log.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/misc.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/mod.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/gen.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/voice.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/include/fluidsynth/version.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudio.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioSleep.h"
+	"EAudioFormats.h"
+	"IAudioSource.h"
+	"IAudioCapture.h"
+	"IAudioDecoder.h"
+	"IAudioDecoderFactory.h"
+	"IAudioEffects.h"
+	"IAudioManager.h"
+	"IDataSource.h"
+	"IEffect.h"
+	"IEffectParameters.h"
+	"IFilter.h"
+	"IListener.h"
+	"ILogger.h"
+	"ILogReceiver.h"
+	"IPluginManager.h"
+	"IRefCounted.h"
+	"IAudioDeviceList.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioDefines.h
+	"cAudioPlatform.h"
+	"cAudioBuildSettings.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioPlatform.h
+
+1388536268 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioBuildSettings.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/EAudioFormats.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioSource.h
+	"cAudioDefines.h"
+	"IRefCounted.h"
+	"IAudioDecoder.h"
+	"cVector3.h"
+	"IEffect.h"
+	"IFilter.h"
+	"ISourceEventHandler.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IRefCounted.h
+	"cAudioMemory.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioMemory.h
+	"cAudioDefines.h"
+	"IMemoryProvider.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IMemoryProvider.h
+	"cAudioDefines.h"
+	<cstring>
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioDecoder.h
+	"IRefCounted.h"
+	"IDataSource.h"
+	"EAudioFormats.h"
+	"cAudioString.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IDataSource.h
+	"IRefCounted.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cAudioString.h
+	"cAudioDefines.h"
+	"cAudioPlatform.h"
+	"cAudioMemory.h"
+	"cSTLAllocator.h"
+	<string>
+	<stdlib.h>
+	<windows.h>
+	<direct.h>
+	<io.h>
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cSTLAllocator.h
+	"cAudioDefines.h"
+	"cAudioMemory.h"
+	<set>
+	<map>
+	<list>
+	<vector>
+	<string>
+	<cstddef>
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/cVector3.h
+	<math.h>
+	<limits>
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/ISourceEventHandler.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/ICaptureEventHandler.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioDecoderFactory.h
+	"IAudioDecoder.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IManagerEventHandler.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/ILogReceiver.h
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IPluginManager.h
+	"IAudioPlugin.h"
+	"cAudioDefines.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1496887385 /home/netpipe/gamedev/LunaLibs/cAudio23/cAudio/include/IAudioDeviceList.h
+	"cAudioString.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.c
+	"fluid_chan.h"
+	"fluid_mod.h"
+	"fluid_synth.h"
+	"fluid_sfont.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_chan.h
+	"fluidsynth_priv.h"
+	"fluid_midi.h"
+	"fluid_tuning.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluidsynth_priv.h
+	"fluid_config.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdarg.h>
+	<fcntl.h>
+	<limits.h>
+	"fluidlite.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_config.h
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_midi.h
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_list.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.h
+	"fluidsynth_priv.h"
+	"fluid_conv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.h
+	"fluid_config.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+	"fluid_rev.h"
+	"fluid_voice.h"
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.h
+	"fluid_phase.h"
+	"fluid_gen.h"
+	"fluid_mod.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_phase.h
+	"fluid_config.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.h
+	"fluidsynth_priv.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_sfont.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_chorus.c
+	"fluid_chorus.h"
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_conv.c
+	"fluid_conv.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.c
+	"fluid_defsfont.h"
+	"fluid_sfont.h"
+	"fluid_sys.h"
+	"vorbis/codec.h"
+	"vorbis/vorbisenc.h"
+	"vorbis/vorbisfile.h"
+	"stb_vorbis.c"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_defsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_dsp_float.c
+	"fluidsynth_priv.h"
+	"fluid_phase.h"
+	"fluidsynth_priv.h"
+	"fluid_synth.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_gen.c
+	"fluid_gen.h"
+	"fluid_chan.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.c
+	"fluidsynth_priv.h"
+	"fluid_hash.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_hash.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_init.c
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_list.c
+	"fluid_list.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_mod.c
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_voice.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.c
+	"fluid_ramsfont.h"
+	"fluid_sys.h"
+	"fluid_synth.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_ramsfont.h
+	"fluidlite.h"
+	"fluidsynth_priv.h"
+	"fluid_defsfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_rev.c
+	"fluid_rev.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.c
+	"fluidsynth_priv.h"
+	"fluid_sys.h"
+	"fluid_hash.h"
+	"fluid_synth.h"
+	"fluid_settings.h"
+
+1635750602 /home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_settings.h
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_synth.c
+	<math.h>
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_chan.h"
+	"fluid_tuning.h"
+	"fluid_settings.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_sys.c
+	"fluid_sys.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_tuning.c
+	"fluid_tuning.h"
+	"fluidsynth_priv.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/fluid_voice.c
+	"fluidsynth_priv.h"
+	"fluid_voice.h"
+	"fluid_mod.h"
+	"fluid_chan.h"
+	"fluid_conv.h"
+	"fluid_synth.h"
+	"fluid_sys.h"
+	"fluid_sfont.h"
+
+1635750602 source:/home/netpipe/gamedev/LunaLibs/cAudio23/Examples/Tutorial10Fluidlite/src/standalone/stb/stb_vorbis.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<limits.h>
+	<crtdbg.h>
+
