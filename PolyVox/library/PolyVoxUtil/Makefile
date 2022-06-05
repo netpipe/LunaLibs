@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gamedev/Desktop/LunaLibs/PolyVox
+CMAKE_SOURCE_DIR = /home/netpipe/Dev/LunaLibs/PolyVox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gamedev/Desktop/LunaLibs/PolyVox
+CMAKE_BINARY_DIR = /home/netpipe/Dev/LunaLibs/PolyVox
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,7 +82,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gamedev/Desktop/LunaLibs/PolyVox/CPackSourceConfig.cmake
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/netpipe/Dev/LunaLibs/PolyVox/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -126,7 +126,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -E cmake_progress_start /home/gamedev/Desktop/LunaLibs/PolyVox/CMakeFiles /home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxUtil/CMakeFiles/progress.marks
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gamedev/Desktop/LunaLibs/PolyVox/CMakeFiles 0
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Dev/LunaLibs/PolyVox/CMakeFiles /home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxUtil/CMakeFiles/progress.marks
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Dev/LunaLibs/PolyVox/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/clean
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/preinstall
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/preinstall
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/rule:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/rule
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/rule
 .PHONY : library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/rule
 
 # Convenience name for target.
@@ -190,12 +190,12 @@ PolyVoxUtilDynamic: library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/rule
 
 # fast build rule for target.
 PolyVoxUtilDynamic/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build
 .PHONY : PolyVoxUtilDynamic/fast
 
 # Convenience name for target.
 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/rule:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/rule
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/rule
 .PHONY : library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/rule
 
 # Convenience name for target.
@@ -205,7 +205,7 @@ PolyVoxUtilStatic: library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/rule
 
 # fast build rule for target.
 PolyVoxUtilStatic/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build
 .PHONY : PolyVoxUtilStatic/fast
 
 source/Dummy.o: source/Dummy.cpp.o
@@ -214,8 +214,8 @@ source/Dummy.o: source/Dummy.cpp.o
 
 # target to build an object file
 source/Dummy.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.o
 .PHONY : source/Dummy.cpp.o
 
 source/Dummy.i: source/Dummy.cpp.i
@@ -224,8 +224,8 @@ source/Dummy.i: source/Dummy.cpp.i
 
 # target to preprocess a source file
 source/Dummy.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.i
 .PHONY : source/Dummy.cpp.i
 
 source/Dummy.s: source/Dummy.cpp.s
@@ -234,8 +234,8 @@ source/Dummy.s: source/Dummy.cpp.s
 
 # target to generate assembly for a file
 source/Dummy.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilDynamic.dir/source/Dummy.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/build.make library/PolyVoxUtil/CMakeFiles/PolyVoxUtilStatic.dir/source/Dummy.cpp.s
 .PHONY : source/Dummy.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

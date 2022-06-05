@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++0x
 
 CXX_DEFINES = -DPOLYVOX_SHARED_EXPORTS
 
-CXX_INCLUDES = -I/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxUtil/include -I/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/include 
+CXX_INCLUDES = -I/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxUtil/include -I/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/include 
 

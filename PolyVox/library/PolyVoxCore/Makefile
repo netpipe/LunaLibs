@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gamedev/Desktop/LunaLibs/PolyVox
+CMAKE_SOURCE_DIR = /home/netpipe/Dev/LunaLibs/PolyVox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gamedev/Desktop/LunaLibs/PolyVox
+CMAKE_BINARY_DIR = /home/netpipe/Dev/LunaLibs/PolyVox
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -138,7 +138,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gamedev/Desktop/LunaLibs/PolyVox/CPackSourceConfig.cmake
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/netpipe/Dev/LunaLibs/PolyVox/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -148,14 +148,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -E cmake_progress_start /home/gamedev/Desktop/LunaLibs/PolyVox/CMakeFiles /home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/CMakeFiles/progress.marks
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gamedev/Desktop/LunaLibs/PolyVox/CMakeFiles 0
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Dev/LunaLibs/PolyVox/CMakeFiles /home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/CMakeFiles/progress.marks
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/netpipe/Dev/LunaLibs/PolyVox/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/clean
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/preinstall
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/preinstall
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/rule:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/rule
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/rule
 .PHONY : library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/rule
 
 # Convenience name for target.
@@ -190,12 +190,12 @@ PolyVoxCoreDynamic: library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/rule
 
 # fast build rule for target.
 PolyVoxCoreDynamic/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build
 .PHONY : PolyVoxCoreDynamic/fast
 
 # Convenience name for target.
 library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/rule:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/rule
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f CMakeFiles/Makefile2 library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/rule
 .PHONY : library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/rule
 
 # Convenience name for target.
@@ -205,7 +205,7 @@ PolyVoxCoreStatic: library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/rule
 
 # fast build rule for target.
 PolyVoxCoreStatic/fast:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build
 .PHONY : PolyVoxCoreStatic/fast
 
 source/AStarPathfinder.o: source/AStarPathfinder.cpp.o
@@ -214,8 +214,8 @@ source/AStarPathfinder.o: source/AStarPathfinder.cpp.o
 
 # target to build an object file
 source/AStarPathfinder.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.o
 .PHONY : source/AStarPathfinder.cpp.o
 
 source/AStarPathfinder.i: source/AStarPathfinder.cpp.i
@@ -224,8 +224,8 @@ source/AStarPathfinder.i: source/AStarPathfinder.cpp.i
 
 # target to preprocess a source file
 source/AStarPathfinder.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.i
 .PHONY : source/AStarPathfinder.cpp.i
 
 source/AStarPathfinder.s: source/AStarPathfinder.cpp.s
@@ -234,8 +234,8 @@ source/AStarPathfinder.s: source/AStarPathfinder.cpp.s
 
 # target to generate assembly for a file
 source/AStarPathfinder.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/AStarPathfinder.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/AStarPathfinder.cpp.s
 .PHONY : source/AStarPathfinder.cpp.s
 
 source/ArraySizes.o: source/ArraySizes.cpp.o
@@ -244,8 +244,8 @@ source/ArraySizes.o: source/ArraySizes.cpp.o
 
 # target to build an object file
 source/ArraySizes.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.o
 .PHONY : source/ArraySizes.cpp.o
 
 source/ArraySizes.i: source/ArraySizes.cpp.i
@@ -254,8 +254,8 @@ source/ArraySizes.i: source/ArraySizes.cpp.i
 
 # target to preprocess a source file
 source/ArraySizes.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.i
 .PHONY : source/ArraySizes.cpp.i
 
 source/ArraySizes.s: source/ArraySizes.cpp.s
@@ -264,8 +264,8 @@ source/ArraySizes.s: source/ArraySizes.cpp.s
 
 # target to generate assembly for a file
 source/ArraySizes.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/ArraySizes.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/ArraySizes.cpp.s
 .PHONY : source/ArraySizes.cpp.s
 
 source/Density.o: source/Density.cpp.o
@@ -274,8 +274,8 @@ source/Density.o: source/Density.cpp.o
 
 # target to build an object file
 source/Density.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.o
 .PHONY : source/Density.cpp.o
 
 source/Density.i: source/Density.cpp.i
@@ -284,8 +284,8 @@ source/Density.i: source/Density.cpp.i
 
 # target to preprocess a source file
 source/Density.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.i
 .PHONY : source/Density.cpp.i
 
 source/Density.s: source/Density.cpp.s
@@ -294,8 +294,8 @@ source/Density.s: source/Density.cpp.s
 
 # target to generate assembly for a file
 source/Density.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Density.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Density.cpp.s
 .PHONY : source/Density.cpp.s
 
 source/GradientEstimators.o: source/GradientEstimators.cpp.o
@@ -304,8 +304,8 @@ source/GradientEstimators.o: source/GradientEstimators.cpp.o
 
 # target to build an object file
 source/GradientEstimators.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.o
 .PHONY : source/GradientEstimators.cpp.o
 
 source/GradientEstimators.i: source/GradientEstimators.cpp.i
@@ -314,8 +314,8 @@ source/GradientEstimators.i: source/GradientEstimators.cpp.i
 
 # target to preprocess a source file
 source/GradientEstimators.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.i
 .PHONY : source/GradientEstimators.cpp.i
 
 source/GradientEstimators.s: source/GradientEstimators.cpp.s
@@ -324,8 +324,8 @@ source/GradientEstimators.s: source/GradientEstimators.cpp.s
 
 # target to generate assembly for a file
 source/GradientEstimators.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/GradientEstimators.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/GradientEstimators.cpp.s
 .PHONY : source/GradientEstimators.cpp.s
 
 source/Log.o: source/Log.cpp.o
@@ -334,8 +334,8 @@ source/Log.o: source/Log.cpp.o
 
 # target to build an object file
 source/Log.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.o
 .PHONY : source/Log.cpp.o
 
 source/Log.i: source/Log.cpp.i
@@ -344,8 +344,8 @@ source/Log.i: source/Log.cpp.i
 
 # target to preprocess a source file
 source/Log.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.i
 .PHONY : source/Log.cpp.i
 
 source/Log.s: source/Log.cpp.s
@@ -354,8 +354,8 @@ source/Log.s: source/Log.cpp.s
 
 # target to generate assembly for a file
 source/Log.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Log.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Log.cpp.s
 .PHONY : source/Log.cpp.s
 
 source/Material.o: source/Material.cpp.o
@@ -364,8 +364,8 @@ source/Material.o: source/Material.cpp.o
 
 # target to build an object file
 source/Material.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.o
 .PHONY : source/Material.cpp.o
 
 source/Material.i: source/Material.cpp.i
@@ -374,8 +374,8 @@ source/Material.i: source/Material.cpp.i
 
 # target to preprocess a source file
 source/Material.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.i
 .PHONY : source/Material.cpp.i
 
 source/Material.s: source/Material.cpp.s
@@ -384,8 +384,8 @@ source/Material.s: source/Material.cpp.s
 
 # target to generate assembly for a file
 source/Material.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Material.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Material.cpp.s
 .PHONY : source/Material.cpp.s
 
 source/MaterialDensityPair.o: source/MaterialDensityPair.cpp.o
@@ -394,8 +394,8 @@ source/MaterialDensityPair.o: source/MaterialDensityPair.cpp.o
 
 # target to build an object file
 source/MaterialDensityPair.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.o
 .PHONY : source/MaterialDensityPair.cpp.o
 
 source/MaterialDensityPair.i: source/MaterialDensityPair.cpp.i
@@ -404,8 +404,8 @@ source/MaterialDensityPair.i: source/MaterialDensityPair.cpp.i
 
 # target to preprocess a source file
 source/MaterialDensityPair.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.i
 .PHONY : source/MaterialDensityPair.cpp.i
 
 source/MaterialDensityPair.s: source/MaterialDensityPair.cpp.s
@@ -414,8 +414,8 @@ source/MaterialDensityPair.s: source/MaterialDensityPair.cpp.s
 
 # target to generate assembly for a file
 source/MaterialDensityPair.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MaterialDensityPair.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MaterialDensityPair.cpp.s
 .PHONY : source/MaterialDensityPair.cpp.s
 
 source/MeshDecimator.o: source/MeshDecimator.cpp.o
@@ -424,8 +424,8 @@ source/MeshDecimator.o: source/MeshDecimator.cpp.o
 
 # target to build an object file
 source/MeshDecimator.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.o
 .PHONY : source/MeshDecimator.cpp.o
 
 source/MeshDecimator.i: source/MeshDecimator.cpp.i
@@ -434,8 +434,8 @@ source/MeshDecimator.i: source/MeshDecimator.cpp.i
 
 # target to preprocess a source file
 source/MeshDecimator.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.i
 .PHONY : source/MeshDecimator.cpp.i
 
 source/MeshDecimator.s: source/MeshDecimator.cpp.s
@@ -444,8 +444,8 @@ source/MeshDecimator.s: source/MeshDecimator.cpp.s
 
 # target to generate assembly for a file
 source/MeshDecimator.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/MeshDecimator.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/MeshDecimator.cpp.s
 .PHONY : source/MeshDecimator.cpp.s
 
 source/PolyVoxImpl/MarchingCubesTables.o: source/PolyVoxImpl/MarchingCubesTables.cpp.o
@@ -454,8 +454,8 @@ source/PolyVoxImpl/MarchingCubesTables.o: source/PolyVoxImpl/MarchingCubesTables
 
 # target to build an object file
 source/PolyVoxImpl/MarchingCubesTables.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.o
 .PHONY : source/PolyVoxImpl/MarchingCubesTables.cpp.o
 
 source/PolyVoxImpl/MarchingCubesTables.i: source/PolyVoxImpl/MarchingCubesTables.cpp.i
@@ -464,8 +464,8 @@ source/PolyVoxImpl/MarchingCubesTables.i: source/PolyVoxImpl/MarchingCubesTables
 
 # target to preprocess a source file
 source/PolyVoxImpl/MarchingCubesTables.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.i
 .PHONY : source/PolyVoxImpl/MarchingCubesTables.cpp.i
 
 source/PolyVoxImpl/MarchingCubesTables.s: source/PolyVoxImpl/MarchingCubesTables.cpp.s
@@ -474,8 +474,8 @@ source/PolyVoxImpl/MarchingCubesTables.s: source/PolyVoxImpl/MarchingCubesTables
 
 # target to generate assembly for a file
 source/PolyVoxImpl/MarchingCubesTables.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/MarchingCubesTables.cpp.s
 .PHONY : source/PolyVoxImpl/MarchingCubesTables.cpp.s
 
 source/PolyVoxImpl/RandomUnitVectors.o: source/PolyVoxImpl/RandomUnitVectors.cpp.o
@@ -484,8 +484,8 @@ source/PolyVoxImpl/RandomUnitVectors.o: source/PolyVoxImpl/RandomUnitVectors.cpp
 
 # target to build an object file
 source/PolyVoxImpl/RandomUnitVectors.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.o
 .PHONY : source/PolyVoxImpl/RandomUnitVectors.cpp.o
 
 source/PolyVoxImpl/RandomUnitVectors.i: source/PolyVoxImpl/RandomUnitVectors.cpp.i
@@ -494,8 +494,8 @@ source/PolyVoxImpl/RandomUnitVectors.i: source/PolyVoxImpl/RandomUnitVectors.cpp
 
 # target to preprocess a source file
 source/PolyVoxImpl/RandomUnitVectors.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.i
 .PHONY : source/PolyVoxImpl/RandomUnitVectors.cpp.i
 
 source/PolyVoxImpl/RandomUnitVectors.s: source/PolyVoxImpl/RandomUnitVectors.cpp.s
@@ -504,8 +504,8 @@ source/PolyVoxImpl/RandomUnitVectors.s: source/PolyVoxImpl/RandomUnitVectors.cpp
 
 # target to generate assembly for a file
 source/PolyVoxImpl/RandomUnitVectors.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomUnitVectors.cpp.s
 .PHONY : source/PolyVoxImpl/RandomUnitVectors.cpp.s
 
 source/PolyVoxImpl/RandomVectors.o: source/PolyVoxImpl/RandomVectors.cpp.o
@@ -514,8 +514,8 @@ source/PolyVoxImpl/RandomVectors.o: source/PolyVoxImpl/RandomVectors.cpp.o
 
 # target to build an object file
 source/PolyVoxImpl/RandomVectors.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.o
 .PHONY : source/PolyVoxImpl/RandomVectors.cpp.o
 
 source/PolyVoxImpl/RandomVectors.i: source/PolyVoxImpl/RandomVectors.cpp.i
@@ -524,8 +524,8 @@ source/PolyVoxImpl/RandomVectors.i: source/PolyVoxImpl/RandomVectors.cpp.i
 
 # target to preprocess a source file
 source/PolyVoxImpl/RandomVectors.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.i
 .PHONY : source/PolyVoxImpl/RandomVectors.cpp.i
 
 source/PolyVoxImpl/RandomVectors.s: source/PolyVoxImpl/RandomVectors.cpp.s
@@ -534,8 +534,8 @@ source/PolyVoxImpl/RandomVectors.s: source/PolyVoxImpl/RandomVectors.cpp.s
 
 # target to generate assembly for a file
 source/PolyVoxImpl/RandomVectors.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/RandomVectors.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/RandomVectors.cpp.s
 .PHONY : source/PolyVoxImpl/RandomVectors.cpp.s
 
 source/PolyVoxImpl/Utility.o: source/PolyVoxImpl/Utility.cpp.o
@@ -544,8 +544,8 @@ source/PolyVoxImpl/Utility.o: source/PolyVoxImpl/Utility.cpp.o
 
 # target to build an object file
 source/PolyVoxImpl/Utility.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.o
 .PHONY : source/PolyVoxImpl/Utility.cpp.o
 
 source/PolyVoxImpl/Utility.i: source/PolyVoxImpl/Utility.cpp.i
@@ -554,8 +554,8 @@ source/PolyVoxImpl/Utility.i: source/PolyVoxImpl/Utility.cpp.i
 
 # target to preprocess a source file
 source/PolyVoxImpl/Utility.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.i
 .PHONY : source/PolyVoxImpl/Utility.cpp.i
 
 source/PolyVoxImpl/Utility.s: source/PolyVoxImpl/Utility.cpp.s
@@ -564,8 +564,8 @@ source/PolyVoxImpl/Utility.s: source/PolyVoxImpl/Utility.cpp.s
 
 # target to generate assembly for a file
 source/PolyVoxImpl/Utility.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/PolyVoxImpl/Utility.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/PolyVoxImpl/Utility.cpp.s
 .PHONY : source/PolyVoxImpl/Utility.cpp.s
 
 source/Region.o: source/Region.cpp.o
@@ -574,8 +574,8 @@ source/Region.o: source/Region.cpp.o
 
 # target to build an object file
 source/Region.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.o
 .PHONY : source/Region.cpp.o
 
 source/Region.i: source/Region.cpp.i
@@ -584,8 +584,8 @@ source/Region.i: source/Region.cpp.i
 
 # target to preprocess a source file
 source/Region.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.i
 .PHONY : source/Region.cpp.i
 
 source/Region.s: source/Region.cpp.s
@@ -594,8 +594,8 @@ source/Region.s: source/Region.cpp.s
 
 # target to generate assembly for a file
 source/Region.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/Region.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/Region.cpp.s
 .PHONY : source/Region.cpp.s
 
 source/SimpleInterface.o: source/SimpleInterface.cpp.o
@@ -604,8 +604,8 @@ source/SimpleInterface.o: source/SimpleInterface.cpp.o
 
 # target to build an object file
 source/SimpleInterface.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.o
 .PHONY : source/SimpleInterface.cpp.o
 
 source/SimpleInterface.i: source/SimpleInterface.cpp.i
@@ -614,8 +614,8 @@ source/SimpleInterface.i: source/SimpleInterface.cpp.i
 
 # target to preprocess a source file
 source/SimpleInterface.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.i
 .PHONY : source/SimpleInterface.cpp.i
 
 source/SimpleInterface.s: source/SimpleInterface.cpp.s
@@ -624,8 +624,8 @@ source/SimpleInterface.s: source/SimpleInterface.cpp.s
 
 # target to generate assembly for a file
 source/SimpleInterface.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/SimpleInterface.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/SimpleInterface.cpp.s
 .PHONY : source/SimpleInterface.cpp.s
 
 source/VertexTypes.o: source/VertexTypes.cpp.o
@@ -634,8 +634,8 @@ source/VertexTypes.o: source/VertexTypes.cpp.o
 
 # target to build an object file
 source/VertexTypes.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.o
 .PHONY : source/VertexTypes.cpp.o
 
 source/VertexTypes.i: source/VertexTypes.cpp.i
@@ -644,8 +644,8 @@ source/VertexTypes.i: source/VertexTypes.cpp.i
 
 # target to preprocess a source file
 source/VertexTypes.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.i
 .PHONY : source/VertexTypes.cpp.i
 
 source/VertexTypes.s: source/VertexTypes.cpp.s
@@ -654,8 +654,8 @@ source/VertexTypes.s: source/VertexTypes.cpp.s
 
 # target to generate assembly for a file
 source/VertexTypes.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VertexTypes.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VertexTypes.cpp.s
 .PHONY : source/VertexTypes.cpp.s
 
 source/VoxelFilters.o: source/VoxelFilters.cpp.o
@@ -664,8 +664,8 @@ source/VoxelFilters.o: source/VoxelFilters.cpp.o
 
 # target to build an object file
 source/VoxelFilters.cpp.o:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.o
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.o
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.o
 .PHONY : source/VoxelFilters.cpp.o
 
 source/VoxelFilters.i: source/VoxelFilters.cpp.i
@@ -674,8 +674,8 @@ source/VoxelFilters.i: source/VoxelFilters.cpp.i
 
 # target to preprocess a source file
 source/VoxelFilters.cpp.i:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.i
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.i
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.i
 .PHONY : source/VoxelFilters.cpp.i
 
 source/VoxelFilters.s: source/VoxelFilters.cpp.s
@@ -684,8 +684,8 @@ source/VoxelFilters.s: source/VoxelFilters.cpp.s
 
 # target to generate assembly for a file
 source/VoxelFilters.cpp.s:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.s
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreDynamic.dir/source/VoxelFilters.cpp.s
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(MAKE) -f library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/build.make library/PolyVoxCore/CMakeFiles/PolyVoxCoreStatic.dir/source/VoxelFilters.cpp.s
 .PHONY : source/VoxelFilters.cpp.s
 
 # Help Target
@@ -763,6 +763,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gamedev/Desktop/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/netpipe/Dev/LunaLibs/PolyVox && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

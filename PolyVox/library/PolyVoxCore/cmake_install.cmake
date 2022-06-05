@@ -1,4 +1,4 @@
-# Install script for directory: /home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore
+# Install script for directory: /home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -54,8 +54,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMP
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so.0.1.0"
-    "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so.0"
+    "/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so.0.1.0"
+    "/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so.0"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPolyVoxCore.so.0.1.0"
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPolyVoxCore.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/libPolyVoxCore.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPolyVoxCore.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libPolyVoxCore.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -87,6 +87,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibraryx" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/PolyVoxCore" TYPE DIRECTORY FILES "/home/gamedev/Desktop/LunaLibs/PolyVox/library/PolyVoxCore/include/" REGEX "/[^/]*\\.svn[^/]*$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/PolyVoxCore" TYPE DIRECTORY FILES "/home/netpipe/Dev/LunaLibs/PolyVox/library/PolyVoxCore/include/" REGEX "/[^/]*\\.svn[^/]*$" EXCLUDE)
 endif()
 

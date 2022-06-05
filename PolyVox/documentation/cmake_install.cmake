@@ -1,4 +1,4 @@
-# Install script for directory: /home/gamedev/Desktop/LunaLibs/PolyVox/documentation
+# Install script for directory: /home/netpipe/Dev/LunaLibs/PolyVox/documentation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -2288,19 +2288,542 @@
 	"Core/SPK_Vector3D.h"
 	"Core/SPK_Group.h"
 
-<<<<<<< HEAD
+1640198740 D
+
 1271922808 source:/home/netpipe/gamedev/LunaLibs/SparkEngine/src/SPK_IRR_ALL.cpp
-=======
+
 1640198741 source:c:\dev\lunalibs\sparkengine\src\spk_irr_all.cpp
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+
+1640198740 e06ed7bdc2944767dbff4509e2ff1d5045c7b
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.cpp"
 	"RenderingAPIs/Irrlicht/SPK_IRRSystem.cpp"
 	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.cpp"
 	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.cpp"
 	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.cpp"
 	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.cpp"
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"CDynamicMeshBuffer.h"
+	"CIndexBuffer.h"
+	"CMeshBuffer.h"
+	"coreutil.h"
+	"CVertexBuffer.h"
+	"dimension2d.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"EDriverFeatures.h"
+	"EDriverTypes.h"
+	"EGUIAlignment.h"
+	"EGUIElementTypes.h"
+	"EHardwareBufferFlags.h"
+	"EMaterialFlags.h"
+	"EMaterialTypes.h"
+	"EMeshWriterEnums.h"
+	"EMessageBoxFlags.h"
+	"ESceneNodeAnimatorTypes.h"
+	"ESceneNodeTypes.h"
+	"ETerrainElements.h"
+	"fast_atof.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAnimatedMeshSceneNode.h"
+	"IAttributeExchangingObject.h"
+	"IAttributes.h"
+	"IBillboardSceneNode.h"
+	"IBillboardTextSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"ICursorControl.h"
+	"IDummyTransformationSceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGeometryCreator.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUITable.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IGUITreeView.h"
+	"IImage.h"
+	"IImageLoader.h"
+	"IImageWriter.h"
+	"IIndexBuffer.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshLoader.h"
+	"IMeshManipulator.h"
+	"IMeshSceneNode.h"
+	"IMeshWriter.h"
+	"IColladaMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IOSOperator.h"
+	"IParticleSystemSceneNode.h"
+	"IQ3LevelMesh.h"
+	"IQ3Shader.h"
+	"IReadFile.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"IRandomizer.h"
+	"IrrlichtDevice.h"
+	"irrList.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"path.h"
+	"irrXML.h"
+	"ISceneCollisionManager.h"
+	"ISceneLoader.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneNodeAnimator.h"
+	"ISceneNodeAnimatorCameraFPS.h"
+	"ISceneNodeAnimatorCameraMaya.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeFactory.h"
+	"ISceneUserDataSerializer.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"ITimer.h"
+	"ITriangleSelector.h"
+	"IVertexBuffer.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IVolumeLightSceneNode.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"ILightManager.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"matrix4.h"
+	"plane3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SceneParameters.h"
+	"SColor.h"
+	"SExposedVideoData.h"
+	"SIrrCreationParameters.h"
+	"SKeyMap.h"
+	"SLight.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SParticle.h"
+	"SSharedMeshBuffer.h"
+	"SSkinMeshBuffer.h"
+	"SVertexIndex.h"
+	"SViewFrustum.h"
+	"triangle3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"SIrrCreationParameters.h"
+	<stdio.h>
+	<xtl.h>
+	<tchar.h>
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<limits.h>
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+	"IDynamicMeshBuffer.h"
+	"CVertexBuffer.h"
+	"CIndexBuffer.h"
+	"IMeshBuffer.h"
+	"IVertexBuffer.h"
+	"IIndexBuffer.h"
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+	"SVertexIndex.h"
+	"EHardwareBufferFlags.h"
+	"EPrimitiveTypes.h"
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"irrMath.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"irrTypes.h"
+	<new>
+	<memory.h>
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"S3DVertex.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SVertexIndex.h"
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"EHardwareBufferFlags.h"
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+	"irrpack.h"
+	"irrunpack.h"
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"IFileArchive.h"
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+	"SExposedVideoData.h"
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"path.h"
+	"matrix4.h"
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+	"IEventReceiver.h"
+	"ILogger.h"
+	"Keycodes.h"
+	"irrString.h"
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"dimension2d.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+	"EAttributes.h"
+	"path.h"
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"IReferenceCounted.h"
+	"IMesh.h"
+	"IImage.h"
+	"EShaderTypes.h"
+	"EMaterialTypes.h"
+	"EPrimitiveTypes.h"
+	"path.h"
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"EGUIAlignment.h"
+	"IAttributes.h"
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+	"path.h"
+	"IAttributeExchangingObject.h"
+	"EGUIAlignment.h"
+	"SColor.h"
+	"rect.h"
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+	"irrString.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+	"IGUIElement.h"
+	"SColor.h"
+	"IGUISkin.h"
+	"IGUIElement.h"
+	"irrTypes.h"
+	"SColor.h"
+	"IGUISkin.h"
+	"IGUIElement.h"
+	"IGUIImageList.h"
+	"irrTypes.h"
+	"IGUIElement.h"
+	"rect.h"
+	"irrTypes.h"
+	"IReferenceCounted.h"
+	"IImage.h"
+	"path.h"
+	"IReferenceCounted.h"
+	"irrString.h"
+	"coreutil.h"
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"IMeshBuffer.h"
+	"SVertexManipulator.h"
+	"IMeshWriter.h"
+	"ISceneNode.h"
+	"IAnimatedMesh.h"
+	"SMaterial.h"
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"path.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"ESceneNodeAnimatorTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+	"IGeometryCreator.h"
+	"ISkinnedMesh.h"
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+	"ISceneNodeAnimator.h"
+	"IEventReceiver.h"
+	"irrArray.h"
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"IDynamicMeshBuffer.h"
+	"irrArray.h"
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+	"EDriverTypes.h"
+	"EDeviceTypes.h"
+	"dimension2d.h"
+	"ILogger.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+	"plane3d.h"
+	"vector3d.h"
+	"line3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<deque>
+	<list>
+	<iostream>
+	<vector>
+	<limits>
+	<map>
+	<set>
+	<string>
+	"Core/SPK_DEF.h"
+	"Core/SPK_Registerable.h"
+	"Core/SPK_Transformable.h"
+	"Core/SPK_Vector3D.h"
+	"Core/SPK_DEF.h"
+	"Core/SPK_Registerable.h"
+	"Core/SPK_Transformable.h"
+	"Core/SPK_Vector3D.h"
+	"Core/SPK_Pool.h"
+	"Core/SPK_Particle.h"
+	"Core/SPK_DEF.h"
+	"Core/SPK_Vector3D.h"
+	"Core/SPK_Pool.h"
+	"Core/SPK_Model.h"
+	"Core/SPK_DEF.h"
+	"Core/SPK_Registerable.h"
+	"Core/SPK_Interpolator.h"
+	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+	"Core/SPK_Renderer.h"
+	"Core/SPK_Group.h"
+	"Core/SPK_DEF.h"
+	"Core/SPK_Registerable.h"
+	"Core/SPK_BufferHandler.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+	"Extensions/Renderers/SPK_QuadRendererInterface.h"
+	"Extensions/Renderers/SPK_Oriented3DRendererInterface.h"
+	"Core/SPK_Vector3D.h"
+	"Core/SPK_Group.h"
 
-<<<<<<< HEAD
 1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRBuffer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 
@@ -2313,7 +2836,7 @@
 	"Core/SPK_Vector3D.h"
 
 1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrlicht.h
-=======
+
 1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrbuffer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 
@@ -2326,7 +2849,1197 @@
 	"Core/SPK_Vector3D.h"
 
 1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrlicht.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IrrCompileConfig.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrcompileconfig.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/aabbox3d.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\aabbox3d.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrMath.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrmath.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrTypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrtypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/vector3d.h
+	"irrMath.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CDynamicMeshBuffer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\vector3d.h
+	"irrMath.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cdynamicmeshbuffer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IDynamicMeshBuffer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\idynamicmeshbuffer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshBuffer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshbuffer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IReferenceCounted.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMaterial.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ireferencecounted.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smaterial.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/matrix4.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\scolor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\matrix4.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/rect.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\vector2d.h
+	"irrMath.h"
+	"dimension2d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\dimension2d.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\rect.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/position2d.h
+	"vector2d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrString.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\position2d.h
+	"vector2d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrstring.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrAllocator.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrallocator.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrArray.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrarray.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/heapsort.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMaterialTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMaterialFlags.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/S3DVertex.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\heapsort.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ematerialtypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ematerialflags.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smateriallayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\s3dvertex.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SVertexIndex.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EHardwareBufferFlags.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EPrimitiveTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVertexBuffer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\svertexindex.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ehardwarebufferflags.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eprimitivetypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivertexbuffer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IIndexBuffer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iindexbuffer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CVertexBuffer.h
+	"IVertexBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CIndexBuffer.h
+	"IIndexBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/coreutil.h
+	"irrString.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/path.h
+	"irrString.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ECullingTypes.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDebugSceneTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDriverFeatures.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDriverTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EGUIAlignment.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMessageBoxFlags.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeAnimatorTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ETerrainElements.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMesh.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cvertexbuffer.h
+	"IVertexBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cindexbuffer.h
+	"IIndexBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\coreutil.h
+	"irrString.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\path.h
+	"irrString.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ecullingtypes.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edebugscenetypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edriverfeatures.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edrivertypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eguialignment.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eguielementtypes.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\emeshwriterenums.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\emessageboxflags.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\escenenodeanimatortypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\escenenodetypes.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eterrainelements.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\fast_atof.h
+	"irrMath.h"
+	"irrString.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imesh.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD3.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshmd2.h
+	"IAnimatedMesh.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshmd3.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IQ3Shader.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iq3shader.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileSystem.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilesystem.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrXML.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ixmlreader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrxml.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileArchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IReadFile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileList.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVideoDriver.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilearchive.h
+	"IReadFile.h"
+	"IFileList.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ireadfile.h
+	"IReferenceCounted.h"
+	"coreutil.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilelist.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivideodriver.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITexture.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itexture.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImage.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimage.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/triangle3d.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\triangle3d.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SExposedVideoData.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/quaternion.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sexposedvideodata.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\quaternion.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrpack.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrunpack.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshSceneNode.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrpack.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrunpack.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshscenenode.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNode.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenode.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimator.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iattributeexchangingobject.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimator.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IEventReceiver.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ieventreceiver.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILogger.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/Keycodes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITriangleSelector.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilogger.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\keycodes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itriangleselector.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrList.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrlist.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAttributes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iattributes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EAttributes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBillboardTextSceneNode.h
+	"IBillboardSceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ICursorControl.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eattributes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibonescenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibillboardscenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibillboardtextscenenode.h
+	"IBillboardSceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icamerascenenode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icursorcontrol.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGeometryCreator.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\idummytransformationscenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\igeometrycreator.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGPUProgrammingServices.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\igpuprogrammingservices.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EShaderTypes.h
+	"irrTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIButton.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIElement.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eshadertypes.h
+	"irrTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguibutton.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguielement.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIEnvironment.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicheckbox.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicolorselectdialog.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicombobox.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicontextmenu.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguieditbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguielementfactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguienvironment.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISkin.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiskin.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFont.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifileopendialog.h
+	"IGUIElement.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifont.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIImage.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISpriteBank.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifontbitmap.h
+	"IGUIFont.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiimage.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiinoutfader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguilistbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguimeshviewer.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiscrollbar.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguispinbox.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguispritebank.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITabControl.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguistatictext.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitabcontrol.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITable.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitable.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITreeView.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitoolbar.h
+	"IGUIElement.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiwindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitreeview.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIImageList.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiimagelist.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImageLoader.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimageloader.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImageWriter.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimagewriter.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SLight.h
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMaterialRenderer.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilightscenenode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\slight.h
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imaterialrenderer.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMaterialRendererServices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshManipulator.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imaterialrendererservices.h
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshcache.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshloader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshmanipulator.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SVertexManipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IColladaMeshWriter.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\svertexmanipulator.h
+	"S3DVertex.h"
+	"SColor.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshscenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshwriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icolladameshwriter.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IOSOperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleSystemSceneNode.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imetatriangleselector.h
+	"ITriangleSelector.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iosoperator.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlesystemscenenode.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SParticle.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleanimatedmeshscenenodeemitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleemitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sparticle.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IRandomizer.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IrrlichtDevice.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleboxemitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlecylinderemitter.h
+	"IParticleEmitter.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlemeshemitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleringemitter.h
+	"IParticleEmitter.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlesphereemitter.h
+	"IParticleEmitter.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleattractionaffector.h
+	"IParticleAffector.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleaffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlefadeoutaffector.h
+	"IParticleAffector.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlegravityaffector.h
+	"IParticleAffector.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlerotationaffector.h
+	"IParticleAffector.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iq3levelmesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irandomizer.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrlichtdevice.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDeviceTypes.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITimer.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrMap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneCollisionManager.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edevicetypes.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivideomodelist.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itimer.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrmap.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenecollisionmanager.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneLoader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneManager.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\isceneloader.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenemanager.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SceneParameters.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISkinnedMesh.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sceneparameters.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iskinnedmesh.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraFPS.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sskinmeshbuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcamerafps.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraMaya.h
+	"ISceneNodeAnimator.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITerrainSceneNode.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcameramaya.h
+	"ISceneNodeAnimator.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcollisionresponse.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorfactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodefactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\isceneuserdataserializer.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ishaderconstantsetcallback.h
+	"IReferenceCounted.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ishadowvolumescenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iterrainscenenode.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVolumeLightSceneNode.h
+	"ISceneNode.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IWriteFile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IXMLWriter.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itextscenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivolumelightscenenode.h
+	"ISceneNode.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iwritefile.h
+	"IReferenceCounted.h"
+	"path.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ixmlwriter.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILightManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SAnimatedMesh.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilightmanager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sanimatedmesh.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SIrrCreationParameters.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sirrcreationparameters.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SKeyMap.h
+	"Keycodes.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMesh.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\skeymap.h
+	"Keycodes.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smesh.h
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SSharedMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SViewFrustum.h
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbuffer.h
+	"CMeshBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbufferlightmap.h
+	"CMeshBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbuffertangents.h
+	"CMeshBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ssharedmeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sviewfrustum.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Vector3D.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_DEF.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_vector3d.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_def.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Buffer.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRSystem.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRSystem.h"
+	"Core/SPK_Group.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRSystem.h
+	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
+	"Core/SPK_System.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_System.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_buffer.h
+
+1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrsystem.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRSystem.h"
+	"Core/SPK_Group.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrsystem.h
+	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
+	"Core/SPK_System.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_system.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Registerable.h
+	"Core/SPK_DEF.h"
+	"Core/SPK_Vector3D.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Transformable.h
+	"Core/SPK_Vector3D.h"
+	<memory.h>
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Group.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_registerable.h
+	"Core/SPK_DEF.h"
+	"Core/SPK_Vector3D.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_transformable.h
+	"Core/SPK_Vector3D.h"
+	<memory.h>
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_group.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Pool.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Particle.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_pool.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_particle.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Model.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_model.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Interpolator.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRRenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+
+1465879700 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRRenderer.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_interpolator.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrrenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrrenderer.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Renderer.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_renderer.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_BufferHandler.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+	"Extensions/Renderers/SPK_PointRendererInterface.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_PointRendererInterface.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+	"Extensions/Renderers/SPK_LineRendererInterface.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_LineRendererInterface.h
+	"Core/SPK_DEF.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_bufferhandler.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrpointrenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrpointrenderer.h
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+	"Extensions/Renderers/SPK_PointRendererInterface.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_pointrendererinterface.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrlinerenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrlinerenderer.h
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
+	"Extensions/Renderers/SPK_LineRendererInterface.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_linerendererinterface.h
+	"Core/SPK_DEF.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrquadrenderer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h"
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrquadrenderer.h
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_QuadRendererInterface.h
+	"Core/SPK_DEF.h"
+	"Core/SPK_Particle.h"
+
+1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_Oriented3DRendererInterface.h
+
+1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_quadrendererinterface.h
+	"Core/SPK_DEF.h"
+	"Core/SPK_Particle.h"
+
+1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_oriented3drendererinterface.h
+
+1645453704 source:/home/netpipe/Dev/LunaLibs/SparkEngine/src/SPK_IRR_ALL.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.cpp"
+	"RenderingAPIs/Irrlicht/SPK_IRRSystem.cpp"
+	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.cpp"
+	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.cpp"
+	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.cpp"
+	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.cpp"
+
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRBuffer.cpp
+	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
+
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRBuffer.h
+	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
+	"Core/SPK_Buffer.h"
+
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRR_DEF.h
+	<irrlicht.h>
+	"Core/SPK_Vector3D.h"
+
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrlicht.h
 	"IrrCompileConfig.h"
 	"aabbox3d.h"
 	"CDynamicMeshBuffer.h"
@@ -2486,29 +4199,17 @@
 	"vector3d.h"
 	"SIrrCreationParameters.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IrrCompileConfig.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrcompileconfig.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IrrCompileConfig.h
 	<stdio.h>
 	<xtl.h>
 	<tchar.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/aabbox3d.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\aabbox3d.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/aabbox3d.h
 	"irrMath.h"
 	"plane3d.h"
 	"line3d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrMath.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrmath.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrMath.h
 	"IrrCompileConfig.h"
 	"irrTypes.h"
 	<math.h>
@@ -2516,11 +4217,7 @@
 	<stdlib.h>
 	<limits.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrTypes.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrtypes.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrTypes.h
 	"IrrCompileConfig.h"
 	<wchar.h>
 	<crtdbg.h>
@@ -2528,51 +4225,28 @@
 	<stdlib.h>
 	<crtdbg.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/plane3d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/plane3d.h
 	"irrMath.h"
 	"vector3d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/vector3d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/vector3d.h
 	"irrMath.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/line3d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/line3d.h
 	"irrTypes.h"
 	"vector3d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CDynamicMeshBuffer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\plane3d.h
-	"irrMath.h"
-	"vector3d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\vector3d.h
-	"irrMath.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\line3d.h
-	"irrTypes.h"
-	"vector3d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cdynamicmeshbuffer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/CDynamicMeshBuffer.h
 	"IDynamicMeshBuffer.h"
 	"CVertexBuffer.h"
 	"CIndexBuffer.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IDynamicMeshBuffer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\idynamicmeshbuffer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IDynamicMeshBuffer.h
 	"IMeshBuffer.h"
 	"IVertexBuffer.h"
 	"IIndexBuffer.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshBuffer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshbuffer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshBuffer.h
 	"IReferenceCounted.h"
 	"SMaterial.h"
 	"aabbox3d.h"
@@ -2581,17 +4255,10 @@
 	"EHardwareBufferFlags.h"
 	"EPrimitiveTypes.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IReferenceCounted.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IReferenceCounted.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMaterial.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ireferencecounted.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smaterial.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMaterial.h
 	"SColor.h"
 	"matrix4.h"
 	"irrArray.h"
@@ -2600,19 +4267,11 @@
 	"EMaterialFlags.h"
 	"SMaterialLayer.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SColor.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SColor.h
 	"irrTypes.h"
 	"irrMath.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/matrix4.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\scolor.h
-	"irrTypes.h"
-	"irrMath.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\matrix4.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/matrix4.h
 	"irrMath.h"
 	"vector3d.h"
 	"vector2d.h"
@@ -2621,42 +4280,23 @@
 	"rect.h"
 	"irrString.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/vector2d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/vector2d.h
 	"irrMath.h"
 	"dimension2d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/dimension2d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/dimension2d.h
 	"irrTypes.h"
 	"irrMath.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/rect.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\vector2d.h
-	"irrMath.h"
-	"dimension2d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\dimension2d.h
-	"irrTypes.h"
-	"irrMath.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\rect.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/rect.h
 	"irrTypes.h"
 	"dimension2d.h"
 	"position2d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/position2d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/position2d.h
 	"vector2d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrString.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\position2d.h
-	"vector2d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrstring.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrString.h
 	"irrTypes.h"
 	"irrAllocator.h"
 	"irrMath.h"
@@ -2664,249 +4304,133 @@
 	<string.h>
 	<stdlib.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrAllocator.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrallocator.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrAllocator.h
 	"irrTypes.h"
 	<new>
 	<memory.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrArray.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrarray.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrArray.h
 	"irrTypes.h"
 	"heapsort.h"
 	"irrAllocator.h"
 	"irrMath.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/heapsort.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/heapsort.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMaterialTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EMaterialTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMaterialFlags.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EMaterialFlags.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMaterialLayer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMaterialLayer.h
 	"matrix4.h"
 	"irrAllocator.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/S3DVertex.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\heapsort.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ematerialtypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ematerialflags.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smateriallayer.h
-	"matrix4.h"
-	"irrAllocator.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\s3dvertex.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/S3DVertex.h
 	"vector3d.h"
 	"vector2d.h"
 	"SColor.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SVertexIndex.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SVertexIndex.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EHardwareBufferFlags.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EHardwareBufferFlags.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EPrimitiveTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EPrimitiveTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVertexBuffer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\svertexindex.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ehardwarebufferflags.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eprimitivetypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivertexbuffer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IVertexBuffer.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 	"S3DVertex.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IIndexBuffer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iindexbuffer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IIndexBuffer.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 	"SVertexIndex.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CVertexBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/CVertexBuffer.h
 	"IVertexBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CIndexBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/CIndexBuffer.h
 	"IIndexBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/CMeshBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/CMeshBuffer.h
 	"irrArray.h"
 	"IMeshBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/coreutil.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/coreutil.h
 	"irrString.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/path.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/path.h
 	"irrString.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ECullingTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ECullingTypes.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDebugSceneTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EDebugSceneTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDriverFeatures.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EDriverFeatures.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDriverTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EDriverTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EGUIAlignment.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EGUIAlignment.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EGUIElementTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EGUIElementTypes.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMeshWriterEnums.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EMeshWriterEnums.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EMessageBoxFlags.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EMessageBoxFlags.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeAnimatorTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeAnimatorTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ESceneNodeTypes.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ETerrainElements.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ETerrainElements.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/fast_atof.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/fast_atof.h
 	"irrMath.h"
 	"irrString.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMesh.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMesh.h
 	"aabbox3d.h"
 	"IMesh.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMesh.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cvertexbuffer.h
-	"IVertexBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cindexbuffer.h
-	"IIndexBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\cmeshbuffer.h
-	"irrArray.h"
-	"IMeshBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\coreutil.h
-	"irrString.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\path.h
-	"irrString.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ecullingtypes.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edebugscenetypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edriverfeatures.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edrivertypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eguialignment.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eguielementtypes.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\emeshwriterenums.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\emessageboxflags.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\escenenodeanimatortypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\escenenodetypes.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eterrainelements.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\fast_atof.h
-	"irrMath.h"
-	"irrString.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmesh.h
-	"aabbox3d.h"
-	"IMesh.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imesh.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMesh.h
 	"IReferenceCounted.h"
 	"SMaterial.h"
 	"EHardwareBufferFlags.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD2.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD2.h
 	"IAnimatedMesh.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD3.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshmd2.h
-	"IAnimatedMesh.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshmd3.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshMD3.h
 	"IAnimatedMesh.h"
 	"IQ3Shader.h"
 	"quaternion.h"
 	"irrpack.h"
 	"irrunpack.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IQ3Shader.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iq3shader.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IQ3Shader.h
 	"irrArray.h"
 	"fast_atof.h"
 	"IFileSystem.h"
 	"IVideoDriver.h"
 	"coreutil.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileSystem.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilesystem.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IFileSystem.h
 	"IReferenceCounted.h"
 	"IXMLReader.h"
 	"IFileArchive.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IXMLReader.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IXMLReader.h
 	"IReferenceCounted.h"
 	"irrXML.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrXML.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ixmlreader.h
-	"IReferenceCounted.h"
-	"irrXML.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrxml.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrXML.h
 	<stdio.h>
 	"IrrCompileConfig.h"
 	<irrXML.h>
@@ -2915,35 +4439,19 @@
 	<irrXML.h>
 	<irrXML.h>
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileArchive.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IFileArchive.h
 	"IReadFile.h"
 	"IFileList.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IReadFile.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IReadFile.h
 	"IReferenceCounted.h"
 	"coreutil.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IFileList.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IFileList.h
 	"IReferenceCounted.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVideoDriver.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilearchive.h
-	"IReadFile.h"
-	"IFileList.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ireadfile.h
-	"IReferenceCounted.h"
-	"coreutil.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ifilelist.h
-	"IReferenceCounted.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivideodriver.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IVideoDriver.h
 	"rect.h"
 	"SColor.h"
 	"ITexture.h"
@@ -2959,11 +4467,7 @@
 	"EDriverFeatures.h"
 	"SExposedVideoData.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITexture.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itexture.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ITexture.h
 	"IReferenceCounted.h"
 	"IImage.h"
 	"dimension2d.h"
@@ -2971,63 +4475,37 @@
 	"path.h"
 	"matrix4.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImage.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimage.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IImage.h
 	"IReferenceCounted.h"
 	"position2d.h"
 	"rect.h"
 	"SColor.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/triangle3d.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\triangle3d.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/triangle3d.h
 	"vector3d.h"
 	"line3d.h"
 	"plane3d.h"
 	"aabbox3d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SExposedVideoData.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SExposedVideoData.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/quaternion.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sexposedvideodata.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\quaternion.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/quaternion.h
 	"irrTypes.h"
 	"irrMath.h"
 	"matrix4.h"
 	"vector3d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrpack.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrpack.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrunpack.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrunpack.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshSceneNode.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrpack.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrunpack.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ianimatedmeshscenenode.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAnimatedMeshSceneNode.h
 	"ISceneNode.h"
 	"IBoneSceneNode.h"
 	"IAnimatedMeshMD2.h"
 	"IAnimatedMeshMD3.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNode.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenode.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNode.h
 	"IAttributeExchangingObject.h"
 	"ESceneNodeTypes.h"
 	"ECullingTypes.h"
@@ -3041,67 +4519,39 @@
 	"irrList.h"
 	"IAttributes.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAttributeExchangingObject.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAttributeExchangingObject.h
 	"IReferenceCounted.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimator.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iattributeexchangingobject.h
-	"IReferenceCounted.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimator.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimator.h
 	"IReferenceCounted.h"
 	"vector3d.h"
 	"ESceneNodeAnimatorTypes.h"
 	"IAttributeExchangingObject.h"
 	"IEventReceiver.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IEventReceiver.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ieventreceiver.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IEventReceiver.h
 	"ILogger.h"
 	"Keycodes.h"
 	"irrString.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILogger.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ILogger.h
 	"IReferenceCounted.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/Keycodes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/Keycodes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITriangleSelector.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilogger.h
-	"IReferenceCounted.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\keycodes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itriangleselector.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ITriangleSelector.h
 	"IReferenceCounted.h"
 	"triangle3d.h"
 	"aabbox3d.h"
 	"matrix4.h"
 	"line3d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrList.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrlist.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrList.h
 	"irrTypes.h"
 	"irrAllocator.h"
 	"irrMath.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IAttributes.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iattributes.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IAttributes.h
 	"IReferenceCounted.h"
 	"SColor.h"
 	"vector3d.h"
@@ -3124,95 +4574,51 @@
 	"EAttributes.h"
 	"path.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/line2d.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/line2d.h
 	"irrTypes.h"
 	"vector2d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EAttributes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EAttributes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBoneSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IBoneSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBillboardSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IBillboardSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IBillboardTextSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IBillboardTextSceneNode.h
 	"IBillboardSceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ICameraSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ICameraSceneNode.h
 	"ISceneNode.h"
 	"IEventReceiver.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ICursorControl.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\line2d.h
-	"irrTypes.h"
-	"vector2d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eattributes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibonescenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibillboardscenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ibillboardtextscenenode.h
-	"IBillboardSceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icamerascenenode.h
-	"ISceneNode.h"
-	"IEventReceiver.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icursorcontrol.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ICursorControl.h
 	"IReferenceCounted.h"
 	"position2d.h"
 	"rect.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IDummyTransformationSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IDummyTransformationSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGeometryCreator.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\idummytransformationscenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\igeometrycreator.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGeometryCreator.h
 	"IReferenceCounted.h"
 	"IMesh.h"
 	"IImage.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGPUProgrammingServices.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\igpuprogrammingservices.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGPUProgrammingServices.h
 	"EShaderTypes.h"
 	"EMaterialTypes.h"
 	"EPrimitiveTypes.h"
 	"path.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EShaderTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EShaderTypes.h
 	"irrTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIButton.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIButton.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIElement.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\eshadertypes.h
-	"irrTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguibutton.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguielement.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIElement.h
 	"IAttributeExchangingObject.h"
 	"irrList.h"
 	"rect.h"
@@ -3222,51 +4628,27 @@
 	"EGUIAlignment.h"
 	"IAttributes.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUICheckBox.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUICheckBox.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIColorSelectDialog.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIColorSelectDialog.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIComboBox.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIComboBox.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIContextMenu.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIContextMenu.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIEditBox.h
-	"IGUIElement.h"
-	"SColor.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIElementFactory.h
-	"IReferenceCounted.h"
-	"EGUIElementTypes.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIEnvironment.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicheckbox.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicolorselectdialog.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicombobox.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguicontextmenu.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguieditbox.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIEditBox.h
 	"IGUIElement.h"
 	"SColor.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguielementfactory.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIElementFactory.h
 	"IReferenceCounted.h"
 	"EGUIElementTypes.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguienvironment.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIEnvironment.h
 	"IReferenceCounted.h"
 	"IGUISkin.h"
 	"rect.h"
@@ -3275,219 +4657,118 @@
 	"IXMLReader.h"
 	"path.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISkin.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiskin.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUISkin.h
 	"IAttributeExchangingObject.h"
 	"EGUIAlignment.h"
 	"SColor.h"
 	"rect.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFileOpenDialog.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIFileOpenDialog.h
 	"IGUIElement.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFont.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifileopendialog.h
-	"IGUIElement.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifont.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIFont.h
 	"IReferenceCounted.h"
 	"SColor.h"
 	"rect.h"
 	"irrString.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIFontBitmap.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIFontBitmap.h
 	"IGUIFont.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIImage.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIImage.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIInOutFader.h
-	"IGUIElement.h"
-	"SColor.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIListBox.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIInOutFader.h
 	"IGUIElement.h"
 	"SColor.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIMeshViewer.h
-	"IGUIElement.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIScrollBar.h
-	"IGUIElement.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISpinBox.h
-	"IGUIElement.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUISpriteBank.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguifontbitmap.h
-	"IGUIFont.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiimage.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiinoutfader.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIListBox.h
 	"IGUIElement.h"
 	"SColor.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguilistbox.h
-	"IGUIElement.h"
-	"SColor.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguimeshviewer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIMeshViewer.h
 	"IGUIElement.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiscrollbar.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIScrollBar.h
 	"IGUIElement.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguispinbox.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUISpinBox.h
 	"IGUIElement.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguispritebank.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUISpriteBank.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 	"SColor.h"
 	"rect.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIStaticText.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIStaticText.h
 	"IGUIElement.h"
 	"SColor.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITabControl.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguistatictext.h
-	"IGUIElement.h"
-	"SColor.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitabcontrol.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUITabControl.h
 	"IGUIElement.h"
 	"SColor.h"
 	"IGUISkin.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITable.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitable.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUITable.h
 	"IGUIElement.h"
 	"irrTypes.h"
 	"SColor.h"
 	"IGUISkin.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIToolbar.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIToolbar.h
 	"IGUIElement.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIWindow.h
-	"IGUIElement.h"
-	"EMessageBoxFlags.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUITreeView.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitoolbar.h
-	"IGUIElement.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiwindow.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIWindow.h
 	"IGUIElement.h"
 	"EMessageBoxFlags.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguitreeview.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUITreeView.h
 	"IGUIElement.h"
 	"IGUIImageList.h"
 	"irrTypes.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IGUIImageList.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iguiimagelist.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IGUIImageList.h
 	"IGUIElement.h"
 	"rect.h"
 	"irrTypes.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImageLoader.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimageloader.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IImageLoader.h
 	"IReferenceCounted.h"
 	"IImage.h"
 	"path.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IImageWriter.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iimagewriter.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IImageWriter.h
 	"IReferenceCounted.h"
 	"irrString.h"
 	"coreutil.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILightSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ILightSceneNode.h
 	"ISceneNode.h"
 	"SLight.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SLight.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SLight.h
 	"SColor.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMaterialRenderer.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilightscenenode.h
-	"ISceneNode.h"
-	"SLight.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\slight.h
-	"SColor.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imaterialrenderer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMaterialRenderer.h
 	"IReferenceCounted.h"
 	"SMaterial.h"
 	"S3DVertex.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMaterialRendererServices.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMaterialRendererServices.h
 	"SMaterial.h"
 	"S3DVertex.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshCache.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshCache.h
 	"IReferenceCounted.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshLoader.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshLoader.h
 	"IReferenceCounted.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshManipulator.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imaterialrendererservices.h
-	"SMaterial.h"
-	"S3DVertex.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshcache.h
-	"IReferenceCounted.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshloader.h
-	"IReferenceCounted.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshmanipulator.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshManipulator.h
 	"IReferenceCounted.h"
 	"vector3d.h"
 	"aabbox3d.h"
@@ -3496,57 +4777,31 @@
 	"IMeshBuffer.h"
 	"SVertexManipulator.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SVertexManipulator.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SVertexManipulator.h
 	"S3DVertex.h"
 	"SColor.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMeshWriter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMeshWriter.h
 	"IReferenceCounted.h"
 	"EMeshWriterEnums.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IColladaMeshWriter.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\svertexmanipulator.h
-	"S3DVertex.h"
-	"SColor.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshscenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imeshwriter.h
-	"IReferenceCounted.h"
-	"EMeshWriterEnums.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\icolladameshwriter.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IColladaMeshWriter.h
 	"IMeshWriter.h"
 	"ISceneNode.h"
 	"IAnimatedMesh.h"
 	"SMaterial.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IMetaTriangleSelector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IMetaTriangleSelector.h
 	"ITriangleSelector.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IOSOperator.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IOSOperator.h
 	"IReferenceCounted.h"
 	"irrString.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleSystemSceneNode.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\imetatriangleselector.h
-	"ITriangleSelector.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iosoperator.h
-	"IReferenceCounted.h"
-	"irrString.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlesystemscenenode.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleSystemSceneNode.h
 	"ISceneNode.h"
 	"IParticleAnimatedMeshSceneNodeEmitter.h"
 	"IParticleBoxEmitter.h"
@@ -3560,116 +4815,60 @@
 	"IParticleRotationAffector.h"
 	"dimension2d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAnimatedMeshSceneNodeEmitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleAnimatedMeshSceneNodeEmitter.h
 	"IParticleEmitter.h"
 	"IAnimatedMeshSceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleEmitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleEmitter.h
 	"IAttributeExchangingObject.h"
 	"SParticle.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SParticle.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleanimatedmeshscenenodeemitter.h
-	"IParticleEmitter.h"
-	"IAnimatedMeshSceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleemitter.h
-	"IAttributeExchangingObject.h"
-	"SParticle.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sparticle.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SParticle.h
 	"vector3d.h"
 	"dimension2d.h"
 	"SColor.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleBoxEmitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleBoxEmitter.h
 	"IParticleEmitter.h"
 	"aabbox3d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleCylinderEmitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleCylinderEmitter.h
 	"IParticleEmitter.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleMeshEmitter.h
-	"IParticleEmitter.h"
-	"IMesh.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleRingEmitter.h
-	"IParticleEmitter.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleSphereEmitter.h
-	"IParticleEmitter.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAttractionAffector.h
-	"IParticleAffector.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleAffector.h
-	"IAttributeExchangingObject.h"
-	"SParticle.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleFadeOutAffector.h
-	"IParticleAffector.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleGravityAffector.h
-	"IParticleAffector.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IParticleRotationAffector.h
-	"IParticleAffector.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IQ3LevelMesh.h
-	"IAnimatedMesh.h"
-	"IQ3Shader.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IRandomizer.h
-	"IReferenceCounted.h"
-
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IrrlichtDevice.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleboxemitter.h
-	"IParticleEmitter.h"
-	"aabbox3d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlecylinderemitter.h
-	"IParticleEmitter.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlemeshemitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleMeshEmitter.h
 	"IParticleEmitter.h"
 	"IMesh.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleringemitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleRingEmitter.h
 	"IParticleEmitter.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlesphereemitter.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleSphereEmitter.h
 	"IParticleEmitter.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleattractionaffector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleAttractionAffector.h
 	"IParticleAffector.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticleaffector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleAffector.h
 	"IAttributeExchangingObject.h"
 	"SParticle.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlefadeoutaffector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleFadeOutAffector.h
 	"IParticleAffector.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlegravityaffector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleGravityAffector.h
 	"IParticleAffector.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iparticlerotationaffector.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IParticleRotationAffector.h
 	"IParticleAffector.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iq3levelmesh.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IQ3LevelMesh.h
 	"IAnimatedMesh.h"
 	"IQ3Shader.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irandomizer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IRandomizer.h
 	"IReferenceCounted.h"
 
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrlichtdevice.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IrrlichtDevice.h
 	"IReferenceCounted.h"
 	"dimension2d.h"
 	"IVideoDriver.h"
@@ -3681,56 +4880,31 @@
 	"ITimer.h"
 	"IOSOperator.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/EDeviceTypes.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/EDeviceTypes.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVideoModeList.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IVideoModeList.h
 	"IReferenceCounted.h"
 	"dimension2d.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITimer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ITimer.h
 	"IReferenceCounted.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/irrMap.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/irrMap.h
 	"irrTypes.h"
 	"irrMath.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneCollisionManager.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\edevicetypes.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivideomodelist.h
-	"IReferenceCounted.h"
-	"dimension2d.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itimer.h
-	"IReferenceCounted.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\irrmap.h
-	"irrTypes.h"
-	"irrMath.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenecollisionmanager.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneCollisionManager.h
 	"IReferenceCounted.h"
 	"vector3d.h"
 	"triangle3d.h"
 	"position2d.h"
 	"line3d.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneLoader.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneLoader.h
 	"IReferenceCounted.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneManager.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\isceneloader.h
-	"IReferenceCounted.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenemanager.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneManager.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 	"irrString.h"
@@ -3746,197 +4920,106 @@
 	"IGeometryCreator.h"
 	"ISkinnedMesh.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SceneParameters.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SceneParameters.h
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISkinnedMesh.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sceneparameters.h
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iskinnedmesh.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISkinnedMesh.h
 	"irrArray.h"
 	"IBoneSceneNode.h"
 	"IAnimatedMesh.h"
 	"SSkinMeshBuffer.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SSkinMeshBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SSkinMeshBuffer.h
 	"IMeshBuffer.h"
 	"S3DVertex.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraFPS.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sskinmeshbuffer.h
-	"IMeshBuffer.h"
-	"S3DVertex.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcamerafps.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraFPS.h
 	"ISceneNodeAnimator.h"
 	"IEventReceiver.h"
 	"irrArray.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraMaya.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCameraMaya.h
 	"ISceneNodeAnimator.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCollisionResponse.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorCollisionResponse.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorFactory.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeAnimatorFactory.h
 	"IReferenceCounted.h"
 	"ESceneNodeAnimatorTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeFactory.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneNodeFactory.h
 	"IReferenceCounted.h"
 	"ESceneNodeTypes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ISceneUserDataSerializer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ISceneUserDataSerializer.h
 	"IReferenceCounted.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IShaderConstantSetCallBack.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IShaderConstantSetCallBack.h
 	"IReferenceCounted.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IShadowVolumeSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IShadowVolumeSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITerrainSceneNode.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcameramaya.h
-	"ISceneNodeAnimator.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorcollisionresponse.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodeanimatorfactory.h
-	"IReferenceCounted.h"
-	"ESceneNodeAnimatorTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iscenenodefactory.h
-	"IReferenceCounted.h"
-	"ESceneNodeTypes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\isceneuserdataserializer.h
-	"IReferenceCounted.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ishaderconstantsetcallback.h
-	"IReferenceCounted.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ishadowvolumescenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iterrainscenenode.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ITerrainSceneNode.h
 	"ETerrainElements.h"
 	"ISceneNode.h"
 	"IDynamicMeshBuffer.h"
 	"irrArray.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ITextSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ITextSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IVolumeLightSceneNode.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IVolumeLightSceneNode.h
 	"ISceneNode.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IWriteFile.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IWriteFile.h
 	"IReferenceCounted.h"
 	"path.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/IXMLWriter.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\itextscenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ivolumelightscenenode.h
-	"ISceneNode.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\iwritefile.h
-	"IReferenceCounted.h"
-	"path.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ixmlwriter.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/IXMLWriter.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 	"irrString.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/ILightManager.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/ILightManager.h
 	"IReferenceCounted.h"
 	"irrArray.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SAnimatedMesh.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ilightmanager.h
-	"IReferenceCounted.h"
-	"irrArray.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sanimatedmesh.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SAnimatedMesh.h
 	"IAnimatedMesh.h"
 	"IMesh.h"
 	"aabbox3d.h"
 	"irrArray.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SIrrCreationParameters.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sirrcreationparameters.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SIrrCreationParameters.h
 	"EDriverTypes.h"
 	"EDeviceTypes.h"
 	"dimension2d.h"
 	"ILogger.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SKeyMap.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SKeyMap.h
 	"Keycodes.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMesh.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\skeymap.h
-	"Keycodes.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smesh.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMesh.h
 	"IMesh.h"
 	"IMeshBuffer.h"
 	"aabbox3d.h"
 	"irrArray.h"
 
-<<<<<<< HEAD
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMeshBuffer.h
 	"CMeshBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferLightMap.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferLightMap.h
 	"CMeshBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferTangents.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SMeshBufferTangents.h
 	"CMeshBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SSharedMeshBuffer.h
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SSharedMeshBuffer.h
 	"irrArray.h"
 	"IMeshBuffer.h"
 
-1574859756 /home/netpipe/gamedev/LunaLibs/irrlicht-1.8.4/include/SViewFrustum.h
-=======
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbuffer.h
-	"CMeshBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbufferlightmap.h
-	"CMeshBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\smeshbuffertangents.h
-	"CMeshBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\ssharedmeshbuffer.h
-	"irrArray.h"
-	"IMeshBuffer.h"
-
-1640198757 c:\dev\lunalibs\irrlicht-1.8.4\include\sviewfrustum.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453708 /home/netpipe/Dev/LunaLibs/irrlicht-1.8.4/include/SViewFrustum.h
 	"plane3d.h"
 	"vector3d.h"
 	"line3d.h"
@@ -3944,17 +5027,10 @@
 	"matrix4.h"
 	"IVideoDriver.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Vector3D.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Vector3D.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_DEF.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_vector3d.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_def.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_DEF.h
 	<cstdlib>
 	<cmath>
 	<algorithm>
@@ -3967,57 +5043,31 @@
 	<set>
 	<string>
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Buffer.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Buffer.h
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRSystem.cpp
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRSystem.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRSystem.h"
 	"Core/SPK_Group.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRSystem.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRSystem.h
 	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
 	"Core/SPK_System.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_System.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_buffer.h
-
-1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrsystem.cpp
-	"RenderingAPIs/Irrlicht/SPK_IRRSystem.h"
-	"Core/SPK_Group.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrsystem.h
-	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
-	"Core/SPK_System.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_system.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_System.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Registerable.h"
 	"Core/SPK_Transformable.h"
 	"Core/SPK_Vector3D.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Registerable.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Registerable.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Vector3D.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Transformable.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Transformable.h
 	"Core/SPK_Vector3D.h"
 	<memory.h>
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Group.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_registerable.h
-	"Core/SPK_DEF.h"
-	"Core/SPK_Vector3D.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_transformable.h
-	"Core/SPK_Vector3D.h"
-	<memory.h>
-
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_group.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Group.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Registerable.h"
 	"Core/SPK_Transformable.h"
@@ -4025,142 +5075,76 @@
 	"Core/SPK_Pool.h"
 	"Core/SPK_Particle.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Pool.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Pool.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Particle.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_pool.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_particle.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Particle.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Vector3D.h"
 	"Core/SPK_Pool.h"
 	"Core/SPK_Model.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Model.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_model.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Model.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Registerable.h"
 	"Core/SPK_Interpolator.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Interpolator.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Interpolator.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRRenderer.cpp
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRRenderer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
 
-1465879700 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRRenderer.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_interpolator.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrrenderer.cpp
-	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrrenderer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRRenderer.h
 	"RenderingAPIs/Irrlicht/SPK_IRR_DEF.h"
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 	"Core/SPK_Renderer.h"
 	"Core/SPK_Group.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_Renderer.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_renderer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_Renderer.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Registerable.h"
 	"Core/SPK_BufferHandler.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Core/SPK_BufferHandler.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Core/SPK_BufferHandler.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.cpp
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h"
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h
 	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
 	"Extensions/Renderers/SPK_PointRendererInterface.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_PointRendererInterface.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_PointRendererInterface.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.cpp
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h"
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h
 	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
 	"Extensions/Renderers/SPK_LineRendererInterface.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_LineRendererInterface.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_LineRendererInterface.h
 	"Core/SPK_DEF.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.cpp
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/src/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.cpp
 	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h"
 	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\core\spk_bufferhandler.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrpointrenderer.cpp
-	"RenderingAPIs/Irrlicht/SPK_IRRPointRenderer.h"
-	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrpointrenderer.h
-	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
-	"Extensions/Renderers/SPK_PointRendererInterface.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_pointrendererinterface.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrlinerenderer.cpp
-	"RenderingAPIs/Irrlicht/SPK_IRRLineRenderer.h"
-	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrlinerenderer.h
-	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
-	"Extensions/Renderers/SPK_LineRendererInterface.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_linerendererinterface.h
-	"Core/SPK_DEF.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\src\renderingapis\irrlicht\spk_irrquadrenderer.cpp
-	"RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h"
-	"RenderingAPIs/Irrlicht/SPK_IRRBuffer.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\renderingapis\irrlicht\spk_irrquadrenderer.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/RenderingAPIs/Irrlicht/SPK_IRRQuadRenderer.h
 	"RenderingAPIs/Irrlicht/SPK_IRRRenderer.h"
 	"Extensions/Renderers/SPK_QuadRendererInterface.h"
 	"Extensions/Renderers/SPK_Oriented3DRendererInterface.h"
 
-<<<<<<< HEAD
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_QuadRendererInterface.h
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_QuadRendererInterface.h
 	"Core/SPK_DEF.h"
 	"Core/SPK_Particle.h"
 
-1271922808 /home/netpipe/gamedev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_Oriented3DRendererInterface.h
-=======
-1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_quadrendererinterface.h
-	"Core/SPK_DEF.h"
-	"Core/SPK_Particle.h"
-
-1640198740 c:\dev\lunalibs\sparkengine\include\extensions\renderers\spk_oriented3drendererinterface.h
->>>>>>> 81be06ed7bdc2944767dbff4509e2ff1d5045c7b
+1645453704 /home/netpipe/Dev/LunaLibs/SparkEngine/include/Extensions/Renderers/SPK_Oriented3DRendererInterface.h
 	"Core/SPK_Vector3D.h"
 	"Core/SPK_Group.h"
 

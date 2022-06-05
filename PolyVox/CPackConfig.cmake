@@ -10,12 +10,6 @@
 # usually begin with CPACK_<GENNAME>_xxxx.
 
 
-<<<<<<< HEAD
-set(CPACK_BINARY_DEB "OFF")
-set(CPACK_BINARY_FREEBSD "OFF")
-set(CPACK_BINARY_IFW "OFF")
-set(CPACK_BINARY_NSIS "OFF")
-=======
 set(CPACK_BINARY_7Z "")
 set(CPACK_BINARY_BUNDLE "")
 set(CPACK_BINARY_CYGWIN "")
@@ -28,34 +22,22 @@ set(CPACK_BINARY_NUGET "")
 set(CPACK_BINARY_OSXX11 "")
 set(CPACK_BINARY_PACKAGEMAKER "")
 set(CPACK_BINARY_PRODUCTBUILD "")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
 set(CPACK_BINARY_RPM "OFF")
 set(CPACK_BINARY_STGZ "ON")
 set(CPACK_BINARY_TBZ2 "OFF")
 set(CPACK_BINARY_TGZ "ON")
 set(CPACK_BINARY_TXZ "OFF")
 set(CPACK_BINARY_TZ "ON")
-<<<<<<< HEAD
-set(CPACK_BUILD_SOURCE_DIRS "/home/netpipe/gamedev/LunaLibs/PolyVox;/home/netpipe/gamedev/LunaLibs/PolyVox")
-=======
 set(CPACK_BINARY_WIX "")
 set(CPACK_BINARY_ZIP "")
-set(CPACK_BUILD_SOURCE_DIRS "/home/gamedev/Desktop/LunaLibs/PolyVox;/home/gamedev/Desktop/LunaLibs/PolyVox")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
+set(CPACK_BUILD_SOURCE_DIRS "/home/netpipe/Dev/LunaLibs/PolyVox;/home/netpipe/Dev/LunaLibs/PolyVox")
 set(CPACK_CMAKE_GENERATOR "Unix Makefiles")
 set(CPACK_COMPONENTS_ALL "development;library")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
-<<<<<<< HEAD
-set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake/Templates/CPack.GenericDescription.txt")
-set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "PolyVox built using CMake")
-set(CPACK_GENERATOR "STGZ;TGZ;TZ")
-set(CPACK_INSTALL_CMAKE_PROJECTS "/home/netpipe/gamedev/LunaLibs/PolyVox;PolyVox;ALL;/")
-=======
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake-3.16/Templates/CPack.GenericDescription.txt")
 set(CPACK_GENERATOR "STGZ;TGZ;TZ")
-set(CPACK_INSTALL_CMAKE_PROJECTS "/home/gamedev/Desktop/LunaLibs/PolyVox;PolyVox;ALL;/")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
+set(CPACK_INSTALL_CMAKE_PROJECTS "/home/netpipe/Dev/LunaLibs/PolyVox;PolyVox;ALL;/")
 set(CPACK_INSTALL_PREFIX "/usr/local")
 set(CPACK_MODULE_PATH "")
 set(CPACK_NSIS_DISPLAY_NAME "PolyVox SDK 0.1.0")
@@ -63,16 +45,9 @@ set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
 set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES")
 set(CPACK_NSIS_PACKAGE_NAME "PolyVox SDK 0.1.0")
-<<<<<<< HEAD
-set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
-set(CPACK_OUTPUT_CONFIG_FILE "/home/netpipe/gamedev/LunaLibs/PolyVox/CPackConfig.cmake")
-set(CPACK_PACKAGE_DEFAULT_LOCATION "/")
-set(CPACK_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake/Templates/CPack.GenericDescription.txt")
-=======
-set(CPACK_OUTPUT_CONFIG_FILE "/home/gamedev/Desktop/LunaLibs/PolyVox/CPackConfig.cmake")
+set(CPACK_OUTPUT_CONFIG_FILE "/home/netpipe/Dev/LunaLibs/PolyVox/CPackConfig.cmake")
 set(CPACK_PACKAGE_DEFAULT_LOCATION "/")
 set(CPACK_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake-3.16/Templates/CPack.GenericDescription.txt")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "PolyVox SDK")
 set(CPACK_PACKAGE_FILE_NAME "PolyVox SDK-0.1.0-Linux")
 set(CPACK_PACKAGE_INSTALL_DIRECTORY "PolyVox SDK 0.1.0")
@@ -84,14 +59,6 @@ set(CPACK_PACKAGE_VERSION "0.1.0")
 set(CPACK_PACKAGE_VERSION_MAJOR "0")
 set(CPACK_PACKAGE_VERSION_MINOR "1")
 set(CPACK_PACKAGE_VERSION_PATCH "0")
-<<<<<<< HEAD
-set(CPACK_RESOURCE_FILE_LICENSE "/usr/share/cmake/Templates/CPack.GenericLicense.txt")
-set(CPACK_RESOURCE_FILE_README "/usr/share/cmake/Templates/CPack.GenericDescription.txt")
-set(CPACK_RESOURCE_FILE_WELCOME "/usr/share/cmake/Templates/CPack.GenericWelcome.txt")
-set(CPACK_SET_DESTDIR "OFF")
-set(CPACK_SOURCE_GENERATOR "TBZ2;TGZ;TXZ;TZ")
-set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/netpipe/gamedev/LunaLibs/PolyVox/CPackSourceConfig.cmake")
-=======
 set(CPACK_RESOURCE_FILE_LICENSE "/usr/share/cmake-3.16/Templates/CPack.GenericLicense.txt")
 set(CPACK_RESOURCE_FILE_README "/usr/share/cmake-3.16/Templates/CPack.GenericDescription.txt")
 set(CPACK_RESOURCE_FILE_WELCOME "/usr/share/cmake-3.16/Templates/CPack.GenericWelcome.txt")
@@ -99,8 +66,7 @@ set(CPACK_SET_DESTDIR "OFF")
 set(CPACK_SOURCE_7Z "")
 set(CPACK_SOURCE_CYGWIN "")
 set(CPACK_SOURCE_GENERATOR "TBZ2;TGZ;TXZ;TZ")
-set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/gamedev/Desktop/LunaLibs/PolyVox/CPackSourceConfig.cmake")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
+set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/netpipe/Dev/LunaLibs/PolyVox/CPackSourceConfig.cmake")
 set(CPACK_SOURCE_RPM "OFF")
 set(CPACK_SOURCE_TBZ2 "ON")
 set(CPACK_SOURCE_TGZ "ON")
@@ -112,11 +78,7 @@ set(CPACK_TOPLEVEL_TAG "Linux")
 set(CPACK_WIX_SIZEOF_VOID_P "8")
 
 if(NOT CPACK_PROPERTIES_FILE)
-<<<<<<< HEAD
-  set(CPACK_PROPERTIES_FILE "/home/netpipe/gamedev/LunaLibs/PolyVox/CPackProperties.cmake")
-=======
-  set(CPACK_PROPERTIES_FILE "/home/gamedev/Desktop/LunaLibs/PolyVox/CPackProperties.cmake")
->>>>>>> eb3747483d3f9718961ce117dc8c049fad9cfd27
+  set(CPACK_PROPERTIES_FILE "/home/netpipe/Dev/LunaLibs/PolyVox/CPackProperties.cmake")
 endif()
 
 if(EXISTS ${CPACK_PROPERTIES_FILE})

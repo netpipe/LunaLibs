@@ -1,4 +1,4 @@
-# Install script for directory: /home/gamedev/Desktop/LunaLibs/PolyVox
+# Install script for directory: /home/netpipe/Dev/LunaLibs/PolyVox
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gamedev/Desktop/LunaLibs/PolyVox/library/cmake_install.cmake")
-  include("/home/gamedev/Desktop/LunaLibs/PolyVox/documentation/cmake_install.cmake")
+  include("/home/netpipe/Dev/LunaLibs/PolyVox/library/cmake_install.cmake")
+  include("/home/netpipe/Dev/LunaLibs/PolyVox/documentation/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gamedev/Desktop/LunaLibs/PolyVox/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/netpipe/Dev/LunaLibs/PolyVox/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
