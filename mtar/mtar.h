@@ -214,19 +214,19 @@ extern bool extractTar(char * tarfile){
 //        _wmkdir((wchar_t*)"../media/lib/python2.7/xml/dom" ) ;
 
 //        _mkdir("../media") ;
-        _mkdir( "../media/lib") ;
-        _mkdir("../media/lib/python2.7") ;
-        _mkdir("../media/lib/python2.7/compiler") ;
-        _mkdir("../media/lib/python2.7/encodings") ;
-        _mkdir("../media/lib/python2.7/importlib") ;
-        _mkdir("../media/lib/python2.7/json");
-        _mkdir("../media/lib/python2.7/logging");
-        _mkdir("../media/lib/python2.7/plat-emscripten") ;
-        _mkdir("../media/lib/python2.7/xml") ;
-        _mkdir("../media/lib/python2.7/xml/sax") ;
-        _mkdir("../media/lib/python2.7/xml/parsers") ;
-        _mkdir("../media/lib/python2.7/xml/etree" ) ;
-        _mkdir("../media/lib/python2.7/xml/dom" ) ;
+        mkdir( "../media/lib") ;
+        mkdir("../media/lib/python2.7") ;
+        mkdir("../media/lib/python2.7/compiler") ;
+        mkdir("../media/lib/python2.7/encodings") ;
+        mkdir("../media/lib/python2.7/importlib") ;
+        mkdir("../media/lib/python2.7/json");
+        mkdir("../media/lib/python2.7/logging");
+        mkdir("../media/lib/python2.7/plat-emscripten") ;
+        mkdir("../media/lib/python2.7/xml") ;
+        mkdir("../media/lib/python2.7/xml/sax") ;
+        mkdir("../media/lib/python2.7/xml/parsers") ;
+        mkdir("../media/lib/python2.7/xml/etree" ) ;
+        mkdir("../media/lib/python2.7/xml/dom" ) ;
 // _mkdir( "testtmp" );
         #else
         // if (mkdir(filename.c_str(), (u16)mode) != 0)
