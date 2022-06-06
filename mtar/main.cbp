@@ -25,7 +25,6 @@
 				</Compiler>
 				<Linker>
 					<Add library="X11" />
-					<Add library="mtar" />
 				</Linker>
 			</Target>
 			<Target title="Linux Release">
@@ -45,7 +44,6 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="mtar" />
 				</Linker>
 			</Target>
 			<Target title="WinDebug">
