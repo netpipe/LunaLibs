@@ -20,6 +20,7 @@
 					<Add option="-fpermissive" />
 					<Add option="-DPYTHON" />
 					<Add option="-DLINUX" />
+					<Add option="-DCOMPRESS" />
 					<Add directory="./" />
 				</Compiler>
 				<Linker>
@@ -154,6 +155,7 @@
 			<Add option="`pkg-config gtk+-2.0 --cflags`" />
 			<Add option="-fpermissive" />
 			<Add option="-DPARTICLES" />
+			<Add option="-DCOMPRESS" />
 			<Add directory="./" />
 			<Add directory="./lib" />
 		</Compiler>
