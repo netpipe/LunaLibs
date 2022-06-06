@@ -181,7 +181,7 @@ void add_files(mtar_t* tar, char** files, int num_files)
             die(E_TAR, "adding \"%s\" failed: %s", files[i], mtar_strerror(err));
     }
 }
-#include <direct.h>
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>

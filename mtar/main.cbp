@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Luna-Engine" />
+		<Option makefile="makefile" />
+		<Option pch_mode="0" />
+		<Option default_target="Linux Debug" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Linux Debug">
+				<Option platforms="Unix;" />
+				<Option output="./GAME/Luna" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="GAME" />
+				<Option object_output=".dobjs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-fpermissive" />
+					<Add option="-DPYTHON" />
+					<Add option="-DLINUX" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add library="X11" />
+					<Add library="mtar" />
+				</Linker>
+			</Target>
+			<Target title="Linux Release">
+				<Option platforms="Unix;" />
+				<Option output="./GAME/dLuna" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="./GAME/" />
+				<Option object_output=".robjs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-fpermissive" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DPYTHON" />
+					<Add option="-DLINUX" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="mtar" />
+				</Linker>
+			</Target>
+			<Target title="WinDebug">
+				<Option output="./mtar" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-DCOMPRESS" />
+					<Add option="-DWIN64" />
+					<Add option="-DWIN32" />
+					<Add directory="../libs/pthreads-w32-2-8-0-release" />
+					<Add directory="../libs/bullet-2.75/src" />
+					<Add directory="../libs/libogg-1.1.4/include" />
+					<Add directory="../libs/libvorbis-1.2.3/include" />
+					<Add directory="../libs/freetype-2.3.9/include" />
+					<Add directory="C:/Program Files/OpenAL 1.1 SDK" />
+					<Add directory="../libs/net/enet-1.2.1/include" />
+					<Add directory="../libs/net/irrNetLite21" />
+					<Add directory="../libs/ffmpeg-0.5/libavcodec" />
+					<Add directory="../libs/ffmpeg-0.5/libavdevice" />
+					<Add directory="../libs/ffmpeg-0.5/" />
+					<Add directory="../libs/ffmpeg-0.5/libavformat" />
+					<Add directory="../libs/ffmpeg-0.5/libswscale" />
+					<Add directory="C:/Program Files/Python2.6/include" />
+					<Add directory="../libs/cAudio2/include" />
+					<Add directory="../libs/net/syncsys/include" />
+					<Add directory="../libs/angelscript/include" />
+					<Add directory="../libs/angelscript" />
+					<Add directory="../libs/SparkEngine/include" />
+				</Compiler>
+				<Linker>
+					<Add library="WSock32" />
+					<Add library="Winmm" />
+					<Add directory="../libs/bullet-2.75/out/release71/libs" />
+					<Add directory="../libs/irrlicht-1.6/lib/Win32-gcc" />
+					<Add directory="C:/Program Files/OpenAL 1.1 SDK/libs/Win32" />
+					<Add directory="../libs/libogg-1.1.4/" />
+					<Add directory="../libs/libvorbis-1.2.3/" />
+					<Add directory="../libs/freetype-2.3.9" />
+					<Add directory="../libs/pthreads-w32-2-8-0-release" />
+					<Add directory="../libs/net/irrNetLite21" />
+					<Add directory="../libs/net/enet-1.2.1" />
+					<Add directory="C:/Program Files/Python2.6/libs" />
+					<Add directory="C:/Dev/Agnostic/Libs/bullet/out/release8/libs" />
+					<Add directory="../libs/net/enet-1.2/bin/Debug" />
+					<Add directory="../libs/cAudio2/bin/win32-gcc" />
+					<Add directory="../libs/angelscript" />
+					<Add directory="../libs/zlib-1.2.3" />
+					<Add directory="../libs/SparkEngine/lib/mingw/static" />
+				</Linker>
+			</Target>
+			<Target title="WinRelease">
+				<Option output="./mtar" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-march=pentium3" />
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add directory="../libs/pthreads-w32-2-8-0-release" />
+					<Add directory="../libs/bullet/src" />
+					<Add directory="../libs/libogg-1.1.4/include" />
+					<Add directory="../libs/libvorbis-1.2.3/include" />
+					<Add directory="../libs/freetype-2.3.9/include" />
+					<Add directory="C:/Program Files/OpenAL 1.1 SDK" />
+					<Add directory="../libs/net/enet-1.2.1/include" />
+					<Add directory="../libs/net/irrNetLite21" />
+					<Add directory="../libs/ffmpeg-0.5/libavcodec" />
+					<Add directory="../libs/ffmpeg-0.5/libavdevice" />
+					<Add directory="../libs/ffmpeg-0.5/" />
+					<Add directory="../libs/ffmpeg-0.5/libavformat" />
+					<Add directory="../libs/ffmpeg-0.5/libswscale" />
+					<Add directory="C:/Program Files/Python2.6/include" />
+					<Add directory="../libs/cAudio2/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="WSock32" />
+					<Add library="Winmm" />
+					<Add directory="../libs/bullet/out/release8/libs" />
+					<Add directory="C:/Program Files/OpenAL 1.1 SDK/libs/Win32" />
+					<Add directory="../libs/libogg-1.1.4/" />
+					<Add directory="../libs/libvorbis-1.2.3/" />
+					<Add directory="../libs/freetype-2.3.9" />
+					<Add directory="../libs/pthreads-w32-2-8-0-release" />
+					<Add directory="../libs/net/irrNetLite21" />
+					<Add directory="../libs/net/enet-1.2.1/bin/Release" />
+					<Add directory="C:/Program Files/Python2.6/libs" />
+					<Add directory="C:/Dev/Agnostic/Libs/bullet/out/release8/libs" />
+					<Add directory="../libs/net/enet-1.2/bin/Debug" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Linux Debug;Linux Release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-I/usr/include/atk-1.0 -I/usr/include/pango-1.0" />
+			<Add option="-I/usr/include/pixman-1" />
+			<Add option="`pkg-config gtk+-2.0 --cflags`" />
+			<Add option="-fpermissive" />
+			<Add option="-DPARTICLES" />
+			<Add directory="./" />
+			<Add directory="./lib" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config gtk+-2.0 --libs`" />
+			<Add directory="./" />
+			<Add directory="./lib" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Unit filename="microtar/src/microtar-stdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="microtar/src/microtar-stdio.h" />
+		<Unit filename="microtar/src/microtar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="microtar/src/microtar.h" />
+		<Unit filename="mtar.h" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

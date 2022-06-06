@@ -2,11 +2,11 @@
 #define NET_PACKET_H
 
 #ifdef COMPILE_WITH_IRRLICHT
-#include <irrlicht.h>
+  #include <irrlicht.h>
 #endif
-#include <irrlicht.h>
+
 #ifndef IRRLICHT_SDK_VERSION
-//#include "NoIrrlicht/NoIrrlicht.h"
+  #include "NoIrrlicht/NoIrrlicht.h"
 #endif
 
 #ifndef s64
