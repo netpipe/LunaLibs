@@ -13,7 +13,7 @@ bool extractTar(char);
 
 int main(){
 
-extractTar("./pydata.tar");
+extractTar("./microtar2.tar");
 
 
 system("pause");
