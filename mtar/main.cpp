@@ -8,7 +8,7 @@
 
 extern "C"{
 bool extractTar(char);
-void list_files();
+//void list_files();
 }
 
 int main(){

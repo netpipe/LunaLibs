@@ -79,7 +79,8 @@ struct extract_args {
 int dir_exists(const char* name)
 {
     struct stat sb;
-    if (stat(name, &sb) == 0 && (sb.st_mode& S_IFDIR) == S_IFDIR) {
+    if (stat(name, &sb) == 0 && (sb.st_mode& S_IFDIR) == S_IFDIR) 
+    {
         return 1;
     }
     else {
@@ -87,30 +88,60 @@ int dir_exists(const char* name)
     }
 }
 
+int make_dir_recursive(const char* name, int mode)
+{
+    mode=ACCESSPERMS;
+    int result = 1;
+    char* copy_name = strdup(name);
+    char* last_slash = strrchr(copy_name, '/');
+    if (last_slash)
+    {
+        *last_slash = 0;
+        if (!make_dir_recursive(copy_name, mode))
+            result = 0;    
+    }
+
+    if (result)
+    {
+#ifdef LINUX
+        if (!dir_exists(name))
+            if (mkdir(name, mode) != 0)
+                result = 0;
+#else
+        if (!dir_exists(name))
+            if (mkdir(name) != 0)
+                result = 0;
+#endif // WIN32
+    }
+    return result;
+}
+
 int extract_foreach_cb(mtar_t* tar, const mtar_header_t* h, void* arg)
 {
     struct extract_args* args = (struct extract_args*)arg;
     (void)args; /* TODO */
-    #ifdef LINUX
+    
     if(h->type == MTAR_TDIR) {
-        if (!dir_exists(h->name))
-            if(mkdir(h->name, h->mode) != 0)
-                die(E_FS, "cannot create directory \"%s\"", h->name);
+        if (!make_dir_recursive(h->name, h->mode))
+            die(E_FS, "cannot create directory \"%s\"", h->name);
         return 0;
     }
-    #else
-    if(h->type == MTAR_TDIR) {
-        if (!dir_exists(h->name))
-            if(mkdir(h->name) != 0)
-                die(E_FS, "cannot create directory \"%s\"", h->name);
-        return 0;
-    }
-    #endif // WIN32
+    
 
     if(h->type != MTAR_TREG) {
         fprintf(stderr, "warning: not extracting unsupported type \"%s\"", h->name);
         return 0;
     }
+
+    char* copy_name = strdup(h->name);
+    char* last_slash = strrchr(copy_name, '/');
+    if (last_slash)
+    {
+        *last_slash = 0;
+        if (!make_dir_recursive(copy_name, h->mode))
+            die(E_FS, "cannot create directory \"%s\"", h->name);
+    }
+    free(copy_name);
 
     int fd = open(h->name, O_CREAT|O_WRONLY|O_TRUNC, h->mode);
     if(fd < 0)
@@ -227,19 +258,19 @@ extern bool extractTar(char * tarfile){
 //        _wmkdir((wchar_t*)"../media/lib/python2.7/xml/dom" ) ;
 
 //        _mkdir("../media") ;
-//        mkdir( "../media/lib") ;
-//        mkdir("../media/lib/python2.7") ;
-//        mkdir("../media/lib/python2.7/compiler") ;
-//        mkdir("../media/lib/python2.7/encodings") ;
-//        mkdir("../media/lib/python2.7/importlib") ;
-//        mkdir("../media/lib/python2.7/json");
-//        mkdir("../media/lib/python2.7/logging");
-//        mkdir("../media/lib/python2.7/plat-emscripten") ;
-//        mkdir("../media/lib/python2.7/xml") ;
-//        mkdir("../media/lib/python2.7/xml/sax") ;
-//        mkdir("../media/lib/python2.7/xml/parsers") ;
-//        mkdir("../media/lib/python2.7/xml/etree" ) ;
-//        mkdir("../media/lib/python2.7/xml/dom" ) ;
+        mkdir( "../media/lib") ;
+        mkdir("../media/lib/python2.7") ;
+        mkdir("../media/lib/python2.7/compiler") ;
+        mkdir("../media/lib/python2.7/encodings") ;
+        mkdir("../media/lib/python2.7/importlib") ;
+        mkdir("../media/lib/python2.7/json");
+        mkdir("../media/lib/python2.7/logging");
+        mkdir("../media/lib/python2.7/plat-emscripten") ;
+        mkdir("../media/lib/python2.7/xml") ;
+        mkdir("../media/lib/python2.7/xml/sax") ;
+        mkdir("../media/lib/python2.7/xml/parsers") ;
+        mkdir("../media/lib/python2.7/xml/etree" ) ;
+        mkdir("../media/lib/python2.7/xml/dom" ) ;
 // _mkdir( "testtmp" );
         #else
         // if (mkdir(filename.c_str(), (u16)mode) != 0)
