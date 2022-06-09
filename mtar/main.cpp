@@ -8,13 +8,13 @@
 
 extern "C"{
 bool extractTar(char);
-
+void list_files();
 }
 
 int main(){
 
-extractTar("./microtar2.tar");
-
+extractTar("./test.tar");
+//list_files("./test.tar");
 
 system("pause");
 }

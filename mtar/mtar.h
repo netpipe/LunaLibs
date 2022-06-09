@@ -76,20 +76,33 @@ struct extract_args {
     int count;
 };
 
+int dir_exists(const char* name)
+{
+    struct stat sb;
+    if (stat(name, &sb) == 0 && (sb.st_mode& S_IFDIR) == S_IFDIR) {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}
+
 int extract_foreach_cb(mtar_t* tar, const mtar_header_t* h, void* arg)
 {
-    struct extract_args* args = arg;
+    struct extract_args* args = (struct extract_args*)arg;
     (void)args; /* TODO */
     #ifdef LINUX
-        if(h->type == MTAR_TDIR) {
-        if(mkdir(h->name, h->mode) != 0)
-            die(E_FS, "cannot create directory \"%s\"", h->name);
+    if(h->type == MTAR_TDIR) {
+        if (!dir_exists(h->name))
+            if(mkdir(h->name, h->mode) != 0)
+                die(E_FS, "cannot create directory \"%s\"", h->name);
         return 0;
     }
     #else
     if(h->type == MTAR_TDIR) {
-        if(mkdir(h->name) != 0)
-            die(E_FS, "cannot create directory \"%s\"", h->name);
+        if (!dir_exists(h->name))
+            if(mkdir(h->name) != 0)
+                die(E_FS, "cannot create directory \"%s\"", h->name);
         return 0;
     }
     #endif // WIN32
@@ -196,7 +209,7 @@ extern bool extractTar(char * tarfile){
     if(err)
         die(E_TAR, "can't open archive: %s", mtar_strerror(err));
 
-        #ifdef WIN62 || WIN32
+        #if defined(WIN64) || defined(WIN32)
        // if (_wmkdir(filename.c_str(), mode) != 0)
 //        _wmkdir((wchar_t*)"\\media") ;
 //        _wmkdir((wchar_t*)"\\media\lib") ;
@@ -214,19 +227,19 @@ extern bool extractTar(char * tarfile){
 //        _wmkdir((wchar_t*)"../media/lib/python2.7/xml/dom" ) ;
 
 //        _mkdir("../media") ;
-        mkdir( "../media/lib") ;
-        mkdir("../media/lib/python2.7") ;
-        mkdir("../media/lib/python2.7/compiler") ;
-        mkdir("../media/lib/python2.7/encodings") ;
-        mkdir("../media/lib/python2.7/importlib") ;
-        mkdir("../media/lib/python2.7/json");
-        mkdir("../media/lib/python2.7/logging");
-        mkdir("../media/lib/python2.7/plat-emscripten") ;
-        mkdir("../media/lib/python2.7/xml") ;
-        mkdir("../media/lib/python2.7/xml/sax") ;
-        mkdir("../media/lib/python2.7/xml/parsers") ;
-        mkdir("../media/lib/python2.7/xml/etree" ) ;
-        mkdir("../media/lib/python2.7/xml/dom" ) ;
+//        mkdir( "../media/lib") ;
+//        mkdir("../media/lib/python2.7") ;
+//        mkdir("../media/lib/python2.7/compiler") ;
+//        mkdir("../media/lib/python2.7/encodings") ;
+//        mkdir("../media/lib/python2.7/importlib") ;
+//        mkdir("../media/lib/python2.7/json");
+//        mkdir("../media/lib/python2.7/logging");
+//        mkdir("../media/lib/python2.7/plat-emscripten") ;
+//        mkdir("../media/lib/python2.7/xml") ;
+//        mkdir("../media/lib/python2.7/xml/sax") ;
+//        mkdir("../media/lib/python2.7/xml/parsers") ;
+//        mkdir("../media/lib/python2.7/xml/etree" ) ;
+//        mkdir("../media/lib/python2.7/xml/dom" ) ;
 // _mkdir( "testtmp" );
         #else
         // if (mkdir(filename.c_str(), (u16)mode) != 0)
