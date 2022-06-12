@@ -103,13 +103,13 @@ int make_dir_recursive(const char* name, int mode)
 
     if (result)
     {
-#ifdef LINUX
+#ifdef WIN32
         if (!dir_exists(name))
-            if (mkdir(name, mode) != 0)
+            if (mkdir(name) != 0)
                 result = 0;
 #else
         if (!dir_exists(name))
-            if (mkdir(name) != 0)
+            if (mkdir(name, mode) != 0)
                 result = 0;
 #endif // WIN32
     }
