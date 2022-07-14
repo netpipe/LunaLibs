@@ -71,7 +71,7 @@ namespace IRR
 		updateMaterialBlendingMode();
 	}
 
-	void IRRRenderer::enableRenderingHint(RenderingHint renderingHint,bool enable)
+	void IRRRenderer::enableRenderingHint(RenderingHint renderingHint,int enable)
 	{
 		switch(renderingHint)
 		{

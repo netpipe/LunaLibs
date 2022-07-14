@@ -83,7 +83,7 @@ namespace IRR
 		void setBlending(irr::video::E_BLEND_FACTOR srcFunc,irr::video::E_BLEND_FACTOR destFunc,unsigned int alphaSrc);
 		virtual void setBlending(BlendingMode blendMode);
 
-		virtual void enableRenderingHint(RenderingHint renderingHint,bool enable);
+		virtual void enableRenderingHint(RenderingHint renderingHint,int enable);
 		virtual inline void setAlphaTestThreshold(float alphaThreshold);
 
 		/////////////

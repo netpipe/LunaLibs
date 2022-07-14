@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IrrNetLite22" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="libirrNetLite22.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="Linux64">
+				<Option output="irrNetLite22" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="Linux32">
+				<Option output="irrNetLite22" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="emscripten">
+				<Option output="../../emlibs/irrNetLite22" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="../../emlibs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Linker>
+					<Add option="--no-export-all-symbols --add-stdcall-alias" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add directory="../enet-1.2.1/include" />
+			<Add directory="../../irrlicht-1.8.4/include" />
+			<Add directory="enet/include" />
+		</Compiler>
+		<Linker>
+			<Add library="Irrlicht" />
+			<Add library="X11" />
+			<Add library="Xxf86vm" />
+			<Add library="GL" />
+			<Add directory="../../irrlicht-1.8.4/lib/Linux" />
+		</Linker>
+		<Unit filename="CEncryption.h" />
+		<Unit filename="CNetManager.cpp" />
+		<Unit filename="CNetManager.h" />
+		<Unit filename="INetManager.h" />
+		<Unit filename="SPacket.cpp" />
+		<Unit filename="SPacket.h" />
+		<Unit filename="enet/callbacks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/host.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/include/enet/callbacks.h" />
+		<Unit filename="enet/include/enet/enet.h" />
+		<Unit filename="enet/include/enet/list.h" />
+		<Unit filename="enet/include/enet/protocol.h" />
+		<Unit filename="enet/include/enet/time.h" />
+		<Unit filename="enet/include/enet/types.h" />
+		<Unit filename="enet/include/enet/unix.h" />
+		<Unit filename="enet/include/enet/utility.h" />
+		<Unit filename="enet/include/enet/win32.h" />
+		<Unit filename="enet/list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/packet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/peer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/protocol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/unix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enet/win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="irrNet.h" />
+		<Unit filename="mine/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

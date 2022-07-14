@@ -118,40 +118,40 @@ int main()
 
 
 	core::array<SJoystickInfo> joystickInfo;
-	if(device->activateJoysticks(joystickInfo))
-	{
-		std::cout << "Joystick support is enabled and " << joystickInfo.size() << " joystick(s) are present." << std::endl;
-
-		for(u32 joystick = 0; joystick < joystickInfo.size(); ++joystick)
-		{
-			std::cout << "Joystick " << joystick << ":" << std::endl;
-			std::cout << "\tName: '" << joystickInfo[joystick].Name.c_str() << "'" << std::endl;
-			std::cout << "\tAxes: " << joystickInfo[joystick].Axes << std::endl;
-			std::cout << "\tButtons: " << joystickInfo[joystick].Buttons << std::endl;
-
-			std::cout << "\tHat is: ";
-
-			switch(joystickInfo[joystick].PovHat)
-			{
-			case SJoystickInfo::POV_HAT_PRESENT:
-				std::cout << "present" << std::endl;
-				break;
-
-			case SJoystickInfo::POV_HAT_ABSENT:
-				std::cout << "absent" << std::endl;
-				break;
-
-			case SJoystickInfo::POV_HAT_UNKNOWN:
-			default:
-				std::cout << "unknown" << std::endl;
-				break;
-			}
-		}
-	}
-	else
-	{
-		std::cout << "Joystick support is not enabled." << std::endl;
-	}
+//	if(device->activateJoysticks(joystickInfo))
+//	{
+//		std::cout << "Joystick support is enabled and " << joystickInfo.size() << " joystick(s) are present." << std::endl;
+//
+//		for(u32 joystick = 0; joystick < joystickInfo.size(); ++joystick)
+//		{
+//			std::cout << "Joystick " << joystick << ":" << std::endl;
+//			std::cout << "\tName: '" << joystickInfo[joystick].Name.c_str() << "'" << std::endl;
+//			std::cout << "\tAxes: " << joystickInfo[joystick].Axes << std::endl;
+//			std::cout << "\tButtons: " << joystickInfo[joystick].Buttons << std::endl;
+//
+//			std::cout << "\tHat is: ";
+//
+//			switch(joystickInfo[joystick].PovHat)
+//			{
+//			case SJoystickInfo::POV_HAT_PRESENT:
+//				std::cout << "present" << std::endl;
+//				break;
+//
+//			case SJoystickInfo::POV_HAT_ABSENT:
+//				std::cout << "absent" << std::endl;
+//				break;
+//
+//			case SJoystickInfo::POV_HAT_UNKNOWN:
+//			default:
+//				std::cout << "unknown" << std::endl;
+//				break;
+//			}
+//		}
+//	}
+//	else
+//	{
+//		std::cout << "Joystick support is not enabled." << std::endl;
+//	}
 
 	core::stringw tmp = L"Irrlicht Joystick Example (";
 	tmp += joystickInfo.size();
@@ -192,8 +192,8 @@ int main()
 		bool movedWithJoystick = false;
 		core::vector3df nodePosition = node->getPosition();
 
-		if(joystickInfo.size() > 0)
-		{
+//		if(joystickInfo.size() > 0)
+//		{
 			f32 moveHorizontal = 0.f; // Range is -1.f for full left to +1.f for full right
 			f32 moveVertical = 0.f; // -1.f for full down to +1.f for full up.
 
@@ -211,13 +211,17 @@ int main()
 			if(fabs(moveHorizontal) < DEAD_ZONE)
 				moveHorizontal = 0.f;
 
+			printf("%f",moveHorizontal);
+
 			moveVertical =
 				(f32)joystickData.Axis[SEvent::SJoystickEvent::AXIS_Y] / -32767.f;
 			if(fabs(moveVertical) < DEAD_ZONE)
 				moveVertical = 0.f;
 
-			// POV hat info is only currently supported on Windows, but the value is
-			// guaranteed to be 65535 if it's not supported, so we can check its range.
+			printf("%f",moveVertical);
+
+//			 POV hat info is only currently supported on Windows, but the value is
+//			 guaranteed to be 65535 if it's not supported, so we can check its range.
 			const u16 povDegrees = joystickData.POV / 100;
 			if(povDegrees < 360)
 			{
@@ -238,7 +242,7 @@ int main()
 				nodePosition.Y += MOVEMENT_SPEED * frameDeltaTime * moveVertical;
 				movedWithJoystick = true;
 			}
-		}
+//		}
 
 		// If the arrow node isn't being moved with the joystick, then have it follow the mouse cursor.
 		if(!movedWithJoystick)
